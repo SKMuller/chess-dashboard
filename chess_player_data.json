@@ -1,0 +1,1046 @@
+{
+    "8863459": {
+        "universal_id": "8863459",
+        "name": "Brand, N.W. (Niels)",
+        "total_score": 4.5,
+        "opponent_ratings_raw": [
+            1779,
+            1943,
+            1995,
+            1960,
+            1910,
+            1923,
+            1313,
+            1833,
+            1855,
+            2218
+        ],
+        "avg_opponent_rating": 1872.9
+    },
+    "7931594": {
+        "universal_id": "7931594",
+        "name": "Dijkstra, E. (Edwin)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            1751,
+            1802,
+            1747,
+            1948
+        ],
+        "avg_opponent_rating": 1812.0
+    },
+    "8940778": {
+        "universal_id": "8940778",
+        "name": "Gay, A. (Aurore)",
+        "total_score": 8.5,
+        "opponent_ratings_raw": [
+            1591,
+            1632,
+            1775,
+            1706,
+            1597,
+            1781,
+            1862,
+            1673,
+            1507,
+            1739,
+            1838,
+            1709,
+            1917
+        ],
+        "avg_opponent_rating": 1717.4615384615386
+    },
+    "7993128": {
+        "universal_id": "7993128",
+        "name": "Hemmes, M.J.W. (Maarten)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            1934,
+            1872,
+            1763
+        ],
+        "avg_opponent_rating": 1856.3333333333333
+    },
+    "8681596": {
+        "universal_id": "8681596",
+        "name": "Jellema, P.W.J. (Pieter)",
+        "total_score": 3.0,
+        "opponent_ratings_raw": [
+            1842,
+            1862,
+            2072,
+            2126,
+            2009,
+            1980
+        ],
+        "avg_opponent_rating": 1981.8333333333333
+    },
+    "8527684": {
+        "universal_id": "8527684",
+        "name": "Jonker, J. (Jorik)",
+        "total_score": 2.0,
+        "opponent_ratings_raw": [
+            1919,
+            1954,
+            1802
+        ],
+        "avg_opponent_rating": 1891.6666666666667
+    },
+    "8318981": {
+        "universal_id": "8318981",
+        "name": "Manenschijn, W. (Wouter)",
+        "total_score": 8.5,
+        "opponent_ratings_raw": [
+            1845,
+            1854,
+            1907,
+            1769,
+            1846,
+            1920,
+            1713,
+            1587,
+            1877,
+            1756,
+            1795,
+            1728,
+            1816,
+            2329
+        ],
+        "avg_opponent_rating": 1838.7142857142858
+    },
+    "8354357": {
+        "universal_id": "8354357",
+        "name": "Meijer, O. (Olaf)",
+        "total_score": 8.5,
+        "opponent_ratings_raw": [
+            2027,
+            2042,
+            2033,
+            1910,
+            1841,
+            2068,
+            2110,
+            1681,
+            2107,
+            1850,
+            1807,
+            1724,
+            1772
+        ],
+        "avg_opponent_rating": 1920.923076923077
+    },
+    "8247052": {
+        "universal_id": "8247052",
+        "name": "Muller, S.K. (Kenneth)",
+        "total_score": 10.0,
+        "opponent_ratings_raw": [
+            1925,
+            1952,
+            2022,
+            1999,
+            1964,
+            1844,
+            2217,
+            2027,
+            1958,
+            1857,
+            1777,
+            2004,
+            1923
+        ],
+        "avg_opponent_rating": 1959.1538461538462
+    },
+    "8539795": {
+        "universal_id": "8539795",
+        "name": "Nadison, L. (Leor)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            2000,
+            1944
+        ],
+        "avg_opponent_rating": 1972.0
+    },
+    "8432006": {
+        "universal_id": "8432006",
+        "name": "Oord, R. (Raymon)",
+        "total_score": 2.0,
+        "opponent_ratings_raw": [
+            1678,
+            1995
+        ],
+        "avg_opponent_rating": 1836.5
+    },
+    "7594543": {
+        "universal_id": "7594543",
+        "name": "Pouw, M. (Marcel)",
+        "total_score": 4.0,
+        "opponent_ratings_raw": [
+            1933,
+            1811,
+            1883,
+            1925,
+            1907,
+            1940,
+            1952,
+            1806
+        ],
+        "avg_opponent_rating": 1894.625
+    },
+    "8315912": {
+        "universal_id": "8315912",
+        "name": "Rookus, S.P. (Sjoerd)",
+        "total_score": 8.5,
+        "opponent_ratings_raw": [
+            1897,
+            1812,
+            1825,
+            2016,
+            1940,
+            2033,
+            2072,
+            2064,
+            1586,
+            2003,
+            1845,
+            1697,
+            1809,
+            1977
+        ],
+        "avg_opponent_rating": 1898.2857142857142
+    },
+    "8132366": {
+        "universal_id": "8132366",
+        "name": "Salihbegovic, E. (Edim)",
+        "total_score": 10.5,
+        "opponent_ratings_raw": [
+            1819,
+            1840,
+            1845,
+            2126,
+            2068,
+            2032,
+            1927,
+            1670,
+            2056,
+            1797,
+            2027,
+            2074,
+            1854,
+            1926
+        ],
+        "avg_opponent_rating": 1932.9285714285713
+    },
+    "7263718": {
+        "universal_id": "7263718",
+        "name": "Scheffer, E.F. (Enno)",
+        "total_score": 0.5,
+        "opponent_ratings_raw": [
+            2011
+        ],
+        "avg_opponent_rating": 2011.0
+    },
+    "8649245": {
+        "universal_id": "8649245",
+        "name": "Torenbosch, J. (Jorn)",
+        "total_score": 5.5,
+        "opponent_ratings_raw": [
+            1835,
+            1883,
+            1935,
+            1913,
+            2110,
+            1856
+        ],
+        "avg_opponent_rating": 1922.0
+    },
+    "8960710": {
+        "universal_id": "8960710",
+        "name": "Weitenberg, J. (Jordi)",
+        "total_score": 4.5,
+        "opponent_ratings_raw": [
+            1850,
+            1867,
+            1902,
+            1948,
+            1811
+        ],
+        "avg_opponent_rating": 1875.6
+    },
+    "8976033": {
+        "universal_id": "8976033",
+        "name": "Andrieu, J. (Justin)",
+        "total_score": 6.5,
+        "opponent_ratings_raw": [
+            1818,
+            1469,
+            1721,
+            1644,
+            1714,
+            1902,
+            1948,
+            1595,
+            1807,
+            1936,
+            1622,
+            1687,
+            1685,
+            1760
+        ],
+        "avg_opponent_rating": 1736.2857142857142
+    },
+    "8887923": {
+        "universal_id": "8887923",
+        "name": "Bloemhof, R.B.P. (Ruben)",
+        "total_score": 6.0,
+        "opponent_ratings_raw": [
+            1923,
+            1922,
+            2033,
+            1907,
+            1845,
+            1835,
+            2022,
+            2046,
+            2033,
+            1913,
+            1989,
+            2382,
+            1802,
+            1966
+        ],
+        "avg_opponent_rating": 1972.7142857142858
+    },
+    "7180668": {
+        "universal_id": "7180668",
+        "name": "Hoekstra, C.A.H. (Carl)",
+        "total_score": 3.0,
+        "opponent_ratings_raw": [
+            1856,
+            2009,
+            2072,
+            1846,
+            2000,
+            2102,
+            1919,
+            1869
+        ],
+        "avg_opponent_rating": 1959.125
+    },
+    "7755308": {
+        "universal_id": "7755308",
+        "name": "Hoogeboom, A. (Arthur)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            2021,
+            1756
+        ],
+        "avg_opponent_rating": 1888.5
+    },
+    "8985284": {
+        "universal_id": "8985284",
+        "name": "Jong de, A. (Anne-Dirk)",
+        "total_score": 2.5,
+        "opponent_ratings_raw": [
+            2049,
+            2072,
+            1733,
+            1598,
+            2021
+        ],
+        "avg_opponent_rating": 1894.6
+    },
+    "7921012": {
+        "universal_id": "7921012",
+        "name": "Meijer, D.H.F.R. (Daniel)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1883,
+            1844,
+            1980
+        ],
+        "avg_opponent_rating": 1902.3333333333333
+    },
+    "8939139": {
+        "universal_id": "8939139",
+        "name": "Pronk, D.J. (David)",
+        "total_score": 3.5,
+        "opponent_ratings_raw": [
+            1710,
+            1786,
+            1564,
+            1780,
+            1784,
+            1804,
+            1940,
+            1902,
+            1720,
+            1824
+        ],
+        "avg_opponent_rating": 1781.4
+    },
+    "8273353": {
+        "universal_id": "8273353",
+        "name": "Roorda, M. (Maarten)",
+        "total_score": 8.0,
+        "opponent_ratings_raw": [
+            1967,
+            1999,
+            1913,
+            1952,
+            1850,
+            1859,
+            1964,
+            1836,
+            1790,
+            1799,
+            1736
+        ],
+        "avg_opponent_rating": 1878.6363636363637
+    },
+    "8560123": {
+        "universal_id": "8560123",
+        "name": "Santema, T. (Tjeerd)",
+        "total_score": 0.0,
+        "opponent_ratings_raw": [
+            1943
+        ],
+        "avg_opponent_rating": 1943.0
+    },
+    "8509512": {
+        "universal_id": "8509512",
+        "name": "Spanjer, J.M. (Joris)",
+        "total_score": 6.0,
+        "opponent_ratings_raw": [
+            1843,
+            2016,
+            1894,
+            1825,
+            2126,
+            2032,
+            2195,
+            1784,
+            1926,
+            2329,
+            1845,
+            2021
+        ],
+        "avg_opponent_rating": 1986.3333333333333
+    },
+    "9019054": {
+        "universal_id": "9019054",
+        "name": "Teeken, J.J.J. (Joshua)",
+        "total_score": 6.0,
+        "opponent_ratings_raw": [
+            1917,
+            1769,
+            1934,
+            1809,
+            1811,
+            1995,
+            1802,
+            2126,
+            2316,
+            1930,
+            1838,
+            1857
+        ],
+        "avg_opponent_rating": 1925.3333333333333
+    },
+    "8588580": {
+        "universal_id": "8588580",
+        "name": "Timmer, M. (Michel)",
+        "total_score": 3.0,
+        "opponent_ratings_raw": [
+            2064,
+            1985,
+            2072,
+            1940,
+            1920,
+            1917,
+            1882,
+            1844,
+            2218,
+            2120
+        ],
+        "avg_opponent_rating": 1996.2
+    },
+    "6634881": {
+        "universal_id": "6634881",
+        "name": "Walinga, E.J. (Eric Jan)",
+        "total_score": 4.5,
+        "opponent_ratings_raw": [
+            1998,
+            2126,
+            1811,
+            1927,
+            1925,
+            1902,
+            1948,
+            2217
+        ],
+        "avg_opponent_rating": 1981.75
+    },
+    "7941538": {
+        "universal_id": "7941538",
+        "name": "Welling, S.C. (Sophie)",
+        "total_score": 8.0,
+        "opponent_ratings_raw": [
+            1713,
+            1943,
+            1935,
+            1960,
+            1902,
+            1819,
+            1843,
+            1877,
+            2011,
+            1854,
+            1683,
+            1729,
+            1829,
+            1656,
+            1869,
+            1686,
+            1902
+        ],
+        "avg_opponent_rating": 1835.9411764705883
+    },
+    "8544800": {
+        "universal_id": "8544800",
+        "name": "Baars, T. (Tije)",
+        "total_score": 2.5,
+        "opponent_ratings_raw": [
+            1875,
+            1693,
+            1788,
+            1950,
+            1925,
+            2032,
+            2074
+        ],
+        "avg_opponent_rating": 1905.2857142857142
+    },
+    "8603947": {
+        "universal_id": "8603947",
+        "name": "Cleveringa, W.P. (Writser)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1994,
+            1768,
+            2064,
+            1833
+        ],
+        "avg_opponent_rating": 1914.75
+    },
+    "9094239": {
+        "universal_id": "9094239",
+        "name": "Desouza, C. (Cleo)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1677,
+            1817,
+            1848
+        ],
+        "avg_opponent_rating": 1780.6666666666667
+    },
+    "8819008": {
+        "universal_id": "8819008",
+        "name": "Jelsma, R. (Remco)",
+        "total_score": 5.0,
+        "opponent_ratings_raw": [
+            1747,
+            1861,
+            1603,
+            1872,
+            1743,
+            1882,
+            1796,
+            1586
+        ],
+        "avg_opponent_rating": 1761.25
+    },
+    "7394255": {
+        "universal_id": "7394255",
+        "name": "Jong de, L.S. (Lieuwe)",
+        "total_score": 2.0,
+        "opponent_ratings_raw": [
+            1630,
+            1757,
+            1751,
+            1776
+        ],
+        "avg_opponent_rating": 1728.5
+    },
+    "5807461": {
+        "universal_id": "5807461",
+        "name": "Kroezen, R.P. (Roland)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            1780,
+            1598,
+            1415,
+            1804,
+            1652,
+            1783,
+            1683
+        ],
+        "avg_opponent_rating": 1673.5714285714287
+    },
+    "9109672": {
+        "universal_id": "9109672",
+        "name": "Morsch, T.P.R. (Tjeerd)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1665
+        ],
+        "avg_opponent_rating": 1665.0
+    },
+    "9065738": {
+        "universal_id": "9065738",
+        "name": "Piek, R. (Rosaline)",
+        "total_score": 8.5,
+        "opponent_ratings_raw": [
+            1769,
+            1703,
+            1546,
+            1784,
+            1861,
+            1797,
+            1950,
+            1792,
+            1770,
+            1733,
+            1632,
+            1877,
+            1835,
+            2143,
+            2081,
+            1790,
+            1789
+        ],
+        "avg_opponent_rating": 1814.8235294117646
+    },
+    "8947840": {
+        "universal_id": "8947840",
+        "name": "Reitsma, F. (Freerk)",
+        "total_score": 4.5,
+        "opponent_ratings_raw": [
+            1820,
+            1678,
+            1802,
+            1717,
+            1822,
+            1826,
+            1788,
+            1897,
+            1877,
+            1770
+        ],
+        "avg_opponent_rating": 1799.7
+    },
+    "8800539": {
+        "universal_id": "8800539",
+        "name": "Timmer, N. (Niels)",
+        "total_score": 4.0,
+        "opponent_ratings_raw": [
+            1795,
+            1839,
+            1797,
+            1763,
+            1944,
+            1806
+        ],
+        "avg_opponent_rating": 1824.0
+    },
+    "8494882": {
+        "universal_id": "8494882",
+        "name": "Tuuk-Burgsma van der, M. (Maria)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1745,
+            1607,
+            1685
+        ],
+        "avg_opponent_rating": 1679.0
+    },
+    "8988144": {
+        "universal_id": "8988144",
+        "name": "Veldman, T. (Thomas)",
+        "total_score": 4.0,
+        "opponent_ratings_raw": [
+            1710,
+            1775,
+            1720,
+            1795
+        ],
+        "avg_opponent_rating": 1750.0
+    },
+    "9057136": {
+        "universal_id": "9057136",
+        "name": "Visee, T. (Thijs)",
+        "total_score": 6.0,
+        "opponent_ratings_raw": [
+            1628,
+            1557,
+            1762,
+            1905,
+            1709,
+            1531,
+            1700,
+            1683
+        ],
+        "avg_opponent_rating": 1684.375
+    },
+    "9094217": {
+        "universal_id": "9094217",
+        "name": "Vries de, S. (Stijn)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1627,
+            1656
+        ],
+        "avg_opponent_rating": 1641.5
+    },
+    "9078795": {
+        "universal_id": "9078795",
+        "name": "Boer, J. (Joël)",
+        "total_score": 5.0,
+        "opponent_ratings_raw": [
+            1866,
+            1706,
+            1717,
+            1557,
+            1680,
+            1675
+        ],
+        "avg_opponent_rating": 1700.1666666666667
+    },
+    "8377292": {
+        "universal_id": "8377292",
+        "name": "Ferwerda, F. (Famke)",
+        "total_score": 0.5,
+        "opponent_ratings_raw": [
+            1720
+        ],
+        "avg_opponent_rating": 1720.0
+    },
+    "8864108": {
+        "universal_id": "8864108",
+        "name": "Heijmans, M. (Merlijn)",
+        "total_score": 5.0,
+        "opponent_ratings_raw": [
+            1730,
+            1839,
+            1681,
+            1747,
+            1905,
+            1639,
+            1768,
+            1670
+        ],
+        "avg_opponent_rating": 1747.375
+    },
+    "7976551": {
+        "universal_id": "7976551",
+        "name": "Jansen, E. (Eric)",
+        "total_score": 6.0,
+        "opponent_ratings_raw": [
+            1832,
+            1622,
+            1650,
+            1697,
+            1805,
+            1597,
+            1656
+        ],
+        "avg_opponent_rating": 1694.142857142857
+    },
+    "8907602": {
+        "universal_id": "8907602",
+        "name": "Kaaij, D. (Diederick)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            1632,
+            1721,
+            1603,
+            1679,
+            1503,
+            1714,
+            1614
+        ],
+        "avg_opponent_rating": 1638.0
+    },
+    "8944749": {
+        "universal_id": "8944749",
+        "name": "Kleine de, R. (Rick)",
+        "total_score": 4.0,
+        "opponent_ratings_raw": [
+            1709,
+            1714,
+            1658,
+            1627,
+            1658,
+            1757,
+            1619,
+            1603
+        ],
+        "avg_opponent_rating": 1668.125
+    },
+    "7853362": {
+        "universal_id": "7853362",
+        "name": "Lutjeboer, S. (Sjors)",
+        "total_score": 3.0,
+        "opponent_ratings_raw": [
+            1630,
+            1776,
+            1662,
+            1511,
+            1664,
+            1698,
+            1564
+        ],
+        "avg_opponent_rating": 1643.5714285714287
+    },
+    "9068686": {
+        "universal_id": "9068686",
+        "name": "Mous, F. (Finn)",
+        "total_score": 3.0,
+        "opponent_ratings_raw": [
+            1718,
+            1628,
+            1696,
+            1665
+        ],
+        "avg_opponent_rating": 1676.75
+    },
+    "9044662": {
+        "universal_id": "9044662",
+        "name": "Vaessen, L. (Lucas)",
+        "total_score": 4.5,
+        "opponent_ratings_raw": [
+            1642,
+            1631,
+            1678,
+            1598,
+            1902,
+            1644
+        ],
+        "avg_opponent_rating": 1682.5
+    },
+    "7710923": {
+        "universal_id": "7710923",
+        "name": "Veen van der, A. (Anne)",
+        "total_score": 7.0,
+        "opponent_ratings_raw": [
+            1823,
+            1802,
+            1496,
+            1743,
+            1788,
+            1679,
+            1804,
+            1734,
+            1772,
+            1707,
+            1687,
+            1716
+        ],
+        "avg_opponent_rating": 1729.25
+    },
+    "8344831": {
+        "universal_id": "8344831",
+        "name": "Velthoven van, P. (Paul)",
+        "total_score": 2.5,
+        "opponent_ratings_raw": [
+            1830,
+            1710,
+            1786,
+            1661,
+            1818,
+            1805,
+            1681
+        ],
+        "avg_opponent_rating": 1755.857142857143
+    },
+    "8324613": {
+        "universal_id": "8324613",
+        "name": "Haan, G.A. (Gertjan)",
+        "total_score": 6.0,
+        "opponent_ratings_raw": [
+            2021,
+            2006,
+            2014,
+            1924,
+            1966,
+            2016,
+            2021,
+            2316
+        ],
+        "avg_opponent_rating": 2035.5
+    },
+    "8024335": {
+        "universal_id": "8024335",
+        "name": "Jong de, M. (Mathijs)",
+        "total_score": 2.5,
+        "opponent_ratings_raw": [
+            2006,
+            2013,
+            2120,
+            1778,
+            1768,
+            2003
+        ],
+        "avg_opponent_rating": 1948.0
+    },
+    "7908186": {
+        "universal_id": "7908186",
+        "name": "Jongh de, B.M. (Benno)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            2048,
+            1983
+        ],
+        "avg_opponent_rating": 2015.5
+    },
+    "9004237": {
+        "universal_id": "9004237",
+        "name": "Aandewiel, P. (Pascal)",
+        "total_score": 2.0,
+        "opponent_ratings_raw": [
+            1525,
+            1933,
+            1977,
+            1834,
+            1537
+        ],
+        "avg_opponent_rating": 1761.2
+    },
+    "7952615": {
+        "universal_id": "7952615",
+        "name": "Sipkema, W.S. (Willem)",
+        "total_score": 1.0,
+        "opponent_ratings_raw": [
+            1989,
+            1960,
+            2118
+        ],
+        "avg_opponent_rating": 2022.3333333333333
+    },
+    "9046235": {
+        "universal_id": "9046235",
+        "name": "Veenstra, K. (Klaas-Jan)",
+        "total_score": 3.5,
+        "opponent_ratings_raw": [
+            1552,
+            1756,
+            1850,
+            1869,
+            1966,
+            1954,
+            1739
+        ],
+        "avg_opponent_rating": 1812.2857142857142
+    },
+    "8944738": {
+        "universal_id": "8944738",
+        "name": "Prentner, D. (Dylan)",
+        "total_score": 2.0,
+        "opponent_ratings_raw": [
+            1491,
+            1804,
+            1698
+        ],
+        "avg_opponent_rating": 1664.3333333333333
+    },
+    "8200907": {
+        "universal_id": "8200907",
+        "name": "Altena van, L. (Lydia)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            1814,
+            1798,
+            1614,
+            1658,
+            1650
+        ],
+        "avg_opponent_rating": 1706.8
+    },
+    "8507609": {
+        "universal_id": "8507609",
+        "name": "Koning, F.M. (Femke)",
+        "total_score": 3.5,
+        "opponent_ratings_raw": [
+            1760,
+            1745,
+            1726,
+            1974,
+            2018,
+            1807,
+            1944
+        ],
+        "avg_opponent_rating": 1853.4285714285713
+    },
+    "9078784": {
+        "universal_id": "9078784",
+        "name": "Meij van der, N. (Nouschka)",
+        "total_score": 1.5,
+        "opponent_ratings_raw": [
+            1629,
+            1513,
+            1451,
+            1709,
+            1670,
+            1726
+        ],
+        "avg_opponent_rating": 1616.3333333333333
+    },
+    "8007252": {
+        "universal_id": "8007252",
+        "name": "Welling, E.L. (Ella)",
+        "total_score": 0.0,
+        "opponent_ratings_raw": [
+            1603,
+            1600
+        ],
+        "avg_opponent_rating": 1601.5
+    },
+    "9098232": {
+        "universal_id": "9098232",
+        "name": "Biancotti, C. (Carolina)",
+        "total_score": 0.0,
+        "opponent_ratings_raw": [
+            1721,
+            1683,
+            1624,
+            1410
+        ],
+        "avg_opponent_rating": 1609.5
+    },
+    "7935609": {
+        "universal_id": "7935609",
+        "name": "Lutjeboer, T. (Thijs)",
+        "total_score": 4.0,
+        "opponent_ratings_raw": [
+            1643,
+            1655,
+            1600,
+            1703,
+            2081,
+            1531
+        ],
+        "avg_opponent_rating": 1702.1666666666667
+    },
+    "7959006": {
+        "universal_id": "7959006",
+        "name": "Os van, B.J.J. (Ben)",
+        "total_score": 3.0,
+        "opponent_ratings_raw": [
+            1536,
+            1680,
+            1647,
+            1752,
+            1722
+        ],
+        "avg_opponent_rating": 1667.4
+    }
+}
