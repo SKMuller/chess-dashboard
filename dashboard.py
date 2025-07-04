@@ -111,7 +111,7 @@ else:
         filtered_team_df,
         x='match_points',
         y='avg_opponent_rating',
-        color='federation',
+        color='name', # This now uses the team name for the legend
         size='board_points',
         hover_name='name',
         title='Team Performance: Match Points vs. Average Opponent Rating'
