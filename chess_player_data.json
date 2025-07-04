@@ -1,5 +1,6 @@
 {
     "8863459": {
+        "federation_id": "1924032",
         "universal_id": "8863459",
         "name": "Brand, N.W. (Niels)",
         "total_score": 4.5,
@@ -15,9 +16,14 @@
             1855,
             2218
         ],
-        "avg_opponent_rating": 1872.9
+        "avg_opponent_rating": 1872.9,
+        "federation_ids": [
+            "1924032",
+            "325983"
+        ]
     },
     "7931594": {
+        "federation_id": "1985707",
         "universal_id": "7931594",
         "name": "Dijkstra, E. (Edwin)",
         "total_score": 1.5,
@@ -27,9 +33,13 @@
             1747,
             1948
         ],
-        "avg_opponent_rating": 1812.0
+        "avg_opponent_rating": 1812.0,
+        "federation_ids": [
+            "1985707"
+        ]
     },
     "8940778": {
+        "federation_id": "1929130",
         "universal_id": "8940778",
         "name": "Gay, A. (Aurore)",
         "total_score": 8.5,
@@ -48,9 +58,14 @@
             1709,
             1917
         ],
-        "avg_opponent_rating": 1717.4615384615386
+        "avg_opponent_rating": 1717.4615384615386,
+        "federation_ids": [
+            "1929130",
+            "331081"
+        ]
     },
     "7993128": {
+        "federation_id": "1914476",
         "universal_id": "7993128",
         "name": "Hemmes, M.J.W. (Maarten)",
         "total_score": 1.5,
@@ -59,9 +74,13 @@
             1872,
             1763
         ],
-        "avg_opponent_rating": 1856.3333333333333
+        "avg_opponent_rating": 1856.3333333333333,
+        "federation_ids": [
+            "1914476"
+        ]
     },
     "8681596": {
+        "federation_id": "1920128",
         "universal_id": "8681596",
         "name": "Jellema, P.W.J. (Pieter)",
         "total_score": 3.0,
@@ -73,9 +92,14 @@
             2009,
             1980
         ],
-        "avg_opponent_rating": 1981.8333333333333
+        "avg_opponent_rating": 1981.8333333333333,
+        "federation_ids": [
+            "1920128",
+            "322079"
+        ]
     },
     "8527684": {
+        "federation_id": "1918421",
         "universal_id": "8527684",
         "name": "Jonker, J. (Jorik)",
         "total_score": 2.0,
@@ -84,9 +108,14 @@
             1954,
             1802
         ],
-        "avg_opponent_rating": 1891.6666666666667
+        "avg_opponent_rating": 1891.6666666666667,
+        "federation_ids": [
+            "1918421",
+            "320372"
+        ]
     },
     "8318981": {
+        "federation_id": "1916836",
         "universal_id": "8318981",
         "name": "Manenschijn, W. (Wouter)",
         "total_score": 8.5,
@@ -106,9 +135,14 @@
             1816,
             2329
         ],
-        "avg_opponent_rating": 1838.7142857142858
+        "avg_opponent_rating": 1838.7142857142858,
+        "federation_ids": [
+            "1916836",
+            "318787"
+        ]
     },
     "8354357": {
+        "federation_id": "1917085",
         "universal_id": "8354357",
         "name": "Meijer, O. (Olaf)",
         "total_score": 8.5,
@@ -127,9 +161,14 @@
             1724,
             1772
         ],
-        "avg_opponent_rating": 1920.923076923077
+        "avg_opponent_rating": 1920.923076923077,
+        "federation_ids": [
+            "1917085",
+            "319036"
+        ]
     },
     "8247052": {
+        "federation_id": "1916182",
         "universal_id": "8247052",
         "name": "Muller, S.K. (Kenneth)",
         "total_score": 10.0,
@@ -148,9 +187,14 @@
             2004,
             1923
         ],
-        "avg_opponent_rating": 1959.1538461538462
+        "avg_opponent_rating": 1959.1538461538462,
+        "federation_ids": [
+            "1916182",
+            "318133"
+        ]
     },
     "8539795": {
+        "federation_id": "1934553",
         "universal_id": "8539795",
         "name": "Nadison, L. (Leor)",
         "total_score": 1.5,
@@ -158,9 +202,13 @@
             2000,
             1944
         ],
-        "avg_opponent_rating": 1972.0
+        "avg_opponent_rating": 1972.0,
+        "federation_ids": [
+            "1934553"
+        ]
     },
     "8432006": {
+        "federation_id": "1917640",
         "universal_id": "8432006",
         "name": "Oord, R. (Raymon)",
         "total_score": 2.0,
@@ -168,9 +216,13 @@
             1678,
             1995
         ],
-        "avg_opponent_rating": 1836.5
+        "avg_opponent_rating": 1836.5,
+        "federation_ids": [
+            "1917640"
+        ]
     },
     "7594543": {
+        "federation_id": "1912297",
         "universal_id": "7594543",
         "name": "Pouw, M. (Marcel)",
         "total_score": 4.0,
@@ -184,9 +236,13 @@
             1952,
             1806
         ],
-        "avg_opponent_rating": 1894.625
+        "avg_opponent_rating": 1894.625,
+        "federation_ids": [
+            "1912297"
+        ]
     },
     "8315912": {
+        "federation_id": "1916823",
         "universal_id": "8315912",
         "name": "Rookus, S.P. (Sjoerd)",
         "total_score": 8.5,
@@ -206,9 +262,14 @@
             1809,
             1977
         ],
-        "avg_opponent_rating": 1898.2857142857142
+        "avg_opponent_rating": 1898.2857142857142,
+        "federation_ids": [
+            "1916823",
+            "318774"
+        ]
     },
     "8132366": {
+        "federation_id": "1915429",
         "universal_id": "8132366",
         "name": "Salihbegovic, E. (Edim)",
         "total_score": 10.5,
@@ -228,18 +289,27 @@
             1854,
             1926
         ],
-        "avg_opponent_rating": 1932.9285714285713
+        "avg_opponent_rating": 1932.9285714285713,
+        "federation_ids": [
+            "1915429",
+            "317380"
+        ]
     },
     "7263718": {
+        "federation_id": "1910455",
         "universal_id": "7263718",
         "name": "Scheffer, E.F. (Enno)",
         "total_score": 0.5,
         "opponent_ratings_raw": [
             2011
         ],
-        "avg_opponent_rating": 2011.0
+        "avg_opponent_rating": 2011.0,
+        "federation_ids": [
+            "1910455"
+        ]
     },
     "8649245": {
+        "federation_id": "1919766",
         "universal_id": "8649245",
         "name": "Torenbosch, J. (Jorn)",
         "total_score": 5.5,
@@ -251,9 +321,13 @@
             2110,
             1856
         ],
-        "avg_opponent_rating": 1922.0
+        "avg_opponent_rating": 1922.0,
+        "federation_ids": [
+            "1919766"
+        ]
     },
     "8960710": {
+        "federation_id": "1930746",
         "universal_id": "8960710",
         "name": "Weitenberg, J. (Jordi)",
         "total_score": 4.5,
@@ -264,9 +338,13 @@
             1948,
             1811
         ],
-        "avg_opponent_rating": 1875.6
+        "avg_opponent_rating": 1875.6,
+        "federation_ids": [
+            "1930746"
+        ]
     },
     "8976033": {
+        "federation_id": "1931858",
         "universal_id": "8976033",
         "name": "Andrieu, J. (Justin)",
         "total_score": 6.5,
@@ -286,9 +364,14 @@
             1685,
             1760
         ],
-        "avg_opponent_rating": 1736.2857142857142
+        "avg_opponent_rating": 1736.2857142857142,
+        "federation_ids": [
+            "1931858",
+            "333809"
+        ]
     },
     "8887923": {
+        "federation_id": "1925434",
         "universal_id": "8887923",
         "name": "Bloemhof, R.B.P. (Ruben)",
         "total_score": 6.0,
@@ -308,9 +391,14 @@
             1802,
             1966
         ],
-        "avg_opponent_rating": 1972.7142857142858
+        "avg_opponent_rating": 1972.7142857142858,
+        "federation_ids": [
+            "1925434",
+            "327385"
+        ]
     },
     "7180668": {
+        "federation_id": "1910083",
         "universal_id": "7180668",
         "name": "Hoekstra, C.A.H. (Carl)",
         "total_score": 3.0,
@@ -324,9 +412,14 @@
             1919,
             1869
         ],
-        "avg_opponent_rating": 1959.125
+        "avg_opponent_rating": 1959.125,
+        "federation_ids": [
+            "1910083",
+            "312034"
+        ]
     },
     "7755308": {
+        "federation_id": "1934390",
         "universal_id": "7755308",
         "name": "Hoogeboom, A. (Arthur)",
         "total_score": 1.0,
@@ -334,9 +427,14 @@
             2021,
             1756
         ],
-        "avg_opponent_rating": 1888.5
+        "avg_opponent_rating": 1888.5,
+        "federation_ids": [
+            "1934390",
+            "336341"
+        ]
     },
     "8985284": {
+        "federation_id": "1941739",
         "universal_id": "8985284",
         "name": "Jong de, A. (Anne-Dirk)",
         "total_score": 2.5,
@@ -347,9 +445,14 @@
             1598,
             2021
         ],
-        "avg_opponent_rating": 1894.6
+        "avg_opponent_rating": 1894.6,
+        "federation_ids": [
+            "1941739",
+            "343660"
+        ]
     },
     "7921012": {
+        "federation_id": "1914032",
         "universal_id": "7921012",
         "name": "Meijer, D.H.F.R. (Daniel)",
         "total_score": 1.0,
@@ -358,9 +461,14 @@
             1844,
             1980
         ],
-        "avg_opponent_rating": 1902.3333333333333
+        "avg_opponent_rating": 1902.3333333333333,
+        "federation_ids": [
+            "1914032",
+            "315983"
+        ]
     },
     "8939139": {
+        "federation_id": "1940935",
         "universal_id": "8939139",
         "name": "Pronk, D.J. (David)",
         "total_score": 3.5,
@@ -376,9 +484,14 @@
             1720,
             1824
         ],
-        "avg_opponent_rating": 1781.4
+        "avg_opponent_rating": 1781.4,
+        "federation_ids": [
+            "1940935",
+            "342886"
+        ]
     },
     "8273353": {
+        "federation_id": "1916433",
         "universal_id": "8273353",
         "name": "Roorda, M. (Maarten)",
         "total_score": 8.0,
@@ -395,18 +508,27 @@
             1799,
             1736
         ],
-        "avg_opponent_rating": 1878.6363636363637
+        "avg_opponent_rating": 1878.6363636363637,
+        "federation_ids": [
+            "1916433",
+            "318384"
+        ]
     },
     "8560123": {
+        "federation_id": "1918757",
         "universal_id": "8560123",
         "name": "Santema, T. (Tjeerd)",
         "total_score": 0.0,
         "opponent_ratings_raw": [
             1943
         ],
-        "avg_opponent_rating": 1943.0
+        "avg_opponent_rating": 1943.0,
+        "federation_ids": [
+            "1918757"
+        ]
     },
     "8509512": {
+        "federation_id": "1939686",
         "universal_id": "8509512",
         "name": "Spanjer, J.M. (Joris)",
         "total_score": 6.0,
@@ -424,9 +546,14 @@
             1845,
             2021
         ],
-        "avg_opponent_rating": 1986.3333333333333
+        "avg_opponent_rating": 1986.3333333333333,
+        "federation_ids": [
+            "1939686",
+            "341637"
+        ]
     },
     "9019054": {
+        "federation_id": "1935875",
         "universal_id": "9019054",
         "name": "Teeken, J.J.J. (Joshua)",
         "total_score": 6.0,
@@ -444,9 +571,14 @@
             1838,
             1857
         ],
-        "avg_opponent_rating": 1925.3333333333333
+        "avg_opponent_rating": 1925.3333333333333,
+        "federation_ids": [
+            "1935875",
+            "337826"
+        ]
     },
     "8588580": {
+        "federation_id": "1938717",
         "universal_id": "8588580",
         "name": "Timmer, M. (Michel)",
         "total_score": 3.0,
@@ -462,9 +594,14 @@
             2218,
             2120
         ],
-        "avg_opponent_rating": 1996.2
+        "avg_opponent_rating": 1996.2,
+        "federation_ids": [
+            "1938717",
+            "340668"
+        ]
     },
     "6634881": {
+        "federation_id": "1908838",
         "universal_id": "6634881",
         "name": "Walinga, E.J. (Eric Jan)",
         "total_score": 4.5,
@@ -478,9 +615,13 @@
             1948,
             2217
         ],
-        "avg_opponent_rating": 1981.75
+        "avg_opponent_rating": 1981.75,
+        "federation_ids": [
+            "1908838"
+        ]
     },
     "7941538": {
+        "federation_id": "1914145",
         "universal_id": "7941538",
         "name": "Welling, S.C. (Sophie)",
         "total_score": 8.0,
@@ -503,9 +644,14 @@
             1686,
             1902
         ],
-        "avg_opponent_rating": 1835.9411764705883
+        "avg_opponent_rating": 1835.9411764705883,
+        "federation_ids": [
+            "1914145",
+            "316096"
+        ]
     },
     "8544800": {
+        "federation_id": "1935142",
         "universal_id": "8544800",
         "name": "Baars, T. (Tije)",
         "total_score": 2.5,
@@ -518,9 +664,14 @@
             2032,
             2074
         ],
-        "avg_opponent_rating": 1905.2857142857142
+        "avg_opponent_rating": 1905.2857142857142,
+        "federation_ids": [
+            "1935142",
+            "337093"
+        ]
     },
     "8603947": {
+        "federation_id": "1919214",
         "universal_id": "8603947",
         "name": "Cleveringa, W.P. (Writser)",
         "total_score": 1.0,
@@ -530,9 +681,14 @@
             2064,
             1833
         ],
-        "avg_opponent_rating": 1914.75
+        "avg_opponent_rating": 1914.75,
+        "federation_ids": [
+            "1919214",
+            "321165"
+        ]
     },
     "9094239": {
+        "federation_id": "1987231",
         "universal_id": "9094239",
         "name": "Desouza, C. (Cleo)",
         "total_score": 1.0,
@@ -541,9 +697,14 @@
             1817,
             1848
         ],
-        "avg_opponent_rating": 1780.6666666666667
+        "avg_opponent_rating": 1780.6666666666667,
+        "federation_ids": [
+            "1987231",
+            "345410"
+        ]
     },
     "8819008": {
+        "federation_id": "1922463",
         "universal_id": "8819008",
         "name": "Jelsma, R. (Remco)",
         "total_score": 5.0,
@@ -557,9 +718,14 @@
             1796,
             1586
         ],
-        "avg_opponent_rating": 1761.25
+        "avg_opponent_rating": 1761.25,
+        "federation_ids": [
+            "1922463",
+            "324414"
+        ]
     },
     "7394255": {
+        "federation_id": "1911235",
         "universal_id": "7394255",
         "name": "Jong de, L.S. (Lieuwe)",
         "total_score": 2.0,
@@ -569,9 +735,13 @@
             1751,
             1776
         ],
-        "avg_opponent_rating": 1728.5
+        "avg_opponent_rating": 1728.5,
+        "federation_ids": [
+            "1911235"
+        ]
     },
     "5807461": {
+        "federation_id": "1906761",
         "universal_id": "5807461",
         "name": "Kroezen, R.P. (Roland)",
         "total_score": 1.5,
@@ -584,18 +754,27 @@
             1783,
             1683
         ],
-        "avg_opponent_rating": 1673.5714285714287
+        "avg_opponent_rating": 1673.5714285714287,
+        "federation_ids": [
+            "1906761",
+            "308712"
+        ]
     },
     "9109672": {
+        "federation_id": "2071474",
         "universal_id": "9109672",
         "name": "Morsch, T.P.R. (Tjeerd)",
         "total_score": 1.0,
         "opponent_ratings_raw": [
             1665
         ],
-        "avg_opponent_rating": 1665.0
+        "avg_opponent_rating": 1665.0,
+        "federation_ids": [
+            "2071474"
+        ]
     },
     "9065738": {
+        "federation_id": "1940502",
         "universal_id": "9065738",
         "name": "Piek, R. (Rosaline)",
         "total_score": 8.5,
@@ -618,9 +797,14 @@
             1790,
             1789
         ],
-        "avg_opponent_rating": 1814.8235294117646
+        "avg_opponent_rating": 1814.8235294117646,
+        "federation_ids": [
+            "1940502",
+            "342453"
+        ]
     },
     "8947840": {
+        "federation_id": "1929737",
         "universal_id": "8947840",
         "name": "Reitsma, F. (Freerk)",
         "total_score": 4.5,
@@ -636,9 +820,14 @@
             1877,
             1770
         ],
-        "avg_opponent_rating": 1799.7
+        "avg_opponent_rating": 1799.7,
+        "federation_ids": [
+            "1929737",
+            "331688"
+        ]
     },
     "8800539": {
+        "federation_id": "1921997",
         "universal_id": "8800539",
         "name": "Timmer, N. (Niels)",
         "total_score": 4.0,
@@ -650,9 +839,14 @@
             1944,
             1806
         ],
-        "avg_opponent_rating": 1824.0
+        "avg_opponent_rating": 1824.0,
+        "federation_ids": [
+            "1921997",
+            "323948"
+        ]
     },
     "8494882": {
+        "federation_id": "1918156",
         "universal_id": "8494882",
         "name": "Tuuk-Burgsma van der, M. (Maria)",
         "total_score": 1.0,
@@ -661,9 +855,14 @@
             1607,
             1685
         ],
-        "avg_opponent_rating": 1679.0
+        "avg_opponent_rating": 1679.0,
+        "federation_ids": [
+            "1918156",
+            "320107"
+        ]
     },
     "8988144": {
+        "federation_id": "1933023",
         "universal_id": "8988144",
         "name": "Veldman, T. (Thomas)",
         "total_score": 4.0,
@@ -673,9 +872,13 @@
             1720,
             1795
         ],
-        "avg_opponent_rating": 1750.0
+        "avg_opponent_rating": 1750.0,
+        "federation_ids": [
+            "1933023"
+        ]
     },
     "9057136": {
+        "federation_id": "1939712",
         "universal_id": "9057136",
         "name": "Visee, T. (Thijs)",
         "total_score": 6.0,
@@ -689,9 +892,14 @@
             1700,
             1683
         ],
-        "avg_opponent_rating": 1684.375
+        "avg_opponent_rating": 1684.375,
+        "federation_ids": [
+            "1939712",
+            "341663"
+        ]
     },
     "9094217": {
+        "federation_id": "1987219",
         "universal_id": "9094217",
         "name": "Vries de, S. (Stijn)",
         "total_score": 1.0,
@@ -699,9 +907,14 @@
             1627,
             1656
         ],
-        "avg_opponent_rating": 1641.5
+        "avg_opponent_rating": 1641.5,
+        "federation_ids": [
+            "1987219",
+            "345408"
+        ]
     },
     "9078795": {
+        "federation_id": "1942477",
         "universal_id": "9078795",
         "name": "Boer, J. (Joël)",
         "total_score": 5.0,
@@ -713,18 +926,27 @@
             1680,
             1675
         ],
-        "avg_opponent_rating": 1700.1666666666667
+        "avg_opponent_rating": 1700.1666666666667,
+        "federation_ids": [
+            "1942477",
+            "343803"
+        ]
     },
     "8377292": {
+        "federation_id": "1917236",
         "universal_id": "8377292",
         "name": "Ferwerda, F. (Famke)",
         "total_score": 0.5,
         "opponent_ratings_raw": [
             1720
         ],
-        "avg_opponent_rating": 1720.0
+        "avg_opponent_rating": 1720.0,
+        "federation_ids": [
+            "1917236"
+        ]
     },
     "8864108": {
+        "federation_id": "1924073",
         "universal_id": "8864108",
         "name": "Heijmans, M. (Merlijn)",
         "total_score": 5.0,
@@ -738,9 +960,14 @@
             1768,
             1670
         ],
-        "avg_opponent_rating": 1747.375
+        "avg_opponent_rating": 1747.375,
+        "federation_ids": [
+            "1924073",
+            "326024"
+        ]
     },
     "7976551": {
+        "federation_id": "1914372",
         "universal_id": "7976551",
         "name": "Jansen, E. (Eric)",
         "total_score": 6.0,
@@ -753,9 +980,14 @@
             1597,
             1656
         ],
-        "avg_opponent_rating": 1694.142857142857
+        "avg_opponent_rating": 1694.142857142857,
+        "federation_ids": [
+            "1914372",
+            "316323"
+        ]
     },
     "8907602": {
+        "federation_id": "1926646",
         "universal_id": "8907602",
         "name": "Kaaij, D. (Diederick)",
         "total_score": 1.5,
@@ -768,9 +1000,14 @@
             1714,
             1614
         ],
-        "avg_opponent_rating": 1638.0
+        "avg_opponent_rating": 1638.0,
+        "federation_ids": [
+            "1926646",
+            "328597"
+        ]
     },
     "8944749": {
+        "federation_id": "1929465",
         "universal_id": "8944749",
         "name": "Kleine de, R. (Rick)",
         "total_score": 4.0,
@@ -784,9 +1021,14 @@
             1619,
             1603
         ],
-        "avg_opponent_rating": 1668.125
+        "avg_opponent_rating": 1668.125,
+        "federation_ids": [
+            "1929465",
+            "331416"
+        ]
     },
     "7853362": {
+        "federation_id": "1913624",
         "universal_id": "7853362",
         "name": "Lutjeboer, S. (Sjors)",
         "total_score": 3.0,
@@ -799,9 +1041,14 @@
             1698,
             1564
         ],
-        "avg_opponent_rating": 1643.5714285714287
+        "avg_opponent_rating": 1643.5714285714287,
+        "federation_ids": [
+            "1913624",
+            "315575"
+        ]
     },
     "9068686": {
+        "federation_id": "1940742",
         "universal_id": "9068686",
         "name": "Mous, F. (Finn)",
         "total_score": 3.0,
@@ -811,23 +1058,41 @@
             1696,
             1665
         ],
-        "avg_opponent_rating": 1676.75
+        "avg_opponent_rating": 1676.75,
+        "federation_ids": [
+            "1940742"
+        ]
     },
     "9044662": {
+        "federation_id": "1938585",
         "universal_id": "9044662",
         "name": "Vaessen, L. (Lucas)",
-        "total_score": 4.5,
+        "total_score": 10.5,
         "opponent_ratings_raw": [
             1642,
             1631,
             1678,
             1598,
             1902,
-            1644
+            1644,
+            1402,
+            1686,
+            1766,
+            1917,
+            1652,
+            1597,
+            1809,
+            1714,
+            1783
         ],
-        "avg_opponent_rating": 1682.5
+        "avg_opponent_rating": 1694.7333333333333,
+        "federation_ids": [
+            "1938585",
+            "340536"
+        ]
     },
     "7710923": {
+        "federation_id": "1912903",
         "universal_id": "7710923",
         "name": "Veen van der, A. (Anne)",
         "total_score": 7.0,
@@ -845,9 +1110,14 @@
             1687,
             1716
         ],
-        "avg_opponent_rating": 1729.25
+        "avg_opponent_rating": 1729.25,
+        "federation_ids": [
+            "1912903",
+            "314854"
+        ]
     },
     "8344831": {
+        "federation_id": "1917023",
         "universal_id": "8344831",
         "name": "Velthoven van, P. (Paul)",
         "total_score": 2.5,
@@ -860,9 +1130,14 @@
             1805,
             1681
         ],
-        "avg_opponent_rating": 1755.857142857143
+        "avg_opponent_rating": 1755.857142857143,
+        "federation_ids": [
+            "1917023",
+            "318974"
+        ]
     },
     "8324613": {
+        "federation_id": "318836",
         "universal_id": "8324613",
         "name": "Haan, G.A. (Gertjan)",
         "total_score": 6.0,
@@ -876,9 +1151,13 @@
             2021,
             2316
         ],
-        "avg_opponent_rating": 2035.5
+        "avg_opponent_rating": 2035.5,
+        "federation_ids": [
+            "318836"
+        ]
     },
     "8024335": {
+        "federation_id": "316559",
         "universal_id": "8024335",
         "name": "Jong de, M. (Mathijs)",
         "total_score": 2.5,
@@ -890,9 +1169,13 @@
             1768,
             2003
         ],
-        "avg_opponent_rating": 1948.0
+        "avg_opponent_rating": 1948.0,
+        "federation_ids": [
+            "316559"
+        ]
     },
     "7908186": {
+        "federation_id": "315899",
         "universal_id": "7908186",
         "name": "Jongh de, B.M. (Benno)",
         "total_score": 1.0,
@@ -900,9 +1183,13 @@
             2048,
             1983
         ],
-        "avg_opponent_rating": 2015.5
+        "avg_opponent_rating": 2015.5,
+        "federation_ids": [
+            "315899"
+        ]
     },
     "9004237": {
+        "federation_id": "336517",
         "universal_id": "9004237",
         "name": "Aandewiel, P. (Pascal)",
         "total_score": 2.0,
@@ -913,9 +1200,13 @@
             1834,
             1537
         ],
-        "avg_opponent_rating": 1761.2
+        "avg_opponent_rating": 1761.2,
+        "federation_ids": [
+            "336517"
+        ]
     },
     "7952615": {
+        "federation_id": "316188",
         "universal_id": "7952615",
         "name": "Sipkema, W.S. (Willem)",
         "total_score": 1.0,
@@ -924,9 +1215,13 @@
             1960,
             2118
         ],
-        "avg_opponent_rating": 2022.3333333333333
+        "avg_opponent_rating": 2022.3333333333333,
+        "federation_ids": [
+            "316188"
+        ]
     },
     "9046235": {
+        "federation_id": "340679",
         "universal_id": "9046235",
         "name": "Veenstra, K. (Klaas-Jan)",
         "total_score": 3.5,
@@ -939,9 +1234,13 @@
             1954,
             1739
         ],
-        "avg_opponent_rating": 1812.2857142857142
+        "avg_opponent_rating": 1812.2857142857142,
+        "federation_ids": [
+            "340679"
+        ]
     },
     "8944738": {
+        "federation_id": "331415",
         "universal_id": "8944738",
         "name": "Prentner, D. (Dylan)",
         "total_score": 2.0,
@@ -950,9 +1249,13 @@
             1804,
             1698
         ],
-        "avg_opponent_rating": 1664.3333333333333
+        "avg_opponent_rating": 1664.3333333333333,
+        "federation_ids": [
+            "331415"
+        ]
     },
     "8200907": {
+        "federation_id": "317837",
         "universal_id": "8200907",
         "name": "Altena van, L. (Lydia)",
         "total_score": 1.5,
@@ -963,9 +1266,13 @@
             1658,
             1650
         ],
-        "avg_opponent_rating": 1706.8
+        "avg_opponent_rating": 1706.8,
+        "federation_ids": [
+            "317837"
+        ]
     },
     "8507609": {
+        "federation_id": "341123",
         "universal_id": "8507609",
         "name": "Koning, F.M. (Femke)",
         "total_score": 3.5,
@@ -978,9 +1285,13 @@
             1807,
             1944
         ],
-        "avg_opponent_rating": 1853.4285714285713
+        "avg_opponent_rating": 1853.4285714285713,
+        "federation_ids": [
+            "341123"
+        ]
     },
     "9078784": {
+        "federation_id": "343802",
         "universal_id": "9078784",
         "name": "Meij van der, N. (Nouschka)",
         "total_score": 1.5,
@@ -992,9 +1303,13 @@
             1670,
             1726
         ],
-        "avg_opponent_rating": 1616.3333333333333
+        "avg_opponent_rating": 1616.3333333333333,
+        "federation_ids": [
+            "343802"
+        ]
     },
     "8007252": {
+        "federation_id": "316504",
         "universal_id": "8007252",
         "name": "Welling, E.L. (Ella)",
         "total_score": 0.0,
@@ -1002,9 +1317,13 @@
             1603,
             1600
         ],
-        "avg_opponent_rating": 1601.5
+        "avg_opponent_rating": 1601.5,
+        "federation_ids": [
+            "316504"
+        ]
     },
     "9098232": {
+        "federation_id": "382847",
         "universal_id": "9098232",
         "name": "Biancotti, C. (Carolina)",
         "total_score": 0.0,
@@ -1014,9 +1333,13 @@
             1624,
             1410
         ],
-        "avg_opponent_rating": 1609.5
+        "avg_opponent_rating": 1609.5,
+        "federation_ids": [
+            "382847"
+        ]
     },
     "7935609": {
+        "federation_id": "339183",
         "universal_id": "7935609",
         "name": "Lutjeboer, T. (Thijs)",
         "total_score": 4.0,
@@ -1028,9 +1351,13 @@
             2081,
             1531
         ],
-        "avg_opponent_rating": 1702.1666666666667
+        "avg_opponent_rating": 1702.1666666666667,
+        "federation_ids": [
+            "339183"
+        ]
     },
     "7959006": {
+        "federation_id": "316220",
         "universal_id": "7959006",
         "name": "Os van, B.J.J. (Ben)",
         "total_score": 3.0,
@@ -1041,6 +1368,9 @@
             1752,
             1722
         ],
-        "avg_opponent_rating": 1667.4
+        "avg_opponent_rating": 1667.4,
+        "federation_ids": [
+            "316220"
+        ]
     }
 }
