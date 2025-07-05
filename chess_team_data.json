@@ -2,6 +2,7 @@
     "SISSA 1": {
         "name": "SISSA 1",
         "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
         "match_points": 11.0,
         "board_points": 42.5,
         "players": {
@@ -146,6 +147,7 @@
     "SISSA 2": {
         "name": "SISSA 2",
         "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
         "match_points": 8.0,
         "board_points": 33.5,
         "players": {
@@ -280,12 +282,12 @@
             1867,
             1984,
             2036
-        ],
-        "avg_opponent_rating": 1941.888888888889
+        ]
     },
     "SISSA 3": {
         "name": "SISSA 3",
         "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
         "match_points": 7.0,
         "board_points": 31.0,
         "players": {
@@ -420,6 +422,7 @@
     "SISSA 4": {
         "name": "SISSA 4",
         "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
         "match_points": 7.0,
         "board_points": 29.5,
         "players": {
@@ -542,9 +545,14 @@
     "SISSA I": {
         "name": "SISSA I",
         "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/61",
         "match_points": 10.0,
         "board_points": 30.0,
         "players": {
+            "333809": {
+                "name": "Andrieu, J. (Justin)",
+                "url": "https://nosbo.netstand.nl/players/view/333809"
+            },
             "325983": {
                 "name": "Brand, N.W. (Niels)",
                 "url": "https://nosbo.netstand.nl/players/view/325983"
@@ -553,13 +561,17 @@
                 "name": "Haan, G.A. (Gertjan)",
                 "url": "https://nosbo.netstand.nl/players/view/318836"
             },
-            "322079": {
-                "name": "Jellema, P.W.J. (Pieter)",
-                "url": "https://nosbo.netstand.nl/players/view/322079"
-            },
             "316559": {
                 "name": "Jong de, M. (Mathijs)",
                 "url": "https://nosbo.netstand.nl/players/view/316559"
+            },
+            "315899": {
+                "name": "Jongh de, B.M. (Benno)",
+                "url": "https://nosbo.netstand.nl/players/view/315899"
+            },
+            "320372": {
+                "name": "Jonker, J. (Jorik)",
+                "url": "https://nosbo.netstand.nl/players/view/320372"
             },
             "318787": {
                 "name": "Manenschijn, W. (Wouter)",
@@ -573,6 +585,10 @@
                 "name": "Muller, S.K. (Kenneth)",
                 "url": "https://nosbo.netstand.nl/players/view/318133"
             },
+            "342886": {
+                "name": "Pronk, D.J. (David)",
+                "url": "https://nosbo.netstand.nl/players/view/342886"
+            },
             "318774": {
                 "name": "Rookus, S.P. (Sjoerd)",
                 "url": "https://nosbo.netstand.nl/players/view/318774"
@@ -584,37 +600,9 @@
             "317380": {
                 "name": "Salihbegovic, E. (Edim)",
                 "url": "https://nosbo.netstand.nl/players/view/317380"
-            },
-            "333809": {
-                "name": "Andrieu, J. (Justin)",
-                "url": "https://nosbo.netstand.nl/players/view/333809"
-            },
-            "315899": {
-                "name": "Jongh de, B.M. (Benno)",
-                "url": "https://nosbo.netstand.nl/players/view/315899"
-            },
-            "320372": {
-                "name": "Jonker, J. (Jorik)",
-                "url": "https://nosbo.netstand.nl/players/view/320372"
-            },
-            "342886": {
-                "name": "Pronk, D.J. (David)",
-                "url": "https://nosbo.netstand.nl/players/view/342886"
             }
         },
         "matches": [
-            {
-                "date": "11-04-2025",
-                "opponent": "Assen I",
-                "location": "Home",
-                "result": "8- 0"
-            },
-            {
-                "date": "15-05-2025",
-                "opponent": "Groninger Combinatie I",
-                "location": "Away",
-                "result": "4 -4"
-            },
             {
                 "date": "15-11-2024",
                 "opponent": "Van der Linde I",
@@ -647,22 +635,25 @@
             }
         ],
         "opponent_ratings_raw": [
-            1851,
-            2065,
             1643,
             1986,
             1906,
             1907,
             1805
         ],
-        "avg_opponent_rating": 1880.4285714285713
+        "avg_opponent_rating": 1849.4
     },
     "SISSA II": {
         "name": "SISSA II",
         "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/62",
         "match_points": 1.0,
         "board_points": 13.0,
         "players": {
+            "336517": {
+                "name": "Aandewiel, P. (Pascal)",
+                "url": "https://nosbo.netstand.nl/players/view/336517"
+            },
             "337093": {
                 "name": "Baars, T. (Tije)",
                 "url": "https://nosbo.netstand.nl/players/view/337093"
@@ -671,17 +662,13 @@
                 "name": "Bloemhof, R.B.P. (Ruben)",
                 "url": "https://nosbo.netstand.nl/players/view/327385"
             },
-            "326024": {
-                "name": "Heijmans, M. (Merlijn)",
-                "url": "https://nosbo.netstand.nl/players/view/326024"
+            "321165": {
+                "name": "Cleveringa, W.P. (Writser)",
+                "url": "https://nosbo.netstand.nl/players/view/321165"
             },
             "312034": {
                 "name": "Hoekstra, C.A.H. (Carl)",
                 "url": "https://nosbo.netstand.nl/players/view/312034"
-            },
-            "336341": {
-                "name": "Hoogeboom, A. (Arthur)",
-                "url": "https://nosbo.netstand.nl/players/view/336341"
             },
             "324414": {
                 "name": "Jelsma, R. (Remco)",
@@ -691,9 +678,21 @@
                 "name": "Jong de, A. (Anne-Dirk)",
                 "url": "https://nosbo.netstand.nl/players/view/343660"
             },
+            "331416": {
+                "name": "Kleine de, R. (Rick)",
+                "url": "https://nosbo.netstand.nl/players/view/331416"
+            },
+            "315983": {
+                "name": "Meijer, D.H.F.R. (Daniel)",
+                "url": "https://nosbo.netstand.nl/players/view/315983"
+            },
             "342453": {
                 "name": "Piek, R. (Rosaline)",
                 "url": "https://nosbo.netstand.nl/players/view/342453"
+            },
+            "316188": {
+                "name": "Sipkema, W.S. (Willem)",
+                "url": "https://nosbo.netstand.nl/players/view/316188"
             },
             "341637": {
                 "name": "Spanjer, J.M. (Joris)",
@@ -714,41 +713,9 @@
             "318974": {
                 "name": "Velthoven van, P. (Paul)",
                 "url": "https://nosbo.netstand.nl/players/view/318974"
-            },
-            "336517": {
-                "name": "Aandewiel, P. (Pascal)",
-                "url": "https://nosbo.netstand.nl/players/view/336517"
-            },
-            "321165": {
-                "name": "Cleveringa, W.P. (Writser)",
-                "url": "https://nosbo.netstand.nl/players/view/321165"
-            },
-            "331416": {
-                "name": "Kleine de, R. (Rick)",
-                "url": "https://nosbo.netstand.nl/players/view/331416"
-            },
-            "315983": {
-                "name": "Meijer, D.H.F.R. (Daniel)",
-                "url": "https://nosbo.netstand.nl/players/view/315983"
-            },
-            "316188": {
-                "name": "Sipkema, W.S. (Willem)",
-                "url": "https://nosbo.netstand.nl/players/view/316188"
             }
         },
         "matches": [
-            {
-                "date": "11-04-2025",
-                "opponent": "Leek I",
-                "location": "Home",
-                "result": "3½- 4½"
-            },
-            {
-                "date": "16-05-2025",
-                "opponent": "Van der Linde I",
-                "location": "Away",
-                "result": "2 -6"
-            },
             {
                 "date": "12-11-2024",
                 "opponent": "Hoogeveen I",
@@ -781,57 +748,24 @@
             }
         ],
         "opponent_ratings_raw": [
-            1893,
-            1738,
             1903,
             1873,
             1938,
             2130,
             1816
         ],
-        "avg_opponent_rating": 1898.7142857142858
+        "avg_opponent_rating": 1932.0
     },
     "SISSA III": {
         "name": "SISSA III",
         "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/63",
         "match_points": 8.0,
         "board_points": 20.0,
         "players": {
-            "336517": {
-                "name": "Aandewiel, P. (Pascal)",
-                "url": "https://nosbo.netstand.nl/players/view/336517"
-            },
             "333809": {
                 "name": "Andrieu, J. (Justin)",
                 "url": "https://nosbo.netstand.nl/players/view/333809"
-            },
-            "331416": {
-                "name": "Kleine de, R. (Rick)",
-                "url": "https://nosbo.netstand.nl/players/view/331416"
-            },
-            "308712": {
-                "name": "Kroezen, R.P. (Roland)",
-                "url": "https://nosbo.netstand.nl/players/view/308712"
-            },
-            "331688": {
-                "name": "Reitsma, F. (Freerk)",
-                "url": "https://nosbo.netstand.nl/players/view/331688"
-            },
-            "340536": {
-                "name": "Vaessen, L. (Lucas)",
-                "url": "https://nosbo.netstand.nl/players/view/340536"
-            },
-            "340679": {
-                "name": "Veenstra, K. (Klaas-Jan)",
-                "url": "https://nosbo.netstand.nl/players/view/340679"
-            },
-            "341663": {
-                "name": "Visee, T. (Thijs)",
-                "url": "https://nosbo.netstand.nl/players/view/341663"
-            },
-            "345408": {
-                "name": "Vries de, S. (Stijn)",
-                "url": "https://nosbo.netstand.nl/players/view/345408"
             },
             "343803": {
                 "name": "Boer, J. (Joël)",
@@ -845,6 +779,10 @@
                 "name": "Heijmans, M. (Merlijn)",
                 "url": "https://nosbo.netstand.nl/players/view/326024"
             },
+            "331416": {
+                "name": "Kleine de, R. (Rick)",
+                "url": "https://nosbo.netstand.nl/players/view/331416"
+            },
             "331415": {
                 "name": "Prentner, D. (Dylan)",
                 "url": "https://nosbo.netstand.nl/players/view/331415"
@@ -853,24 +791,28 @@
                 "name": "Pronk, D.J. (David)",
                 "url": "https://nosbo.netstand.nl/players/view/342886"
             },
+            "331688": {
+                "name": "Reitsma, F. (Freerk)",
+                "url": "https://nosbo.netstand.nl/players/view/331688"
+            },
             "323948": {
                 "name": "Timmer, N. (Niels)",
                 "url": "https://nosbo.netstand.nl/players/view/323948"
+            },
+            "340536": {
+                "name": "Vaessen, L. (Lucas)",
+                "url": "https://nosbo.netstand.nl/players/view/340536"
+            },
+            "340679": {
+                "name": "Veenstra, K. (Klaas-Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/340679"
+            },
+            "341663": {
+                "name": "Visee, T. (Thijs)",
+                "url": "https://nosbo.netstand.nl/players/view/341663"
             }
         },
         "matches": [
-            {
-                "date": "19-05-2025",
-                "opponent": "Valthermond I",
-                "location": "Away",
-                "result": "2½ -3½"
-            },
-            {
-                "date": "16-05-2025",
-                "opponent": "Roden I",
-                "location": "Home",
-                "result": "2- 4"
-            },
             {
                 "date": "22-11-2024",
                 "opponent": "DAC I",
@@ -909,8 +851,6 @@
             }
         ],
         "opponent_ratings_raw": [
-            1673,
-            1740,
             1574,
             1731,
             1827,
@@ -918,17 +858,22 @@
             1766,
             1835
         ],
-        "avg_opponent_rating": 1749.75
+        "avg_opponent_rating": 1764.1666666666667
     },
     "SISSA IV": {
         "name": "SISSA IV",
         "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
         "match_points": 6.0,
         "board_points": 16.5,
         "players": {
             "317837": {
                 "name": "Altena van, L. (Lydia)",
                 "url": "https://nosbo.netstand.nl/players/view/317837"
+            },
+            "382847": {
+                "name": "Biancotti, C. (Carolina)",
+                "url": "https://nosbo.netstand.nl/players/view/382847"
             },
             "331081": {
                 "name": "Gay, A. (Aurore)",
@@ -946,6 +891,10 @@
                 "name": "Piek, R. (Rosaline)",
                 "url": "https://nosbo.netstand.nl/players/view/342453"
             },
+            "320107": {
+                "name": "Tuuk-Burgsma van der, M. (Maria)",
+                "url": "https://nosbo.netstand.nl/players/view/320107"
+            },
             "316504": {
                 "name": "Welling, E.L. (Ella)",
                 "url": "https://nosbo.netstand.nl/players/view/316504"
@@ -953,29 +902,9 @@
             "316096": {
                 "name": "Welling, S.C. (Sophie)",
                 "url": "https://nosbo.netstand.nl/players/view/316096"
-            },
-            "382847": {
-                "name": "Biancotti, C. (Carolina)",
-                "url": "https://nosbo.netstand.nl/players/view/382847"
-            },
-            "320107": {
-                "name": "Tuuk-Burgsma van der, M. (Maria)",
-                "url": "https://nosbo.netstand.nl/players/view/320107"
             }
         },
         "matches": [
-            {
-                "date": "15-04-2025",
-                "opponent": "Lewenborg II",
-                "location": "Away",
-                "result": "3½ -2½"
-            },
-            {
-                "date": "16-05-2025",
-                "opponent": "Middelstum I",
-                "location": "Home",
-                "result": "½- 5½"
-            },
             {
                 "date": "29-11-2024",
                 "opponent": "Het Kasteel II",
@@ -1014,8 +943,6 @@
             }
         ],
         "opponent_ratings_raw": [
-            1720,
-            1790,
             1779,
             1695,
             1690,
@@ -1023,11 +950,12 @@
             1758,
             1915
         ],
-        "avg_opponent_rating": 1742.5
+        "avg_opponent_rating": 1738.3333333333333
     },
     "SISSA V": {
         "name": "SISSA V",
         "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/65",
         "match_points": 7.0,
         "board_points": 11.0,
         "players": {
@@ -1038,10 +966,6 @@
             "328597": {
                 "name": "Kaaij, D. (Diederick)",
                 "url": "https://nosbo.netstand.nl/players/view/328597"
-            },
-            "308712": {
-                "name": "Kroezen, R.P. (Roland)",
-                "url": "https://nosbo.netstand.nl/players/view/308712"
             },
             "315575": {
                 "name": "Lutjeboer, S. (Sjors)",
@@ -1057,18 +981,6 @@
             }
         },
         "matches": [
-            {
-                "date": "11-04-2025",
-                "opponent": "Groninger Combinatie V",
-                "location": "Home",
-                "result": "3½- ½"
-            },
-            {
-                "date": "12-05-2025",
-                "opponent": "Roden II",
-                "location": "Away",
-                "result": "3 -1"
-            },
             {
                 "date": "14-11-2024",
                 "opponent": "Groninger Combinatie VI",
@@ -1101,14 +1013,4574 @@
             }
         ],
         "opponent_ratings_raw": [
-            1611,
-            1694,
             1652,
             1551,
             1620,
             1678,
             1825
         ],
-        "avg_opponent_rating": 1661.5714285714287
+        "avg_opponent_rating": 1665.2
+    },
+    "Philidor 1847 2": {
+        "name": "Philidor 1847 2",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 15.0,
+        "board_points": 44.0,
+        "players": {
+            "1914776": {
+                "name": "Boer de, R. (Rein)",
+                "url": "https://knsb.netstand.nl/players/view/1914776"
+            },
+            "1907171": {
+                "name": "Boersma, J. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1907171"
+            },
+            "1907674": {
+                "name": "Etmans, M.D. (Maarten)",
+                "url": "https://knsb.netstand.nl/players/view/1907674"
+            },
+            "1916795": {
+                "name": "Heide van der, A. (Auke)",
+                "url": "https://knsb.netstand.nl/players/view/1916795"
+            },
+            "1908686": {
+                "name": "Heidinga, E. (Eelke)",
+                "url": "https://knsb.netstand.nl/players/view/1908686"
+            },
+            "1983697": {
+                "name": "Jaarsveld van, J. (Jitse)",
+                "url": "https://knsb.netstand.nl/players/view/1983697"
+            },
+            "1910453": {
+                "name": "Kruit, E.A. (Erik)",
+                "url": "https://knsb.netstand.nl/players/view/1910453"
+            },
+            "1930858": {
+                "name": "Roersma, D. (Dylan)",
+                "url": "https://knsb.netstand.nl/players/view/1930858"
+            },
+            "1909107": {
+                "name": "Schriemer, O. (Oene)",
+                "url": "https://knsb.netstand.nl/players/view/1909107"
+            },
+            "1911039": {
+                "name": "Vermaat, M.C. (Marcel)",
+                "url": "https://knsb.netstand.nl/players/view/1911039"
+            },
+            "1915254": {
+                "name": "Visscher, H. (Harmen)",
+                "url": "https://knsb.netstand.nl/players/view/1915254"
+            },
+            "1912527": {
+                "name": "Wind, E.T. (Egbert)",
+                "url": "https://knsb.netstand.nl/players/view/1912527"
+            },
+            "1928724": {
+                "name": "Wit de, E. (Evan)",
+                "url": "https://knsb.netstand.nl/players/view/1928724"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "HSP/Veendam 1",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "ESG Emmen 1",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Home",
+                "result": "5½- 2½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "Schaakwoude 2",
+                "location": "Home",
+                "result": "7- 1"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Tjonger Aa Linde 1",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "SISSA 1",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "O&O Kampen 1",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "10-05-2025",
+                "opponent": "SISSA 2",
+                "location": "Away",
+                "result": "2½ -5½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1975,
+            1915,
+            1918,
+            1856,
+            1882,
+            1989,
+            1984,
+            1955,
+            1833
+        ],
+        "avg_opponent_rating": 1923.0
+    },
+    "HSP/Veendam 1": {
+        "name": "HSP/Veendam 1",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 14.0,
+        "board_points": 41.5,
+        "players": {
+            "1911627": {
+                "name": "Bontjer, B. (Bernard)",
+                "url": "https://knsb.netstand.nl/players/view/1911627"
+            },
+            "1910021": {
+                "name": "Cliteur, O.P. (Olaf)",
+                "url": "https://knsb.netstand.nl/players/view/1910021"
+            },
+            "1913758": {
+                "name": "Havinga, B.J. (Johanan)",
+                "url": "https://knsb.netstand.nl/players/view/1913758"
+            },
+            "1910951": {
+                "name": "Heijnen, E.R. (Erwin)",
+                "url": "https://knsb.netstand.nl/players/view/1910951"
+            },
+            "1911134": {
+                "name": "Reintke, E. (Erwin)",
+                "url": "https://knsb.netstand.nl/players/view/1911134"
+            },
+            "1932863": {
+                "name": "Ridder de, H.P.L. (Henk)",
+                "url": "https://knsb.netstand.nl/players/view/1932863"
+            },
+            "1914562": {
+                "name": "Riksten, P.H. (Peter)",
+                "url": "https://knsb.netstand.nl/players/view/1914562"
+            },
+            "1913008": {
+                "name": "Scharft, J. (Johan)",
+                "url": "https://knsb.netstand.nl/players/view/1913008"
+            },
+            "1932334": {
+                "name": "Spijker, A. (Arend)",
+                "url": "https://knsb.netstand.nl/players/view/1932334"
+            },
+            "1913866": {
+                "name": "Sprik, S. (Sander)",
+                "url": "https://knsb.netstand.nl/players/view/1913866"
+            },
+            "1937480": {
+                "name": "Westerlaan, S. (Sander)",
+                "url": "https://knsb.netstand.nl/players/view/1937480"
+            },
+            "1913508": {
+                "name": "Wielenga, W. (Wiebe)",
+                "url": "https://knsb.netstand.nl/players/view/1913508"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "Philidor 1847 2",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "O&O Kampen 1",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "SISSA 2",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "SISSA 1",
+                "location": "Home",
+                "result": "5- 3"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "ESG Emmen 1",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Home",
+                "result": "5½- 2½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "Schaakwoude 2",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "10-05-2025",
+                "opponent": "Tjonger Aa Linde 1",
+                "location": "Home",
+                "result": "2½- 5½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            2043,
+            1935,
+            1879,
+            1989,
+            1914,
+            1933,
+            1862,
+            1890,
+            2004
+        ],
+        "avg_opponent_rating": 1938.7777777777778
+    },
+    "Tjonger Aa Linde 1": {
+        "name": "Tjonger Aa Linde 1",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 12.0,
+        "board_points": 41.0,
+        "players": {
+            "1912563": {
+                "name": "Abma, K. (Klaas)",
+                "url": "https://knsb.netstand.nl/players/view/1912563"
+            },
+            "1913342": {
+                "name": "Bavel van, F. (Ferdi)",
+                "url": "https://knsb.netstand.nl/players/view/1913342"
+            },
+            "1930482": {
+                "name": "Blok, X. (Xaveer)",
+                "url": "https://knsb.netstand.nl/players/view/1930482"
+            },
+            "1907849": {
+                "name": "Dijk van, H. (Henk)",
+                "url": "https://knsb.netstand.nl/players/view/1907849"
+            },
+            "1906875": {
+                "name": "Heite, H.R. (Remco)",
+                "url": "https://knsb.netstand.nl/players/view/1906875"
+            },
+            "1936229": {
+                "name": "Kemperman, J.G. (Hans)",
+                "url": "https://knsb.netstand.nl/players/view/1936229"
+            },
+            "1917204": {
+                "name": "Kompaan, R. (Rick)",
+                "url": "https://knsb.netstand.nl/players/view/1917204"
+            },
+            "1908287": {
+                "name": "Korver de, P. (Peter)",
+                "url": "https://knsb.netstand.nl/players/view/1908287"
+            },
+            "1942407": {
+                "name": "Popta van, H.D. (Hette)",
+                "url": "https://knsb.netstand.nl/players/view/1942407"
+            },
+            "1913766": {
+                "name": "Pragt, A. (Arjen)",
+                "url": "https://knsb.netstand.nl/players/view/1913766"
+            },
+            "1909473": {
+                "name": "Siblesz, J.T. (Tjeerd)",
+                "url": "https://knsb.netstand.nl/players/view/1909473"
+            },
+            "1911662": {
+                "name": "Stavast, D.W. (Dick)",
+                "url": "https://knsb.netstand.nl/players/view/1911662"
+            },
+            "1908323": {
+                "name": "Urk van, A. (Auke)",
+                "url": "https://knsb.netstand.nl/players/view/1908323"
+            },
+            "1912341": {
+                "name": "Velde, J. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1912341"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "ESG Emmen 1",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Home",
+                "result": "6½- 1½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Schaakwoude 2",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "SISSA 1",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Philidor 1847 2",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "O&O Kampen 1",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "SISSA 2",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "10-05-2025",
+                "opponent": "HSP/Veendam 1",
+                "location": "Away",
+                "result": "2½ -5½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1923,
+            1933,
+            1848,
+            1912,
+            1997,
+            1971,
+            1923,
+            1884,
+            1990
+        ],
+        "avg_opponent_rating": 1931.2222222222222
+    },
+    "O&O Kampen 1": {
+        "name": "O&O Kampen 1",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 7.0,
+        "board_points": 37.0,
+        "players": {
+            "1980289": {
+                "name": "Alsari, M. (Mohamed)",
+                "url": "https://knsb.netstand.nl/players/view/1980289"
+            },
+            "1913286": {
+                "name": "Bolhuis, P.A. (Piet)",
+                "url": "https://knsb.netstand.nl/players/view/1913286"
+            },
+            "1911489": {
+                "name": "Ekkel, R. (Ronald)",
+                "url": "https://knsb.netstand.nl/players/view/1911489"
+            },
+            "1910445": {
+                "name": "Ekkelboom, B. (Berd)",
+                "url": "https://knsb.netstand.nl/players/view/1910445"
+            },
+            "1921512": {
+                "name": "Ekkelboom, W. (Wout)",
+                "url": "https://knsb.netstand.nl/players/view/1921512"
+            },
+            "1914671": {
+                "name": "Kamphuis, B. (Barend)",
+                "url": "https://knsb.netstand.nl/players/view/1914671"
+            },
+            "1920223": {
+                "name": "Man, C. (Chico)",
+                "url": "https://knsb.netstand.nl/players/view/1920223"
+            },
+            "1913643": {
+                "name": "Mujkanovic, M. (Muharem)",
+                "url": "https://knsb.netstand.nl/players/view/1913643"
+            },
+            "1913778": {
+                "name": "Papoudis, B. (Basilios)",
+                "url": "https://knsb.netstand.nl/players/view/1913778"
+            },
+            "1922531": {
+                "name": "Quilligan, D. (David)",
+                "url": "https://knsb.netstand.nl/players/view/1922531"
+            },
+            "1910214": {
+                "name": "Redeker, J.B. (Johan)",
+                "url": "https://knsb.netstand.nl/players/view/1910214"
+            },
+            "1911026": {
+                "name": "Spoelstra, H.C. (Hans)",
+                "url": "https://knsb.netstand.nl/players/view/1911026"
+            },
+            "1914673": {
+                "name": "Vierhuis, R.G.A. (Ronald)",
+                "url": "https://knsb.netstand.nl/players/view/1914673"
+            },
+            "1912400": {
+                "name": "Visscher, J. (Jarno)",
+                "url": "https://knsb.netstand.nl/players/view/1912400"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "SISSA 2",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "HSP/Veendam 1",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "ESG Emmen 1",
+                "location": "Home",
+                "result": "6- 2"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Schaakwoude 2",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "Tjonger Aa Linde 1",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "Philidor 1847 2",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "10-05-2025",
+                "opponent": "SISSA 1",
+                "location": "Home",
+                "result": "2½- 5½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1874,
+            1967,
+            1915,
+            1928,
+            1850,
+            1890,
+            1990,
+            2036,
+            1913
+        ],
+        "avg_opponent_rating": 1929.2222222222222
+    },
+    "Groninger Combinatie 4": {
+        "name": "Groninger Combinatie 4",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 7.0,
+        "board_points": 34.0,
+        "players": {
+            "1908227": {
+                "name": "Beersum van, W. (Wim)",
+                "url": "https://knsb.netstand.nl/players/view/1908227"
+            },
+            "1909179": {
+                "name": "Bodewes, P.M. (Peter)",
+                "url": "https://knsb.netstand.nl/players/view/1909179"
+            },
+            "1916940": {
+                "name": "Clarenburg, E. (Ewout)",
+                "url": "https://knsb.netstand.nl/players/view/1916940"
+            },
+            "1911149": {
+                "name": "Hamond van, A.H.M. (Fons)",
+                "url": "https://knsb.netstand.nl/players/view/1911149"
+            },
+            "1940265": {
+                "name": "Jakovlev, S. (Saveliy)",
+                "url": "https://knsb.netstand.nl/players/view/1940265"
+            },
+            "1936631": {
+                "name": "Jovanovic, L. (Luka)",
+                "url": "https://knsb.netstand.nl/players/view/1936631"
+            },
+            "1916156": {
+                "name": "Klooster, J. (Jim)",
+                "url": "https://knsb.netstand.nl/players/view/1916156"
+            },
+            "1910750": {
+                "name": "Poel van de, T. (Taco)",
+                "url": "https://knsb.netstand.nl/players/view/1910750"
+            },
+            "1912360": {
+                "name": "Potze, R.H. (Rudolf)",
+                "url": "https://knsb.netstand.nl/players/view/1912360"
+            },
+            "1914835": {
+                "name": "Schippers, P.X. (Philippe)",
+                "url": "https://knsb.netstand.nl/players/view/1914835"
+            },
+            "1931229": {
+                "name": "Schoutens, G.E.M. (Gijs)",
+                "url": "https://knsb.netstand.nl/players/view/1931229"
+            },
+            "1919068": {
+                "name": "Spears, R. (Russell)",
+                "url": "https://knsb.netstand.nl/players/view/1919068"
+            },
+            "1922906": {
+                "name": "Sweet, S.A. (Sandro)",
+                "url": "https://knsb.netstand.nl/players/view/1922906"
+            },
+            "1908233": {
+                "name": "Westerkamp, B. (Bert)",
+                "url": "https://knsb.netstand.nl/players/view/1908233"
+            },
+            "1913863": {
+                "name": "Yakinsyah, K. (Kawar)",
+                "url": "https://knsb.netstand.nl/players/view/1913863"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "Schaakwoude 2",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "Tjonger Aa Linde 1",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "Philidor 1847 2",
+                "location": "Away",
+                "result": "5½ -2½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "O&O Kampen 1",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "SISSA 2",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "HSP/Veendam 1",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "ESG Emmen 1",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "SISSA 1",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "01-02-2025",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Home",
+                "result": "6- 2"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1891,
+            1990,
+            2038,
+            1935,
+            1886,
+            1973,
+            1911,
+            1945,
+            1840
+        ],
+        "avg_opponent_rating": 1934.3333333333333
+    },
+    "ESG Emmen 1": {
+        "name": "ESG Emmen 1",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 7.0,
+        "board_points": 32.5,
+        "players": {
+            "1913586": {
+                "name": "Brinks, J.W. (Jan Willem)",
+                "url": "https://knsb.netstand.nl/players/view/1913586"
+            },
+            "1933161": {
+                "name": "Dijkstra, T.C. (Theo)",
+                "url": "https://knsb.netstand.nl/players/view/1933161"
+            },
+            "1938635": {
+                "name": "Dubbeldam, S. (Stef)",
+                "url": "https://knsb.netstand.nl/players/view/1938635"
+            },
+            "1907188": {
+                "name": "Fokkens, W.G. (Wim)",
+                "url": "https://knsb.netstand.nl/players/view/1907188"
+            },
+            "1937088": {
+                "name": "Hondema, E.C. (Evert)",
+                "url": "https://knsb.netstand.nl/players/view/1937088"
+            },
+            "1937231": {
+                "name": "Hoogeveen, R. (Rienk)",
+                "url": "https://knsb.netstand.nl/players/view/1937231"
+            },
+            "1913565": {
+                "name": "Os van, B. (Bastiaan)",
+                "url": "https://knsb.netstand.nl/players/view/1913565"
+            },
+            "1907230": {
+                "name": "Os van, J.C. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1907230"
+            },
+            "1920767": {
+                "name": "Sarkisyan, S. (Sergei)",
+                "url": "https://knsb.netstand.nl/players/view/1920767"
+            },
+            "1938954": {
+                "name": "Smit, H. (Hans)",
+                "url": "https://knsb.netstand.nl/players/view/1938954"
+            },
+            "1914884": {
+                "name": "Struik, M. (Marcel)",
+                "url": "https://knsb.netstand.nl/players/view/1914884"
+            },
+            "1907495": {
+                "name": "Többen, D.Y. (Douwe)",
+                "url": "https://knsb.netstand.nl/players/view/1907495"
+            },
+            "1909202": {
+                "name": "Voss, J.H. (Herman)",
+                "url": "https://knsb.netstand.nl/players/view/1909202"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "Philidor 1847 2",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "O&O Kampen 1",
+                "location": "Away",
+                "result": "6 -2"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "SISSA 2",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "HSP/Veendam 1",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "SISSA 1",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "10-05-2025",
+                "opponent": "Schaakwoude 2",
+                "location": "Home",
+                "result": "3- 5"
+            }
+        ],
+        "opponent_ratings_raw": [
+            2043,
+            1926,
+            1865,
+            1930,
+            1968,
+            1931,
+            1858,
+            1878
+        ],
+        "avg_opponent_rating": 1924.875
+    },
+    "Groninger Combinatie 5": {
+        "name": "Groninger Combinatie 5",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 5.0,
+        "board_points": 28.5,
+        "players": {
+            "1907840": {
+                "name": "Bosveld, H.E.P. (Henk)",
+                "url": "https://knsb.netstand.nl/players/view/1907840"
+            },
+            "1921669": {
+                "name": "Houtsma, J. (Jouke)",
+                "url": "https://knsb.netstand.nl/players/view/1921669"
+            },
+            "1919713": {
+                "name": "Huisstede van, A. (Alex)",
+                "url": "https://knsb.netstand.nl/players/view/1919713"
+            },
+            "1910794": {
+                "name": "Huizinga, E.M. (Egbert)",
+                "url": "https://knsb.netstand.nl/players/view/1910794"
+            },
+            "1908406": {
+                "name": "Karsdorp, G.N. (Nico)",
+                "url": "https://knsb.netstand.nl/players/view/1908406"
+            },
+            "1908252": {
+                "name": "Kunnen, R. (Ruurd)",
+                "url": "https://knsb.netstand.nl/players/view/1908252"
+            },
+            "1922967": {
+                "name": "Landman, T. (Chelvan)",
+                "url": "https://knsb.netstand.nl/players/view/1922967"
+            },
+            "1916818": {
+                "name": "Loos, E.J.T. (Tim)",
+                "url": "https://knsb.netstand.nl/players/view/1916818"
+            },
+            "1913861": {
+                "name": "Meer van der, H.J. (Henk)",
+                "url": "https://knsb.netstand.nl/players/view/1913861"
+            },
+            "1919068": {
+                "name": "Spears, R. (Russell)",
+                "url": "https://knsb.netstand.nl/players/view/1919068"
+            },
+            "1922906": {
+                "name": "Sweet, S.A. (Sandro)",
+                "url": "https://knsb.netstand.nl/players/view/1922906"
+            },
+            "1932339": {
+                "name": "Wijbenga, F.H. (Frits)",
+                "url": "https://knsb.netstand.nl/players/view/1932339"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "SISSA 1",
+                "location": "Away",
+                "result": "5 -3"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "Schaakwoude 2",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "Tjonger Aa Linde 1",
+                "location": "Away",
+                "result": "6½ -1½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Philidor 1847 2",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "O&O Kampen 1",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "SISSA 2",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "HSP/Veendam 1",
+                "location": "Away",
+                "result": "5½ -2½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "ESG Emmen 1",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "01-02-2025",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Away",
+                "result": "6 -2"
+            }
+        ],
+        "opponent_ratings_raw": [
+            2001,
+            1900,
+            1991,
+            1984,
+            1940,
+            1886,
+            1968,
+            1911,
+            1937
+        ],
+        "avg_opponent_rating": 1946.4444444444443
+    },
+    "Schaakwoude 2": {
+        "name": "Schaakwoude 2",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/511",
+        "match_points": 3.0,
+        "board_points": 25.5,
+        "players": {
+            "1908156": {
+                "name": "Banning, C. (Cees)",
+                "url": "https://knsb.netstand.nl/players/view/1908156"
+            },
+            "1913604": {
+                "name": "Drijver, E. (Evert)",
+                "url": "https://knsb.netstand.nl/players/view/1913604"
+            },
+            "1913392": {
+                "name": "Heide van der, G. (Gerben)",
+                "url": "https://knsb.netstand.nl/players/view/1913392"
+            },
+            "1911531": {
+                "name": "Heide van der, H. (Henk)",
+                "url": "https://knsb.netstand.nl/players/view/1911531"
+            },
+            "1943322": {
+                "name": "Heikamp, H. (Hendrik)",
+                "url": "https://knsb.netstand.nl/players/view/1943322"
+            },
+            "1912154": {
+                "name": "Houpst, C.H.J. (Christiaan)",
+                "url": "https://knsb.netstand.nl/players/view/1912154"
+            },
+            "1910555": {
+                "name": "Nicolai, L. (Leffert)",
+                "url": "https://knsb.netstand.nl/players/view/1910555"
+            },
+            "1916465": {
+                "name": "Postma, P. (Pieter)",
+                "url": "https://knsb.netstand.nl/players/view/1916465"
+            },
+            "1912695": {
+                "name": "Ros, G. (Gerke)",
+                "url": "https://knsb.netstand.nl/players/view/1912695"
+            },
+            "1919589": {
+                "name": "Torensma, C. (Christian)",
+                "url": "https://knsb.netstand.nl/players/view/1919589"
+            },
+            "1908140": {
+                "name": "Torensma, J. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1908140"
+            },
+            "1914494": {
+                "name": "Veenstra, M. (Menno)",
+                "url": "https://knsb.netstand.nl/players/view/1914494"
+            },
+            "1915038": {
+                "name": "Verf, F. (Fedde)",
+                "url": "https://knsb.netstand.nl/players/view/1915038"
+            },
+            "1915692": {
+                "name": "Vroom, B. (Bauke)",
+                "url": "https://knsb.netstand.nl/players/view/1915692"
+            },
+            "1937783": {
+                "name": "Zwart de, J.J. (Jelle-Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1937783"
+            }
+        },
+        "matches": [
+            {
+                "date": "21-09-2024",
+                "opponent": "Groninger Combinatie 4",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "12-10-2024",
+                "opponent": "Groninger Combinatie 5",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "SISSA 1",
+                "location": "Away",
+                "result": "8 -0"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Tjonger Aa Linde 1",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "Philidor 1847 2",
+                "location": "Away",
+                "result": "7 -1"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "O&O Kampen 1",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "SISSA 2",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "HSP/Veendam 1",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "10-05-2025",
+                "opponent": "ESG Emmen 1",
+                "location": "Away",
+                "result": "3 -5"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1914,
+            1849,
+            1983,
+            1991,
+            2043,
+            1955,
+            1881,
+            1983,
+            1876
+        ],
+        "avg_opponent_rating": 1941.6666666666667
+    },
+    "Philidor 1847 3": {
+        "name": "Philidor 1847 3",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
+        "match_points": 14.0,
+        "board_points": 35.0,
+        "players": {
+            "1931408": {
+                "name": "Botter, S. (Simon)",
+                "url": "https://knsb.netstand.nl/players/view/1931408"
+            },
+            "1934641": {
+                "name": "Brinksma, P. (Pieter)",
+                "url": "https://knsb.netstand.nl/players/view/1934641"
+            },
+            "1907779": {
+                "name": "Eijk van, S.G. (Siem)",
+                "url": "https://knsb.netstand.nl/players/view/1907779"
+            },
+            "1908686": {
+                "name": "Heidinga, E. (Eelke)",
+                "url": "https://knsb.netstand.nl/players/view/1908686"
+            },
+            "1913459": {
+                "name": "Hoekstra, P. (Pieter)",
+                "url": "https://knsb.netstand.nl/players/view/1913459"
+            },
+            "1983697": {
+                "name": "Jaarsveld van, J. (Jitse)",
+                "url": "https://knsb.netstand.nl/players/view/1983697"
+            },
+            "1908171": {
+                "name": "Jong de, S.F.J. (Siegbert)",
+                "url": "https://knsb.netstand.nl/players/view/1908171"
+            },
+            "1910453": {
+                "name": "Kruit, E.A. (Erik)",
+                "url": "https://knsb.netstand.nl/players/view/1910453"
+            },
+            "1917250": {
+                "name": "Maanen van, L. (Leo)",
+                "url": "https://knsb.netstand.nl/players/view/1917250"
+            },
+            "1917254": {
+                "name": "Ploeger, P. (Pieter)",
+                "url": "https://knsb.netstand.nl/players/view/1917254"
+            },
+            "1930858": {
+                "name": "Roersma, D. (Dylan)",
+                "url": "https://knsb.netstand.nl/players/view/1930858"
+            },
+            "1910554": {
+                "name": "Stegeman, D. (Derk)",
+                "url": "https://knsb.netstand.nl/players/view/1910554"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "Assen 3",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "ESG Emmen 2",
+                "location": "Home",
+                "result": "5½- 2½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Groninger Combinatie 7",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "Hoogeveen 2",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Tjonger Aa Linde 3",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "SISSA 4",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "SISSA 3",
+                "location": "Home",
+                "result": "5- 3"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1667,
+            1730,
+            1662,
+            1778,
+            1719,
+            1695,
+            1745
+        ],
+        "avg_opponent_rating": 1713.7142857142858
+    },
+    "Hoogeveen 2": {
+        "name": "Hoogeveen 2",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
+        "match_points": 10.0,
+        "board_points": 31.0,
+        "players": {
+            "1913007": {
+                "name": "Amerongen van, F. (Frans)",
+                "url": "https://knsb.netstand.nl/players/view/1913007"
+            },
+            "1928343": {
+                "name": "Benjamins, S.J.P. (Sander)",
+                "url": "https://knsb.netstand.nl/players/view/1928343"
+            },
+            "1985773": {
+                "name": "Boertien, P. (Preston)",
+                "url": "https://knsb.netstand.nl/players/view/1985773"
+            },
+            "1915270": {
+                "name": "Bottema, J. (Jeroen)",
+                "url": "https://knsb.netstand.nl/players/view/1915270"
+            },
+            "1921286": {
+                "name": "Bottema, M. (Mila)",
+                "url": "https://knsb.netstand.nl/players/view/1921286"
+            },
+            "1937254": {
+                "name": "Broertjes, S.G. (Stephan)",
+                "url": "https://knsb.netstand.nl/players/view/1937254"
+            },
+            "1909412": {
+                "name": "Danker, R.J. (Rudi)",
+                "url": "https://knsb.netstand.nl/players/view/1909412"
+            },
+            "1919263": {
+                "name": "Dool van den, G. (Gerrit)",
+                "url": "https://knsb.netstand.nl/players/view/1919263"
+            },
+            "1991863": {
+                "name": "Friele, H. (Huub)",
+                "url": "https://knsb.netstand.nl/players/view/1991863"
+            },
+            "2031237": {
+                "name": "Goossens, K. (Kamiel)",
+                "url": "https://knsb.netstand.nl/players/view/2031237"
+            },
+            "1938445": {
+                "name": "Hanouwer, I. (Iroy)",
+                "url": "https://knsb.netstand.nl/players/view/1938445"
+            },
+            "1914597": {
+                "name": "Limani, E.L. (Elez)",
+                "url": "https://knsb.netstand.nl/players/view/1914597"
+            },
+            "1919527": {
+                "name": "Lok, R. (Roan)",
+                "url": "https://knsb.netstand.nl/players/view/1919527"
+            },
+            "1918382": {
+                "name": "Spaans, L. (Leo)",
+                "url": "https://knsb.netstand.nl/players/view/1918382"
+            },
+            "1938841": {
+                "name": "Vegt van der, E. (Els)",
+                "url": "https://knsb.netstand.nl/players/view/1938841"
+            },
+            "1932358": {
+                "name": "Witkamp, R. (Remy)",
+                "url": "https://knsb.netstand.nl/players/view/1932358"
+            },
+            "1909868": {
+                "name": "Witkamp, T.F. (Theo)",
+                "url": "https://knsb.netstand.nl/players/view/1909868"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "Groninger Combinatie 7",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "SISSA 4",
+                "location": "Away",
+                "result": "2 -6"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Tjonger Aa Linde 3",
+                "location": "Home",
+                "result": "5- 3"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "Philidor 1847 3",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "SISSA 3",
+                "location": "Home",
+                "result": "2- 6"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "Assen 3",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "ESG Emmen 2",
+                "location": "Home",
+                "result": "4½- 3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1713,
+            1734,
+            1754,
+            1787,
+            1748,
+            1652,
+            1746
+        ],
+        "avg_opponent_rating": 1733.4285714285713
+    },
+    "Groninger Combinatie 7": {
+        "name": "Groninger Combinatie 7",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
+        "match_points": 4.0,
+        "board_points": 27.0,
+        "players": {
+            "1938388": {
+                "name": "Almefalani, A. (Abdulhay)",
+                "url": "https://knsb.netstand.nl/players/view/1938388"
+            },
+            "1987315": {
+                "name": "Helder, D. (David)",
+                "url": "https://knsb.netstand.nl/players/view/1987315"
+            },
+            "1935695": {
+                "name": "Jong de, D.G. (Daniël Gerard)",
+                "url": "https://knsb.netstand.nl/players/view/1935695"
+            },
+            "1922353": {
+                "name": "Kempenaar, J. (Jane)",
+                "url": "https://knsb.netstand.nl/players/view/1922353"
+            },
+            "1917163": {
+                "name": "Kok, E. (Erwin)",
+                "url": "https://knsb.netstand.nl/players/view/1917163"
+            },
+            "1913302": {
+                "name": "Krijnen, W. (Wim)",
+                "url": "https://knsb.netstand.nl/players/view/1913302"
+            },
+            "1918298": {
+                "name": "Luijmes, H.W. (Henk)",
+                "url": "https://knsb.netstand.nl/players/view/1918298"
+            },
+            "1984195": {
+                "name": "Ma, Y.H. (Ying Hao)",
+                "url": "https://knsb.netstand.nl/players/view/1984195"
+            },
+            "1941854": {
+                "name": "Noort van, C.P. (Cas)",
+                "url": "https://knsb.netstand.nl/players/view/1941854"
+            },
+            "1940909": {
+                "name": "Oost van, B. (Bart)",
+                "url": "https://knsb.netstand.nl/players/view/1940909"
+            },
+            "1938389": {
+                "name": "Plumart, L. (Lloyd)",
+                "url": "https://knsb.netstand.nl/players/view/1938389"
+            },
+            "1922904": {
+                "name": "Schreuder, E.R. (Edwin)",
+                "url": "https://knsb.netstand.nl/players/view/1922904"
+            },
+            "1980967": {
+                "name": "Schuttevaer, T. (Tim)",
+                "url": "https://knsb.netstand.nl/players/view/1980967"
+            },
+            "1980091": {
+                "name": "Stultiens, W. (Wouter)",
+                "url": "https://knsb.netstand.nl/players/view/1980091"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "Hoogeveen 2",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "11-01-2025",
+                "opponent": "Tjonger Aa Linde 3",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Philidor 1847 3",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "SISSA 3",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Assen 3",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "ESG Emmen 2",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "SISSA 4",
+                "location": "Home",
+                "result": "3- 5"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1734,
+            1731,
+            1778,
+            1761,
+            1694,
+            1695,
+            1728
+        ],
+        "avg_opponent_rating": 1731.5714285714287
+    },
+    "ESG Emmen 2": {
+        "name": "ESG Emmen 2",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
+        "match_points": 4.0,
+        "board_points": 25.0,
+        "players": {
+            "1924684": {
+                "name": "Dokter, L. (Lars)",
+                "url": "https://knsb.netstand.nl/players/view/1924684"
+            },
+            "1940980": {
+                "name": "Kyriacou, T. (Toby)",
+                "url": "https://knsb.netstand.nl/players/view/1940980"
+            },
+            "1921336": {
+                "name": "Meijeringh, A. (Arjen)",
+                "url": "https://knsb.netstand.nl/players/view/1921336"
+            },
+            "1937349": {
+                "name": "Nutterts, G. (Gert)",
+                "url": "https://knsb.netstand.nl/players/view/1937349"
+            },
+            "1942912": {
+                "name": "Oosten van, K. (Kevin)",
+                "url": "https://knsb.netstand.nl/players/view/1942912"
+            },
+            "1913565": {
+                "name": "Os van, B. (Bastiaan)",
+                "url": "https://knsb.netstand.nl/players/view/1913565"
+            },
+            "1907230": {
+                "name": "Os van, J.C. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1907230"
+            },
+            "1920767": {
+                "name": "Sarkisyan, S. (Sergei)",
+                "url": "https://knsb.netstand.nl/players/view/1920767"
+            },
+            "1911492": {
+                "name": "Selten, A.W.M. (Ton)",
+                "url": "https://knsb.netstand.nl/players/view/1911492"
+            },
+            "1939114": {
+                "name": "Spoelman, L.A. (Lefert)",
+                "url": "https://knsb.netstand.nl/players/view/1939114"
+            },
+            "1923287": {
+                "name": "Tabak, W. (Wesley)",
+                "url": "https://knsb.netstand.nl/players/view/1923287"
+            },
+            "1907818": {
+                "name": "Werter, P.G.A.J. (Flip)",
+                "url": "https://knsb.netstand.nl/players/view/1907818"
+            },
+            "1912781": {
+                "name": "Wieren van, J. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1912781"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "Tjonger Aa Linde 3",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "Philidor 1847 3",
+                "location": "Away",
+                "result": "5½ -2½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "SISSA 3",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "Assen 3",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "SISSA 4",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "Groninger Combinatie 7",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "Hoogeveen 2",
+                "location": "Away",
+                "result": "4½ -3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1712,
+            1787,
+            1761,
+            1690,
+            1732,
+            1691,
+            1701
+        ],
+        "avg_opponent_rating": 1724.857142857143
+    },
+    "Tjonger Aa Linde 3": {
+        "name": "Tjonger Aa Linde 3",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
+        "match_points": 4.0,
+        "board_points": 24.5,
+        "players": {
+            "1916675": {
+                "name": "Hassing, A.A. (Bert)",
+                "url": "https://knsb.netstand.nl/players/view/1916675"
+            },
+            "1919340": {
+                "name": "Heidinga, F. (Frits)",
+                "url": "https://knsb.netstand.nl/players/view/1919340"
+            },
+            "1906875": {
+                "name": "Heite, H.R. (Remco)",
+                "url": "https://knsb.netstand.nl/players/view/1906875"
+            },
+            "1933773": {
+                "name": "Klinkers, R.L. (Roelof)",
+                "url": "https://knsb.netstand.nl/players/view/1933773"
+            },
+            "1918062": {
+                "name": "Kreulen, R. (Roel)",
+                "url": "https://knsb.netstand.nl/players/view/1918062"
+            },
+            "1933028": {
+                "name": "Kuiters, R. (Ramon)",
+                "url": "https://knsb.netstand.nl/players/view/1933028"
+            },
+            "1937097": {
+                "name": "Kurstjens, T. (Tim)",
+                "url": "https://knsb.netstand.nl/players/view/1937097"
+            },
+            "1923449": {
+                "name": "Lapka, P. (Pawel)",
+                "url": "https://knsb.netstand.nl/players/view/1923449"
+            },
+            "1941345": {
+                "name": "Liefting, Y. (Yannick)",
+                "url": "https://knsb.netstand.nl/players/view/1941345"
+            },
+            "1927468": {
+                "name": "Ponne, A. (Anton)",
+                "url": "https://knsb.netstand.nl/players/view/1927468"
+            },
+            "2070352": {
+                "name": "Saarloos van, J.R. (Jillis)",
+                "url": "https://knsb.netstand.nl/players/view/2070352"
+            },
+            "1935214": {
+                "name": "Sassen, P. (Pelle)",
+                "url": "https://knsb.netstand.nl/players/view/1935214"
+            },
+            "1907177": {
+                "name": "Schoenmaker, G.S. (Gerrit)",
+                "url": "https://knsb.netstand.nl/players/view/1907177"
+            },
+            "1910137": {
+                "name": "Wassenaar, J.M. (Meine)",
+                "url": "https://knsb.netstand.nl/players/view/1910137"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "ESG Emmen 2",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "11-01-2025",
+                "opponent": "Groninger Combinatie 7",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "Hoogeveen 2",
+                "location": "Away",
+                "result": "5 -3"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "SISSA 4",
+                "location": "Away",
+                "result": "5½ -2½"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Philidor 1847 3",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "SISSA 3",
+                "location": "Away",
+                "result": "6 -2"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "Assen 3",
+                "location": "Home",
+                "result": "6- 2"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1674,
+            1688,
+            1748,
+            1742,
+            1814,
+            1760,
+            1670
+        ],
+        "avg_opponent_rating": 1728.0
+    },
+    "Assen 3": {
+        "name": "Assen 3",
+        "federation": "KNSB",
+        "division_url": "https://knsb.netstand.nl/divisions/view/534",
+        "match_points": 4.0,
+        "board_points": 21.0,
+        "players": {
+            "1923705": {
+                "name": "Akkerman, J. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1923705"
+            },
+            "1910257": {
+                "name": "Boer, J. (Jan)",
+                "url": "https://knsb.netstand.nl/players/view/1910257"
+            },
+            "1936735": {
+                "name": "Bruins, N.E. (Nena)",
+                "url": "https://knsb.netstand.nl/players/view/1936735"
+            },
+            "1909706": {
+                "name": "Dijkstra, J.S.J. (Jacob)",
+                "url": "https://knsb.netstand.nl/players/view/1909706"
+            },
+            "1928479": {
+                "name": "Dijkstra, W. (Wessel)",
+                "url": "https://knsb.netstand.nl/players/view/1928479"
+            },
+            "1917503": {
+                "name": "Faber, A. (Ab)",
+                "url": "https://knsb.netstand.nl/players/view/1917503"
+            },
+            "1922017": {
+                "name": "Faber, R. (Rients)",
+                "url": "https://knsb.netstand.nl/players/view/1922017"
+            },
+            "1928094": {
+                "name": "Faber, S. (Stijn)",
+                "url": "https://knsb.netstand.nl/players/view/1928094"
+            },
+            "1941280": {
+                "name": "Groen, J.J. (Jorn)",
+                "url": "https://knsb.netstand.nl/players/view/1941280"
+            },
+            "1916208": {
+                "name": "Hashemy, M. (Majid)",
+                "url": "https://knsb.netstand.nl/players/view/1916208"
+            },
+            "1921489": {
+                "name": "Huijsman, F. (Fred)",
+                "url": "https://knsb.netstand.nl/players/view/1921489"
+            },
+            "1911779": {
+                "name": "Jonkheer, M. (Marco)",
+                "url": "https://knsb.netstand.nl/players/view/1911779"
+            },
+            "1937026": {
+                "name": "Kozhukhov, A. (Andrii)",
+                "url": "https://knsb.netstand.nl/players/view/1937026"
+            },
+            "1933469": {
+                "name": "Loots, J. (Johan)",
+                "url": "https://knsb.netstand.nl/players/view/1933469"
+            },
+            "1940886": {
+                "name": "Ploeg van der, M. (Marco)",
+                "url": "https://knsb.netstand.nl/players/view/1940886"
+            },
+            "1940471": {
+                "name": "Posthuma, H. (Hiltjo)",
+                "url": "https://knsb.netstand.nl/players/view/1940471"
+            },
+            "1913329": {
+                "name": "Spriensma, M. (Martinus)",
+                "url": "https://knsb.netstand.nl/players/view/1913329"
+            },
+            "1908820": {
+                "name": "Werff van der, C. (Cor)",
+                "url": "https://knsb.netstand.nl/players/view/1908820"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-10-2024",
+                "opponent": "Philidor 1847 3",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "09-11-2024",
+                "opponent": "SISSA 3",
+                "location": "Away",
+                "result": "7 -1"
+            },
+            {
+                "date": "23-11-2024",
+                "opponent": "SISSA 4",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "14-12-2024",
+                "opponent": "ESG Emmen 2",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "08-02-2025",
+                "opponent": "Groninger Combinatie 7",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "08-03-2025",
+                "opponent": "Hoogeveen 2",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "05-04-2025",
+                "opponent": "Tjonger Aa Linde 3",
+                "location": "Away",
+                "result": "6 -2"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1764,
+            1768,
+            1695,
+            1789,
+            1654,
+            1730,
+            1747
+        ],
+        "avg_opponent_rating": 1735.2857142857142
+    },
+    "Groninger Combinatie I": {
+        "name": "Groninger Combinatie I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/72",
+        "match_points": 4.0,
+        "board_points": 12.5,
+        "players": {
+            "320367": {
+                "name": "Foreest van, M. (Machteld)",
+                "url": "https://nosbo.netstand.nl/players/view/320367"
+            },
+            "320639": {
+                "name": "Foreest van, N. (Nanne)",
+                "url": "https://nosbo.netstand.nl/players/view/320639"
+            },
+            "320516": {
+                "name": "Hagen van der, L.G.J. (Loek)",
+                "url": "https://nosbo.netstand.nl/players/view/320516"
+            },
+            "313556": {
+                "name": "Hendriks, P.A. (Peter)",
+                "url": "https://nosbo.netstand.nl/players/view/313556"
+            },
+            "324918": {
+                "name": "Landman, T. (Chelvan)",
+                "url": "https://nosbo.netstand.nl/players/view/324918"
+            },
+            "343699": {
+                "name": "Mostertman, M.M. (Milan)",
+                "url": "https://nosbo.netstand.nl/players/view/343699"
+            },
+            "316973": {
+                "name": "Mostertman, X.V. (Xander)",
+                "url": "https://nosbo.netstand.nl/players/view/316973"
+            },
+            "316610": {
+                "name": "Schippers, M. (Maurice)",
+                "url": "https://nosbo.netstand.nl/players/view/316610"
+            },
+            "316786": {
+                "name": "Schippers, P.X. (Philippe)",
+                "url": "https://nosbo.netstand.nl/players/view/316786"
+            },
+            "324855": {
+                "name": "Schreuder, E.R. (Edwin)",
+                "url": "https://nosbo.netstand.nl/players/view/324855"
+            },
+            "324857": {
+                "name": "Sweet, S.A. (Sandro)",
+                "url": "https://nosbo.netstand.nl/players/view/324857"
+            },
+            "314747": {
+                "name": "Boer, A. (Alef)",
+                "url": "https://nosbo.netstand.nl/players/view/314747"
+            },
+            "334746": {
+                "name": "Brouwers, C. (Carmen)",
+                "url": "https://nosbo.netstand.nl/players/view/334746"
+            },
+            "318107": {
+                "name": "Klooster, J. (Jim)",
+                "url": "https://nosbo.netstand.nl/players/view/318107"
+            },
+            "334121": {
+                "name": "Mostertman, O.J.T. (Olav)",
+                "url": "https://nosbo.netstand.nl/players/view/334121"
+            },
+            "339160": {
+                "name": "Slagboom, L. (Leandro)",
+                "url": "https://nosbo.netstand.nl/players/view/339160"
+            },
+            "317305": {
+                "name": "Warmelink, E. (Evie)",
+                "url": "https://nosbo.netstand.nl/players/view/317305"
+            }
+        },
+        "matches": [
+            {
+                "date": "10-04-2025",
+                "opponent": "Groninger Combinatie II",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "15-05-2025",
+                "opponent": "SISSA I",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "14-11-2024",
+                "opponent": "Groninger Combinatie III",
+                "location": "Away",
+                "result": "1 -7"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "Assen I",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "21-01-2025",
+                "opponent": "Hoogeveen I",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "SISSA II",
+                "location": "Home",
+                "result": "7½- ½"
+            },
+            {
+                "date": "03-03-2025",
+                "opponent": "ESG I",
+                "location": "Away",
+                "result": "1½ -6½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1982,
+            2023,
+            1802,
+            1891,
+            1869,
+            1838,
+            1899
+        ],
+        "avg_opponent_rating": 1900.5714285714287
+    },
+    "Groninger Combinatie II": {
+        "name": "Groninger Combinatie II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/72",
+        "match_points": 2.0,
+        "board_points": 13.0,
+        "players": {
+            "340339": {
+                "name": "Almefalani, A. (Abdulhay)",
+                "url": "https://nosbo.netstand.nl/players/view/340339"
+            },
+            "311564": {
+                "name": "Clemens, A.H.P. (Adrian)",
+                "url": "https://nosbo.netstand.nl/players/view/311564"
+            },
+            "313556": {
+                "name": "Hendriks, P.A. (Peter)",
+                "url": "https://nosbo.netstand.nl/players/view/313556"
+            },
+            "323620": {
+                "name": "Houtsma, J. (Jouke)",
+                "url": "https://nosbo.netstand.nl/players/view/323620"
+            },
+            "326340": {
+                "name": "Huiskes, M. (Mathijs)",
+                "url": "https://nosbo.netstand.nl/players/view/326340"
+            },
+            "342216": {
+                "name": "Jakovlev, S. (Saveliy)",
+                "url": "https://nosbo.netstand.nl/players/view/342216"
+            },
+            "344021": {
+                "name": "Knol, G.J. (Geon)",
+                "url": "https://nosbo.netstand.nl/players/view/344021"
+            },
+            "317439": {
+                "name": "Pellikaan, G.B. (Govert)",
+                "url": "https://nosbo.netstand.nl/players/view/317439"
+            },
+            "312701": {
+                "name": "Poel van de, T. (Taco)",
+                "url": "https://nosbo.netstand.nl/players/view/312701"
+            },
+            "344366": {
+                "name": "Schuttevaer, T. (Tim)",
+                "url": "https://nosbo.netstand.nl/players/view/344366"
+            },
+            "312731": {
+                "name": "Zuiderweg, E. (Edwin)",
+                "url": "https://nosbo.netstand.nl/players/view/312731"
+            },
+            "338582": {
+                "name": "Jovanovic, L. (Luka)",
+                "url": "https://nosbo.netstand.nl/players/view/338582"
+            },
+            "315812": {
+                "name": "Meer van der, H.J. (Henk)",
+                "url": "https://nosbo.netstand.nl/players/view/315812"
+            },
+            "324855": {
+                "name": "Schreuder, E.R. (Edwin)",
+                "url": "https://nosbo.netstand.nl/players/view/324855"
+            },
+            "334290": {
+                "name": "Wijbenga, F.H. (Frits)",
+                "url": "https://nosbo.netstand.nl/players/view/334290"
+            }
+        },
+        "matches": [
+            {
+                "date": "10-04-2025",
+                "opponent": "Groninger Combinatie I",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "16-05-2025",
+                "opponent": "Assen I",
+                "location": "Away",
+                "result": "2 -6"
+            },
+            {
+                "date": "14-11-2024",
+                "opponent": "Lewenborg I",
+                "location": "Home",
+                "result": "6- 2"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "SISSA I",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "23-01-2025",
+                "opponent": "HSP/Veendam I",
+                "location": "Home",
+                "result": "5- 3"
+            },
+            {
+                "date": "07-02-2025",
+                "opponent": "Van der Linde I",
+                "location": "Away",
+                "result": "1 -7"
+            },
+            {
+                "date": "06-03-2025",
+                "opponent": "Leek I",
+                "location": "Home",
+                "result": "6- 2"
+            }
+        ],
+        "opponent_ratings_raw": [
+            2007,
+            1847,
+            1904,
+            2009,
+            1880,
+            1683,
+            1893
+        ],
+        "avg_opponent_rating": 1889.0
+    },
+    "Assen I": {
+        "name": "Assen I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/72",
+        "match_points": 1.0,
+        "board_points": 6.0,
+        "players": {
+            "336502": {
+                "name": "Bosveld, M. (Mattias)",
+                "url": "https://nosbo.netstand.nl/players/view/336502"
+            },
+            "315760": {
+                "name": "Dijkstra, M. (Maarten)",
+                "url": "https://nosbo.netstand.nl/players/view/315760"
+            },
+            "320671": {
+                "name": "Elsinga, B. (Brian)",
+                "url": "https://nosbo.netstand.nl/players/view/320671"
+            },
+            "319454": {
+                "name": "Faber, A. (Ab)",
+                "url": "https://nosbo.netstand.nl/players/view/319454"
+            },
+            "334026": {
+                "name": "Groeneveld, J. (Henry)",
+                "url": "https://nosbo.netstand.nl/players/view/334026"
+            },
+            "317016": {
+                "name": "Homminga, S. (Sjoerd)",
+                "url": "https://nosbo.netstand.nl/players/view/317016"
+            },
+            "315832": {
+                "name": "Houtsma, S.H. (Sybrand)",
+                "url": "https://nosbo.netstand.nl/players/view/315832"
+            },
+            "338000": {
+                "name": "Leemrijse, M. (Marius)",
+                "url": "https://nosbo.netstand.nl/players/view/338000"
+            },
+            "317120": {
+                "name": "Qatina, W. (Waheeb)",
+                "url": "https://nosbo.netstand.nl/players/view/317120"
+            },
+            "309480": {
+                "name": "Strik, A.F. (Aart)",
+                "url": "https://nosbo.netstand.nl/players/view/309480"
+            },
+            "323275": {
+                "name": "Veen van der, N. (Noël)",
+                "url": "https://nosbo.netstand.nl/players/view/323275"
+            },
+            "319489": {
+                "name": "Voorintholt, G.K. (Gerard)",
+                "url": "https://nosbo.netstand.nl/players/view/319489"
+            },
+            "321129": {
+                "name": "Wierenga, J. (Jaël)",
+                "url": "https://nosbo.netstand.nl/players/view/321129"
+            },
+            "335762": {
+                "name": "Bruggink, T. (Tycho)",
+                "url": "https://nosbo.netstand.nl/players/view/335762"
+            },
+            "335420": {
+                "name": "Loots, J. (Johan)",
+                "url": "https://nosbo.netstand.nl/players/view/335420"
+            },
+            "318080": {
+                "name": "Maris, I. (Ivo)",
+                "url": "https://nosbo.netstand.nl/players/view/318080"
+            },
+            "315936": {
+                "name": "Tromp, P. (Pieter)",
+                "url": "https://nosbo.netstand.nl/players/view/315936"
+            },
+            "315121": {
+                "name": "Velzen van, M. (Martin)",
+                "url": "https://nosbo.netstand.nl/players/view/315121"
+            }
+        },
+        "matches": [
+            {
+                "date": "11-04-2025",
+                "opponent": "SISSA I",
+                "location": "Away",
+                "result": "8 -0"
+            },
+            {
+                "date": "16-05-2025",
+                "opponent": "Groninger Combinatie II",
+                "location": "Home",
+                "result": "2- 6"
+            },
+            {
+                "date": "11-11-2024",
+                "opponent": "ESG I",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "Groninger Combinatie I",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "24-01-2025",
+                "opponent": "SISSA II",
+                "location": "Home",
+                "result": "5- 3"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "Groninger Combinatie III",
+                "location": "Away",
+                "result": "2½ -5½"
+            },
+            {
+                "date": "28-02-2025",
+                "opponent": "Hoogeveen I",
+                "location": "Home",
+                "result": "1½- 6½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            2003,
+            1993,
+            1903,
+            1948,
+            1841,
+            1802,
+            1942
+        ],
+        "avg_opponent_rating": 1918.857142857143
+    },
+    "Leek I": {
+        "name": "Leek I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/74",
+        "match_points": 6.0,
+        "board_points": 16.5,
+        "players": {
+            "312526": {
+                "name": "Doller, P. (Pieter)",
+                "url": "https://nosbo.netstand.nl/players/view/312526"
+            },
+            "321586": {
+                "name": "Essen van, T.D. (Tobias)",
+                "url": "https://nosbo.netstand.nl/players/view/321586"
+            },
+            "314457": {
+                "name": "Hoor ten, J. (Johan)",
+                "url": "https://nosbo.netstand.nl/players/view/314457"
+            },
+            "318441": {
+                "name": "Huisman, F.J. (Frans)",
+                "url": "https://nosbo.netstand.nl/players/view/318441"
+            },
+            "314438": {
+                "name": "Keessen, A.J. (Aldert-Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/314438"
+            },
+            "315085": {
+                "name": "Koole, B. (Bauke)",
+                "url": "https://nosbo.netstand.nl/players/view/315085"
+            },
+            "309520": {
+                "name": "Praagman, C. (Kees)",
+                "url": "https://nosbo.netstand.nl/players/view/309520"
+            },
+            "319222": {
+                "name": "Stokhorst, J.A. (Jan Arie)",
+                "url": "https://nosbo.netstand.nl/players/view/319222"
+            },
+            "317256": {
+                "name": "Swemmer, M. (Marijn)",
+                "url": "https://nosbo.netstand.nl/players/view/317256"
+            },
+            "319236": {
+                "name": "Westerlaan, S. (Sander)",
+                "url": "https://nosbo.netstand.nl/players/view/319236"
+            },
+            "338995": {
+                "name": "Fokkema, G.A. (Gerwin)",
+                "url": "https://nosbo.netstand.nl/players/view/338995"
+            },
+            "312903": {
+                "name": "Heijnen, E.R. (Erwin)",
+                "url": "https://nosbo.netstand.nl/players/view/312903"
+            },
+            "320309": {
+                "name": "Hofstra, T.W. (Tijmen)",
+                "url": "https://nosbo.netstand.nl/players/view/320309"
+            }
+        },
+        "matches": [
+            {
+                "date": "11-04-2025",
+                "opponent": "SISSA II",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "16-05-2025",
+                "opponent": "Groninger Combinatie III",
+                "location": "Home",
+                "result": "5- 3"
+            },
+            {
+                "date": "14-11-2024",
+                "opponent": "HSP/Veendam I",
+                "location": "Away",
+                "result": "4½ -3½"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "Lewenborg I",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "24-01-2025",
+                "opponent": "Van der Linde I",
+                "location": "Away",
+                "result": "1 -7"
+            },
+            {
+                "date": "07-02-2025",
+                "opponent": "SISSA I",
+                "location": "Home",
+                "result": "½- 7½"
+            },
+            {
+                "date": "06-03-2025",
+                "opponent": "Groninger Combinatie II",
+                "location": "Away",
+                "result": "6 -2"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1832,
+            1803,
+            1826,
+            1912,
+            1680,
+            2003,
+            2003
+        ],
+        "avg_opponent_rating": 1865.5714285714287
+    },
+    "Groninger Combinatie III": {
+        "name": "Groninger Combinatie III",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/74",
+        "match_points": 4.0,
+        "board_points": 13.0,
+        "players": {
+            "314405": {
+                "name": "Heuvel van den, A. (Annelies)",
+                "url": "https://nosbo.netstand.nl/players/view/314405"
+            },
+            "311074": {
+                "name": "Holtz, R.G. (Job)",
+                "url": "https://nosbo.netstand.nl/players/view/311074"
+            },
+            "310357": {
+                "name": "Karsdorp, G.N. (Nico)",
+                "url": "https://nosbo.netstand.nl/players/view/310357"
+            },
+            "318769": {
+                "name": "Loos, E.J.T. (Tim)",
+                "url": "https://nosbo.netstand.nl/players/view/318769"
+            },
+            "315812": {
+                "name": "Meer van der, H.J. (Henk)",
+                "url": "https://nosbo.netstand.nl/players/view/315812"
+            },
+            "318584": {
+                "name": "Pompstra, H. (Henk)",
+                "url": "https://nosbo.netstand.nl/players/view/318584"
+            },
+            "315813": {
+                "name": "Ruigendijk, K.F. (Ferry)",
+                "url": "https://nosbo.netstand.nl/players/view/315813"
+            },
+            "313946": {
+                "name": "Visser, G.P. (Guido)",
+                "url": "https://nosbo.netstand.nl/players/view/313946"
+            },
+            "317691": {
+                "name": "Westermann, O.A. (Tony)",
+                "url": "https://nosbo.netstand.nl/players/view/317691"
+            },
+            "308729": {
+                "name": "Janssen, E.J. (Eddie)",
+                "url": "https://nosbo.netstand.nl/players/view/308729"
+            },
+            "316631": {
+                "name": "Potjer, G.C. (Gerard)",
+                "url": "https://nosbo.netstand.nl/players/view/316631"
+            },
+            "314311": {
+                "name": "Potze, R.H. (Rudolf)",
+                "url": "https://nosbo.netstand.nl/players/view/314311"
+            },
+            "309722": {
+                "name": "Visser, E.Y. (Ynte)",
+                "url": "https://nosbo.netstand.nl/players/view/309722"
+            }
+        },
+        "matches": [
+            {
+                "date": "10-04-2025",
+                "opponent": "Van der Linde I",
+                "location": "Home",
+                "result": "5- 3"
+            },
+            {
+                "date": "16-05-2025",
+                "opponent": "Leek I",
+                "location": "Away",
+                "result": "5 -3"
+            },
+            {
+                "date": "14-11-2024",
+                "opponent": "Groninger Combinatie I",
+                "location": "Home",
+                "result": "1- 7"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "Hoogeveen I",
+                "location": "Home",
+                "result": "1½- 6½"
+            },
+            {
+                "date": "20-01-2025",
+                "opponent": "ESG I",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "Assen I",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "07-03-2025",
+                "opponent": "SISSA II",
+                "location": "Away",
+                "result": "3 -5"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1691,
+            1877,
+            1968,
+            1872,
+            1902,
+            1935,
+            1780
+        ],
+        "avg_opponent_rating": 1860.7142857142858
+    },
+    "Van der Linde I": {
+        "name": "Van der Linde I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/74",
+        "match_points": 0.0,
+        "board_points": 6.0,
+        "players": {
+            "384089": {
+                "name": "Bodewits, M.W. (Maxim)",
+                "url": "https://nosbo.netstand.nl/players/view/384089"
+            },
+            "316678": {
+                "name": "Dijkstra, A.H.E. (Johan)",
+                "url": "https://nosbo.netstand.nl/players/view/316678"
+            },
+            "317018": {
+                "name": "Krawczyk, J.J. (Jarek)",
+                "url": "https://nosbo.netstand.nl/players/view/317018"
+            },
+            "339285": {
+                "name": "Leest van der, B.G. (Bert)",
+                "url": "https://nosbo.netstand.nl/players/view/339285"
+            },
+            "323674": {
+                "name": "Nieuweboer, M. (Mark)",
+                "url": "https://nosbo.netstand.nl/players/view/323674"
+            },
+            "323531": {
+                "name": "Polanco, S. (Stanli)",
+                "url": "https://nosbo.netstand.nl/players/view/323531"
+            },
+            "309445": {
+                "name": "Ridder de, H.P.L. (Henk)",
+                "url": "https://nosbo.netstand.nl/players/view/309445"
+            },
+            "385033": {
+                "name": "Snoep, M.C. (Martijn)",
+                "url": "https://nosbo.netstand.nl/players/view/385033"
+            },
+            "334236": {
+                "name": "Visschers, F. (Fred)",
+                "url": "https://nosbo.netstand.nl/players/view/334236"
+            },
+            "317262": {
+                "name": "Wey Peters de, I.R.M. (Inno)",
+                "url": "https://nosbo.netstand.nl/players/view/317262"
+            },
+            "330943": {
+                "name": "Woelinga, D.H. (Douwe)",
+                "url": "https://nosbo.netstand.nl/players/view/330943"
+            },
+            "324608": {
+                "name": "Beekman, B.J.H. (Bastiaan)",
+                "url": "https://nosbo.netstand.nl/players/view/324608"
+            },
+            "325654": {
+                "name": "Dijkstra, J. (Jaap)",
+                "url": "https://nosbo.netstand.nl/players/view/325654"
+            },
+            "319945": {
+                "name": "Oord, J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/319945"
+            },
+            "321391": {
+                "name": "Wiersema, K. (Klaas)",
+                "url": "https://nosbo.netstand.nl/players/view/321391"
+            }
+        },
+        "matches": [
+            {
+                "date": "10-04-2025",
+                "opponent": "Groninger Combinatie III",
+                "location": "Away",
+                "result": "5 -3"
+            },
+            {
+                "date": "16-05-2025",
+                "opponent": "SISSA II",
+                "location": "Home",
+                "result": "2- 6"
+            },
+            {
+                "date": "15-11-2024",
+                "opponent": "SISSA I",
+                "location": "Home",
+                "result": "0- 8"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "HSP/Veendam I",
+                "location": "Away",
+                "result": "5½ -2½"
+            },
+            {
+                "date": "24-01-2025",
+                "opponent": "Leek I",
+                "location": "Home",
+                "result": "1- 7"
+            },
+            {
+                "date": "07-02-2025",
+                "opponent": "Groninger Combinatie II",
+                "location": "Home",
+                "result": "1- 7"
+            },
+            {
+                "date": "04-03-2025",
+                "opponent": "Lewenborg I",
+                "location": "Away",
+                "result": "8 -0"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1817,
+            1821,
+            1948,
+            1858,
+            1915,
+            1947,
+            1906
+        ],
+        "avg_opponent_rating": 1887.4285714285713
+    },
+    "Lewenborg II": {
+        "name": "Lewenborg II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/80",
+        "match_points": 4.0,
+        "board_points": 8.0,
+        "players": {
+            "338683": {
+                "name": "Frieswijk, R. (René)",
+                "url": "https://nosbo.netstand.nl/players/view/338683"
+            },
+            "315254": {
+                "name": "Frieswijk, R.A. (Rudy)",
+                "url": "https://nosbo.netstand.nl/players/view/315254"
+            },
+            "319073": {
+                "name": "Hoogeboom, B. (Boudewijn)",
+                "url": "https://nosbo.netstand.nl/players/view/319073"
+            },
+            "317159": {
+                "name": "Luining, A. (Fred)",
+                "url": "https://nosbo.netstand.nl/players/view/317159"
+            },
+            "321875": {
+                "name": "Molewijk, K. (Koen)",
+                "url": "https://nosbo.netstand.nl/players/view/321875"
+            },
+            "314395": {
+                "name": "Pol, D. (Douwe)",
+                "url": "https://nosbo.netstand.nl/players/view/314395"
+            },
+            "341875": {
+                "name": "Bajrami, V. (Valentin)",
+                "url": "https://nosbo.netstand.nl/players/view/341875"
+            },
+            "309711": {
+                "name": "Prins, P.A. (Albert)",
+                "url": "https://nosbo.netstand.nl/players/view/309711"
+            },
+            "343996": {
+                "name": "Riet van 't, P.H. (Flip)",
+                "url": "https://nosbo.netstand.nl/players/view/343996"
+            },
+            "316269": {
+                "name": "Souhoka, J. (John)",
+                "url": "https://nosbo.netstand.nl/players/view/316269"
+            },
+            "314223": {
+                "name": "Uyleman, A. (Arthur)",
+                "url": "https://nosbo.netstand.nl/players/view/314223"
+            }
+        },
+        "matches": [
+            {
+                "date": "15-04-2025",
+                "opponent": "SISSA IV",
+                "location": "Home",
+                "result": "3½- 2½"
+            },
+            {
+                "date": "05-11-2024",
+                "opponent": "Bedum I",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "18-11-2024",
+                "opponent": "Staunton I",
+                "location": "Away",
+                "result": "3 -3"
+            },
+            {
+                "date": "10-12-2024",
+                "opponent": "SISSA III",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "13-01-2025",
+                "opponent": "DAC I",
+                "location": "Away",
+                "result": "2½ -3½"
+            },
+            {
+                "date": "11-02-2025",
+                "opponent": "Middelstum I",
+                "location": "Home",
+                "result": "4½- 1½"
+            },
+            {
+                "date": "13-03-2025",
+                "opponent": "Groninger Combinatie IV",
+                "location": "Away",
+                "result": "5 -1"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1689,
+            1819,
+            1835,
+            1712,
+            1687,
+            1799,
+            1858
+        ],
+        "avg_opponent_rating": 1771.2857142857142
+    },
+    "Middelstum I": {
+        "name": "Middelstum I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/80",
+        "match_points": 2.0,
+        "board_points": 7.0,
+        "players": {
+            "322344": {
+                "name": "Bos, W. (Wim)",
+                "url": "https://nosbo.netstand.nl/players/view/322344"
+            },
+            "318165": {
+                "name": "Kamminga, W.R. (Rob)",
+                "url": "https://nosbo.netstand.nl/players/view/318165"
+            },
+            "318339": {
+                "name": "Melle van, J.P. (Joost)",
+                "url": "https://nosbo.netstand.nl/players/view/318339"
+            },
+            "316742": {
+                "name": "Scholten, E. (Evert)",
+                "url": "https://nosbo.netstand.nl/players/view/316742"
+            },
+            "320341": {
+                "name": "Verheij, A. (Albert)",
+                "url": "https://nosbo.netstand.nl/players/view/320341"
+            },
+            "308720": {
+                "name": "Weperen van, J.J. (Jos)",
+                "url": "https://nosbo.netstand.nl/players/view/308720"
+            },
+            "315195": {
+                "name": "Bekker, F. (Free)",
+                "url": "https://nosbo.netstand.nl/players/view/315195"
+            },
+            "313013": {
+                "name": "Bol, J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/313013"
+            },
+            "319069": {
+                "name": "Brandsma, F. (Frits)",
+                "url": "https://nosbo.netstand.nl/players/view/319069"
+            },
+            "323597": {
+                "name": "Harmanny, W. (Wim)",
+                "url": "https://nosbo.netstand.nl/players/view/323597"
+            },
+            "318945": {
+                "name": "Hof, J.M. (Jan Mark)",
+                "url": "https://nosbo.netstand.nl/players/view/318945"
+            },
+            "319274": {
+                "name": "Koster, A.G. (Bert)",
+                "url": "https://nosbo.netstand.nl/players/view/319274"
+            }
+        },
+        "matches": [
+            {
+                "date": "16-05-2025",
+                "opponent": "SISSA IV",
+                "location": "Away",
+                "result": "½ -5½"
+            },
+            {
+                "date": "05-11-2024",
+                "opponent": "Groninger Combinatie IV",
+                "location": "Home",
+                "result": "3½- 2½"
+            },
+            {
+                "date": "19-11-2024",
+                "opponent": "Bedum I",
+                "location": "Away",
+                "result": "2½ -3½"
+            },
+            {
+                "date": "10-12-2024",
+                "opponent": "Staunton I",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "17-01-2025",
+                "opponent": "SISSA III",
+                "location": "Away",
+                "result": "3½ -2½"
+            },
+            {
+                "date": "28-01-2025",
+                "opponent": "DAC I",
+                "location": "Home",
+                "result": "6- 0"
+            },
+            {
+                "date": "11-02-2025",
+                "opponent": "Lewenborg II",
+                "location": "Away",
+                "result": "4½ -1½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1603,
+            1858,
+            1908,
+            1824,
+            1730,
+            1622,
+            1734
+        ],
+        "avg_opponent_rating": 1754.142857142857
+    },
+    "Roden II": {
+        "name": "Roden II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/76",
+        "match_points": 6.0,
+        "board_points": 8.5,
+        "players": {
+            "318783": {
+                "name": "Burgh van der, A.J. (Arend)",
+                "url": "https://nosbo.netstand.nl/players/view/318783"
+            },
+            "319341": {
+                "name": "Doorn van, F. (Frans)",
+                "url": "https://nosbo.netstand.nl/players/view/319341"
+            },
+            "316045": {
+                "name": "Duisterwinkel, J.A. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/316045"
+            },
+            "317132": {
+                "name": "Meijster, A. (Arnold)",
+                "url": "https://nosbo.netstand.nl/players/view/317132"
+            },
+            "315940": {
+                "name": "Spijker van, J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/315940"
+            }
+        },
+        "matches": [
+            {
+                "date": "10-04-2025",
+                "opponent": "Groninger Combinatie VI",
+                "location": "Away",
+                "result": "1 -3"
+            },
+            {
+                "date": "12-05-2025",
+                "opponent": "SISSA V",
+                "location": "Home",
+                "result": "3- 1"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1652,
+            1735
+        ],
+        "avg_opponent_rating": 1693.5
+    },
+    "Groninger Combinatie V": {
+        "name": "Groninger Combinatie V",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/76",
+        "match_points": 2.0,
+        "board_points": 5.0,
+        "players": {
+            "308729": {
+                "name": "Janssen, E.J. (Eddie)",
+                "url": "https://nosbo.netstand.nl/players/view/308729"
+            },
+            "324304": {
+                "name": "Kempenaar, J. (Jane)",
+                "url": "https://nosbo.netstand.nl/players/view/324304"
+            },
+            "315253": {
+                "name": "Krijnen, W. (Wim)",
+                "url": "https://nosbo.netstand.nl/players/view/315253"
+            },
+            "344366": {
+                "name": "Schuttevaer, T. (Tim)",
+                "url": "https://nosbo.netstand.nl/players/view/344366"
+            },
+            "344220": {
+                "name": "Stultiens, W. (Wouter)",
+                "url": "https://nosbo.netstand.nl/players/view/344220"
+            },
+            "313692": {
+                "name": "Veninga, J.G. (Jaap)",
+                "url": "https://nosbo.netstand.nl/players/view/313692"
+            }
+        },
+        "matches": [
+            {
+                "date": "11-04-2025",
+                "opponent": "SISSA V",
+                "location": "Away",
+                "result": "3½ -½"
+            },
+            {
+                "date": "15-05-2025",
+                "opponent": "Groninger Combinatie VI",
+                "location": "Home",
+                "result": "3- 1"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1767,
+            1660
+        ],
+        "avg_opponent_rating": 1713.5
+    },
+    "Groninger Combinatie VI": {
+        "name": "Groninger Combinatie VI",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/76",
+        "match_points": 0.0,
+        "board_points": 3.5,
+        "players": {
+            "345424": {
+                "name": "Helder, D. (David)",
+                "url": "https://nosbo.netstand.nl/players/view/345424"
+            },
+            "344904": {
+                "name": "Ma, Y.H. (Ying Hao)",
+                "url": "https://nosbo.netstand.nl/players/view/344904"
+            },
+            "343680": {
+                "name": "Noort van, C.P. (Cas)",
+                "url": "https://nosbo.netstand.nl/players/view/343680"
+            },
+            "342860": {
+                "name": "Oost van, B. (Bart)",
+                "url": "https://nosbo.netstand.nl/players/view/342860"
+            },
+            "340340": {
+                "name": "Plumart, L. (Lloyd)",
+                "url": "https://nosbo.netstand.nl/players/view/340340"
+            }
+        },
+        "matches": [
+            {
+                "date": "10-04-2025",
+                "opponent": "Roden II",
+                "location": "Home",
+                "result": "1- 3"
+            },
+            {
+                "date": "15-05-2025",
+                "opponent": "Groninger Combinatie V",
+                "location": "Away",
+                "result": "3 -1"
+            },
+            {
+                "date": "14-11-2024",
+                "opponent": "SISSA V",
+                "location": "Home",
+                "result": "1½- 2½"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "Leek II",
+                "location": "Away",
+                "result": "3½ -½"
+            },
+            {
+                "date": "23-01-2025",
+                "opponent": "HSP/Veendam II",
+                "location": "Home",
+                "result": "1½- 2½"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "Lewenborg III",
+                "location": "Home",
+                "result": "3½- ½"
+            },
+            {
+                "date": "04-03-2025",
+                "opponent": "Middelstum II",
+                "location": "Away",
+                "result": "1½ -2½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1673,
+            1692,
+            1696,
+            1825,
+            1707,
+            1567,
+            1643
+        ],
+        "avg_opponent_rating": 1686.142857142857
+    },
+    "Lewenborg I": {
+        "name": "Lewenborg I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/61",
+        "match_points": 5.0,
+        "board_points": 21.0,
+        "players": {
+            "341875": {
+                "name": "Bajrami, V. (Valentin)",
+                "url": "https://nosbo.netstand.nl/players/view/341875"
+            },
+            "310025": {
+                "name": "Dijkhuizen, K.G. (Klaas)",
+                "url": "https://nosbo.netstand.nl/players/view/310025"
+            },
+            "319073": {
+                "name": "Hoogeboom, B. (Boudewijn)",
+                "url": "https://nosbo.netstand.nl/players/view/319073"
+            },
+            "339905": {
+                "name": "Ingen van, A.S.P. (Ton)",
+                "url": "https://nosbo.netstand.nl/players/view/339905"
+            },
+            "338906": {
+                "name": "Jelic, B. (Bruno)",
+                "url": "https://nosbo.netstand.nl/players/view/338906"
+            },
+            "310948": {
+                "name": "Middeljans, R. (Ramon)",
+                "url": "https://nosbo.netstand.nl/players/view/310948"
+            },
+            "314395": {
+                "name": "Pol, D. (Douwe)",
+                "url": "https://nosbo.netstand.nl/players/view/314395"
+            },
+            "340918": {
+                "name": "Pouw, M. (Marcel)",
+                "url": "https://nosbo.netstand.nl/players/view/340918"
+            },
+            "309832": {
+                "name": "Veen van, J.W. (Jan Wiebe)",
+                "url": "https://nosbo.netstand.nl/players/view/309832"
+            },
+            "312901": {
+                "name": "Zuiderweg, H.J. (Hiddo)",
+                "url": "https://nosbo.netstand.nl/players/view/312901"
+            }
+        },
+        "matches": [
+            {
+                "date": "14-11-2024",
+                "opponent": "Groninger Combinatie II",
+                "location": "Away",
+                "result": "6 -2"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "Leek I",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "21-01-2025",
+                "opponent": "SISSA I",
+                "location": "Home",
+                "result": "2½- 5½"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "HSP/Veendam I",
+                "location": "Away",
+                "result": "3½ -4½"
+            },
+            {
+                "date": "04-03-2025",
+                "opponent": "Van der Linde I",
+                "location": "Home",
+                "result": "8- 0"
+            }
+        ],
+        "opponent_ratings_raw": [
+            2003,
+            1925,
+            2001,
+            1871,
+            1685
+        ],
+        "avg_opponent_rating": 1897.0
+    },
+    "HSP/Veendam I": {
+        "name": "HSP/Veendam I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/61",
+        "match_points": 4.0,
+        "board_points": 20.0,
+        "players": {
+            "313578": {
+                "name": "Bontjer, B. (Bernard)",
+                "url": "https://nosbo.netstand.nl/players/view/313578"
+            },
+            "311972": {
+                "name": "Cliteur, O.P. (Olaf)",
+                "url": "https://nosbo.netstand.nl/players/view/311972"
+            },
+            "315461": {
+                "name": "Drent, K.A. (Kor)",
+                "url": "https://nosbo.netstand.nl/players/view/315461"
+            },
+            "315709": {
+                "name": "Havinga, B.J. (Johanan)",
+                "url": "https://nosbo.netstand.nl/players/view/315709"
+            },
+            "315282": {
+                "name": "Jerphanion, L.B.F. (Lucien)",
+                "url": "https://nosbo.netstand.nl/players/view/315282"
+            },
+            "317198": {
+                "name": "Kamphuis, E.J. (Evert Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/317198"
+            },
+            "310130": {
+                "name": "Nieuwenweg, R.H. (Rob)",
+                "url": "https://nosbo.netstand.nl/players/view/310130"
+            },
+            "313085": {
+                "name": "Reintke, E. (Erwin)",
+                "url": "https://nosbo.netstand.nl/players/view/313085"
+            },
+            "314959": {
+                "name": "Scharft, J. (Johan)",
+                "url": "https://nosbo.netstand.nl/players/view/314959"
+            },
+            "334285": {
+                "name": "Spijker, A. (Arend)",
+                "url": "https://nosbo.netstand.nl/players/view/334285"
+            },
+            "315817": {
+                "name": "Sprik, S. (Sander)",
+                "url": "https://nosbo.netstand.nl/players/view/315817"
+            },
+            "318864": {
+                "name": "Waijer, A. (Arjen)",
+                "url": "https://nosbo.netstand.nl/players/view/318864"
+            },
+            "315459": {
+                "name": "Wielenga, W. (Wiebe)",
+                "url": "https://nosbo.netstand.nl/players/view/315459"
+            }
+        },
+        "matches": [
+            {
+                "date": "14-11-2024",
+                "opponent": "Leek I",
+                "location": "Home",
+                "result": "4½- 3½"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "Van der Linde I",
+                "location": "Home",
+                "result": "5½- 2½"
+            },
+            {
+                "date": "23-01-2025",
+                "opponent": "Groninger Combinatie II",
+                "location": "Away",
+                "result": "5 -3"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "Lewenborg I",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "07-03-2025",
+                "opponent": "SISSA I",
+                "location": "Away",
+                "result": "4½ -3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1906,
+            1736,
+            2003,
+            1856,
+            1984
+        ],
+        "avg_opponent_rating": 1897.0
+    },
+    "Hoogeveen I": {
+        "name": "Hoogeveen I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/62",
+        "match_points": 6.0,
+        "board_points": 24.5,
+        "players": {
+            "339205": {
+                "name": "Broertjes, S.G. (Stephan)",
+                "url": "https://nosbo.netstand.nl/players/view/339205"
+            },
+            "319498": {
+                "name": "Fieten, J. (Jeroen)",
+                "url": "https://nosbo.netstand.nl/players/view/319498"
+            },
+            "316548": {
+                "name": "Limani, E.L. (Elez)",
+                "url": "https://nosbo.netstand.nl/players/view/316548"
+            },
+            "321478": {
+                "name": "Lok, R. (Roan)",
+                "url": "https://nosbo.netstand.nl/players/view/321478"
+            },
+            "314430": {
+                "name": "Mellema, A. (Andries)",
+                "url": "https://nosbo.netstand.nl/players/view/314430"
+            },
+            "313865": {
+                "name": "Mol, C.A. (Christiaan)",
+                "url": "https://nosbo.netstand.nl/players/view/313865"
+            },
+            "317857": {
+                "name": "Mostert, D.C.J. (Davin)",
+                "url": "https://nosbo.netstand.nl/players/view/317857"
+            },
+            "316398": {
+                "name": "Sadallah, O.G. (Osama)",
+                "url": "https://nosbo.netstand.nl/players/view/316398"
+            },
+            "315939": {
+                "name": "Snuverink, M. (Marc)",
+                "url": "https://nosbo.netstand.nl/players/view/315939"
+            },
+            "320333": {
+                "name": "Spaans, L. (Leo)",
+                "url": "https://nosbo.netstand.nl/players/view/320333"
+            },
+            "315887": {
+                "name": "Stallinga, R.M. (Robert)",
+                "url": "https://nosbo.netstand.nl/players/view/315887"
+            },
+            "340792": {
+                "name": "Vegt van der, E. (Els)",
+                "url": "https://nosbo.netstand.nl/players/view/340792"
+            },
+            "343743": {
+                "name": "Wageningen van, A.J.H. (Arie)",
+                "url": "https://nosbo.netstand.nl/players/view/343743"
+            },
+            "334309": {
+                "name": "Witkamp, R. (Remy)",
+                "url": "https://nosbo.netstand.nl/players/view/334309"
+            },
+            "311819": {
+                "name": "Witkamp, T.F. (Theo)",
+                "url": "https://nosbo.netstand.nl/players/view/311819"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-11-2024",
+                "opponent": "SISSA II",
+                "location": "Home",
+                "result": "5½- 2½"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "Groninger Combinatie III",
+                "location": "Away",
+                "result": "1½ -6½"
+            },
+            {
+                "date": "21-01-2025",
+                "opponent": "Groninger Combinatie I",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "04-02-2025",
+                "opponent": "ESG I",
+                "location": "Home",
+                "result": "3- 5"
+            },
+            {
+                "date": "28-02-2025",
+                "opponent": "Assen I",
+                "location": "Away",
+                "result": "1½ -6½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1833,
+            1780,
+            1927,
+            1903,
+            1911
+        ],
+        "avg_opponent_rating": 1870.8
+    },
+    "ESG I": {
+        "name": "ESG I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/62",
+        "match_points": 4.0,
+        "board_points": 18.0,
+        "players": {
+            "319493": {
+                "name": "Boontje, W. (Willem)",
+                "url": "https://nosbo.netstand.nl/players/view/319493"
+            },
+            "315537": {
+                "name": "Brinks, J.W. (Jan Willem)",
+                "url": "https://nosbo.netstand.nl/players/view/315537"
+            },
+            "340586": {
+                "name": "Dubbeldam, S. (Stef)",
+                "url": "https://nosbo.netstand.nl/players/view/340586"
+            },
+            "309139": {
+                "name": "Fokkens, W.G. (Wim)",
+                "url": "https://nosbo.netstand.nl/players/view/309139"
+            },
+            "339182": {
+                "name": "Hoogeveen, R. (Rienk)",
+                "url": "https://nosbo.netstand.nl/players/view/339182"
+            },
+            "323287": {
+                "name": "Meijeringh, A. (Arjen)",
+                "url": "https://nosbo.netstand.nl/players/view/323287"
+            },
+            "322718": {
+                "name": "Sarkisyan, S. (Sergei)",
+                "url": "https://nosbo.netstand.nl/players/view/322718"
+            },
+            "340905": {
+                "name": "Smit, H. (Hans)",
+                "url": "https://nosbo.netstand.nl/players/view/340905"
+            },
+            "316835": {
+                "name": "Struik, M. (Marcel)",
+                "url": "https://nosbo.netstand.nl/players/view/316835"
+            },
+            "309446": {
+                "name": "Többen, D.Y. (Douwe)",
+                "url": "https://nosbo.netstand.nl/players/view/309446"
+            },
+            "311153": {
+                "name": "Voss, J.H. (Herman)",
+                "url": "https://nosbo.netstand.nl/players/view/311153"
+            }
+        },
+        "matches": [
+            {
+                "date": "11-11-2024",
+                "opponent": "Assen I",
+                "location": "Home",
+                "result": "3½- 4½"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "SISSA II",
+                "location": "Away",
+                "result": "4 -4"
+            },
+            {
+                "date": "20-01-2025",
+                "opponent": "Groninger Combinatie III",
+                "location": "Home",
+                "result": "4- 4"
+            },
+            {
+                "date": "04-02-2025",
+                "opponent": "Hoogeveen I",
+                "location": "Away",
+                "result": "3 -5"
+            },
+            {
+                "date": "03-03-2025",
+                "opponent": "Groninger Combinatie I",
+                "location": "Home",
+                "result": "1½- 6½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1967,
+            1844,
+            1839,
+            1912,
+            2086
+        ],
+        "avg_opponent_rating": 1929.6
+    },
+    "Groninger Combinatie IV": {
+        "name": "Groninger Combinatie IV",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/63",
+        "match_points": 8.0,
+        "board_points": 22.5,
+        "players": {
+            "340339": {
+                "name": "Almefalani, A. (Abdulhay)",
+                "url": "https://nosbo.netstand.nl/players/view/340339"
+            },
+            "312335": {
+                "name": "Broekman, R. (Roel)",
+                "url": "https://nosbo.netstand.nl/players/view/312335"
+            },
+            "308729": {
+                "name": "Janssen, E.J. (Eddie)",
+                "url": "https://nosbo.netstand.nl/players/view/308729"
+            },
+            "343682": {
+                "name": "Ravenzwaaij van, D. (Don)",
+                "url": "https://nosbo.netstand.nl/players/view/343682"
+            },
+            "324855": {
+                "name": "Schreuder, E.R. (Edwin)",
+                "url": "https://nosbo.netstand.nl/players/view/324855"
+            },
+            "344366": {
+                "name": "Schuttevaer, T. (Tim)",
+                "url": "https://nosbo.netstand.nl/players/view/344366"
+            },
+            "321019": {
+                "name": "Spears, R. (Russell)",
+                "url": "https://nosbo.netstand.nl/players/view/321019"
+            },
+            "336393": {
+                "name": "Staal, D. (Danny)",
+                "url": "https://nosbo.netstand.nl/players/view/336393"
+            },
+            "344037": {
+                "name": "Westinga, J. (Job)",
+                "url": "https://nosbo.netstand.nl/players/view/344037"
+            }
+        },
+        "matches": [
+            {
+                "date": "05-11-2024",
+                "opponent": "Middelstum I",
+                "location": "Away",
+                "result": "3½ -2½"
+            },
+            {
+                "date": "12-12-2024",
+                "opponent": "Bedum I",
+                "location": "Home",
+                "result": "1½- 4½"
+            },
+            {
+                "date": "13-01-2025",
+                "opponent": "Staunton I",
+                "location": "Away",
+                "result": "2 -4"
+            },
+            {
+                "date": "30-01-2025",
+                "opponent": "SISSA III",
+                "location": "Home",
+                "result": "5- 1"
+            },
+            {
+                "date": "10-02-2025",
+                "opponent": "DAC I",
+                "location": "Away",
+                "result": "1½ -4½"
+            },
+            {
+                "date": "13-03-2025",
+                "opponent": "Lewenborg II",
+                "location": "Home",
+                "result": "5- 1"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1867,
+            1860,
+            1862,
+            1694,
+            1662,
+            1680
+        ],
+        "avg_opponent_rating": 1770.8333333333333
+    },
+    "Bedum I": {
+        "name": "Bedum I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/63",
+        "match_points": 8.0,
+        "board_points": 22.0,
+        "players": {
+            "334985": {
+                "name": "Aleman, J.A.A. (Johan)",
+                "url": "https://nosbo.netstand.nl/players/view/334985"
+            },
+            "345024": {
+                "name": "Berg van den, H.T. (Thijmen)",
+                "url": "https://nosbo.netstand.nl/players/view/345024"
+            },
+            "340311": {
+                "name": "Kok, E. (Erwin)",
+                "url": "https://nosbo.netstand.nl/players/view/340311"
+            },
+            "313382": {
+                "name": "Kroon, R.C. (Roelof)",
+                "url": "https://nosbo.netstand.nl/players/view/313382"
+            },
+            "313947": {
+                "name": "Kuipers, M. (Marcel)",
+                "url": "https://nosbo.netstand.nl/players/view/313947"
+            },
+            "315762": {
+                "name": "Smit, T. (Theo)",
+                "url": "https://nosbo.netstand.nl/players/view/315762"
+            },
+            "332337": {
+                "name": "Toxopéus, C. (Carsten)",
+                "url": "https://nosbo.netstand.nl/players/view/332337"
+            },
+            "324550": {
+                "name": "Veld van 't, A. (Aart)",
+                "url": "https://nosbo.netstand.nl/players/view/324550"
+            },
+            "318604": {
+                "name": "Veld van 't, M. (Menno)",
+                "url": "https://nosbo.netstand.nl/players/view/318604"
+            },
+            "344907": {
+                "name": "Venhuizen, J.L. (Laurens)",
+                "url": "https://nosbo.netstand.nl/players/view/344907"
+            }
+        },
+        "matches": [
+            {
+                "date": "05-11-2024",
+                "opponent": "Lewenborg II",
+                "location": "Away",
+                "result": "2 -4"
+            },
+            {
+                "date": "19-11-2024",
+                "opponent": "Middelstum I",
+                "location": "Home",
+                "result": "2½- 3½"
+            },
+            {
+                "date": "12-12-2024",
+                "opponent": "Groninger Combinatie IV",
+                "location": "Away",
+                "result": "1½ -4½"
+            },
+            {
+                "date": "28-01-2025",
+                "opponent": "Staunton I",
+                "location": "Home",
+                "result": "3½- 2½"
+            },
+            {
+                "date": "14-02-2025",
+                "opponent": "SISSA III",
+                "location": "Away",
+                "result": "4 -2"
+            },
+            {
+                "date": "11-03-2025",
+                "opponent": "DAC I",
+                "location": "Home",
+                "result": "5½- ½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1729,
+            1867,
+            1858,
+            1883,
+            1707,
+            1594
+        ],
+        "avg_opponent_rating": 1773.0
+    },
+    "Staunton I": {
+        "name": "Staunton I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/63",
+        "match_points": 7.0,
+        "board_points": 20.5,
+        "players": {
+            "328625": {
+                "name": "Gohil, G. (Viaan)",
+                "url": "https://nosbo.netstand.nl/players/view/328625"
+            },
+            "318609": {
+                "name": "Graaf van der, J.F. (Jaap)",
+                "url": "https://nosbo.netstand.nl/players/view/318609"
+            },
+            "344468": {
+                "name": "Hamstra, B. (Bas)",
+                "url": "https://nosbo.netstand.nl/players/view/344468"
+            },
+            "321435": {
+                "name": "Kamphorst, J.C. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/321435"
+            },
+            "342843": {
+                "name": "Nair, P. (Pranav Prasobh)",
+                "url": "https://nosbo.netstand.nl/players/view/342843"
+            },
+            "344388": {
+                "name": "Pelt van, A. (Alexander)",
+                "url": "https://nosbo.netstand.nl/players/view/344388"
+            },
+            "313468": {
+                "name": "Pelt van, E. (Erwin)",
+                "url": "https://nosbo.netstand.nl/players/view/313468"
+            },
+            "344031": {
+                "name": "Ris, G.J.R. (Gert-Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/344031"
+            },
+            "309256": {
+                "name": "Seijen, H.G. (Henk)",
+                "url": "https://nosbo.netstand.nl/players/view/309256"
+            },
+            "315216": {
+                "name": "Serier, J. (Hans)",
+                "url": "https://nosbo.netstand.nl/players/view/315216"
+            }
+        },
+        "matches": [
+            {
+                "date": "04-11-2024",
+                "opponent": "DAC I",
+                "location": "Away",
+                "result": "½ -5½"
+            },
+            {
+                "date": "18-11-2024",
+                "opponent": "Lewenborg II",
+                "location": "Home",
+                "result": "3- 3"
+            },
+            {
+                "date": "10-12-2024",
+                "opponent": "Middelstum I",
+                "location": "Away",
+                "result": "2 -4"
+            },
+            {
+                "date": "13-01-2025",
+                "opponent": "Groninger Combinatie IV",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "28-01-2025",
+                "opponent": "Bedum I",
+                "location": "Away",
+                "result": "3½ -2½"
+            },
+            {
+                "date": "10-03-2025",
+                "opponent": "SISSA III",
+                "location": "Home",
+                "result": "3½- 2½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1687,
+            1687,
+            1835,
+            1893,
+            1871,
+            1733
+        ],
+        "avg_opponent_rating": 1784.3333333333333
+    },
+    "DAC I": {
+        "name": "DAC I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/63",
+        "match_points": 0.0,
+        "board_points": 6.0,
+        "players": {
+            "322222": {
+                "name": "Blokzijl, R. (Ruben)",
+                "url": "https://nosbo.netstand.nl/players/view/322222"
+            },
+            "320514": {
+                "name": "Groothof, J.P. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/320514"
+            },
+            "317436": {
+                "name": "Hofstee, H.H. (Harrie)",
+                "url": "https://nosbo.netstand.nl/players/view/317436"
+            },
+            "345355": {
+                "name": "Jansen, J. (Jadon)",
+                "url": "https://nosbo.netstand.nl/players/view/345355"
+            },
+            "310005": {
+                "name": "Kuiper, B.H. (Ben)",
+                "url": "https://nosbo.netstand.nl/players/view/310005"
+            },
+            "310591": {
+                "name": "Maas, L. (Leunis)",
+                "url": "https://nosbo.netstand.nl/players/view/310591"
+            },
+            "344133": {
+                "name": "Spanninga, A. (Abel)",
+                "url": "https://nosbo.netstand.nl/players/view/344133"
+            },
+            "343832": {
+                "name": "Spanninga, L. (Luke)",
+                "url": "https://nosbo.netstand.nl/players/view/343832"
+            },
+            "309814": {
+                "name": "Vos, W.P. (Wiert)",
+                "url": "https://nosbo.netstand.nl/players/view/309814"
+            }
+        },
+        "matches": [
+            {
+                "date": "04-11-2024",
+                "opponent": "Staunton I",
+                "location": "Home",
+                "result": "½- 5½"
+            },
+            {
+                "date": "22-11-2024",
+                "opponent": "SISSA III",
+                "location": "Away",
+                "result": "5 -1"
+            },
+            {
+                "date": "13-01-2025",
+                "opponent": "Lewenborg II",
+                "location": "Home",
+                "result": "2½- 3½"
+            },
+            {
+                "date": "28-01-2025",
+                "opponent": "Middelstum I",
+                "location": "Away",
+                "result": "6 -0"
+            },
+            {
+                "date": "10-02-2025",
+                "opponent": "Groninger Combinatie IV",
+                "location": "Home",
+                "result": "1½- 4½"
+            },
+            {
+                "date": "11-03-2025",
+                "opponent": "Bedum I",
+                "location": "Away",
+                "result": "5½ -½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1871,
+            1713,
+            1748,
+            1808,
+            1874,
+            1805
+        ],
+        "avg_opponent_rating": 1803.1666666666667
+    },
+    "Het Kasteel II": {
+        "name": "Het Kasteel II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
+        "match_points": 10.0,
+        "board_points": 22.5,
+        "players": {
+            "331825": {
+                "name": "Boer de, B. (Bernard)",
+                "url": "https://nosbo.netstand.nl/players/view/331825"
+            },
+            "312053": {
+                "name": "Breimer, I. (Ids)",
+                "url": "https://nosbo.netstand.nl/players/view/312053"
+            },
+            "311609": {
+                "name": "Deuling, L.J. (Luc)",
+                "url": "https://nosbo.netstand.nl/players/view/311609"
+            },
+            "341975": {
+                "name": "Dijkstra, T.C. (Theo)",
+                "url": "https://nosbo.netstand.nl/players/view/341975"
+            },
+            "315763": {
+                "name": "Gerritsen, J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/315763"
+            },
+            "332817": {
+                "name": "Hanemaaijer, T. (Teun)",
+                "url": "https://nosbo.netstand.nl/players/view/332817"
+            },
+            "337868": {
+                "name": "Horst ter, J. (Jay)",
+                "url": "https://nosbo.netstand.nl/players/view/337868"
+            },
+            "336222": {
+                "name": "Praag van, R.J. (Rob)",
+                "url": "https://nosbo.netstand.nl/players/view/336222"
+            },
+            "315634": {
+                "name": "Schepers, W. (Willem)",
+                "url": "https://nosbo.netstand.nl/players/view/315634"
+            },
+            "313898": {
+                "name": "Snoeijer, A.J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/313898"
+            },
+            "325239": {
+                "name": "Tabak, W. (Wesley)",
+                "url": "https://nosbo.netstand.nl/players/view/325239"
+            },
+            "310625": {
+                "name": "Top, R. (Roelof)",
+                "url": "https://nosbo.netstand.nl/players/view/310625"
+            },
+            "383559": {
+                "name": "Veenstra, P. (Pieter)",
+                "url": "https://nosbo.netstand.nl/players/view/383559"
+            }
+        },
+        "matches": [
+            {
+                "date": "08-11-2024",
+                "opponent": "Het Kasteel I",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "SISSA IV",
+                "location": "Away",
+                "result": "1 -5"
+            },
+            {
+                "date": "17-01-2025",
+                "opponent": "Valthermond I",
+                "location": "Home",
+                "result": "4- 2"
+            },
+            {
+                "date": "30-01-2025",
+                "opponent": "Oostermoer I",
+                "location": "Away",
+                "result": "2 -4"
+            },
+            {
+                "date": "14-02-2025",
+                "opponent": "Hoogeveen II",
+                "location": "Home",
+                "result": "4- 2"
+            },
+            {
+                "date": "17-03-2025",
+                "opponent": "Roden I",
+                "location": "Away",
+                "result": "2½ -3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1768,
+            1660,
+            1671,
+            1721,
+            1591,
+            1786
+        ],
+        "avg_opponent_rating": 1699.5
+    },
+    "Het Kasteel I": {
+        "name": "Het Kasteel I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
+        "match_points": 9.0,
+        "board_points": 22.5,
+        "players": {
+            "312138": {
+                "name": "Assen, P.J.H. (Paul)",
+                "url": "https://nosbo.netstand.nl/players/view/312138"
+            },
+            "331825": {
+                "name": "Boer de, B. (Bernard)",
+                "url": "https://nosbo.netstand.nl/players/view/331825"
+            },
+            "311609": {
+                "name": "Deuling, L.J. (Luc)",
+                "url": "https://nosbo.netstand.nl/players/view/311609"
+            },
+            "341975": {
+                "name": "Dijkstra, T.C. (Theo)",
+                "url": "https://nosbo.netstand.nl/players/view/341975"
+            },
+            "321215": {
+                "name": "Dool van den, G. (Gerrit)",
+                "url": "https://nosbo.netstand.nl/players/view/321215"
+            },
+            "315763": {
+                "name": "Gerritsen, J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/315763"
+            },
+            "341210": {
+                "name": "Nicolai, D. (Duuk)",
+                "url": "https://nosbo.netstand.nl/players/view/341210"
+            },
+            "336222": {
+                "name": "Praag van, R.J. (Rob)",
+                "url": "https://nosbo.netstand.nl/players/view/336222"
+            },
+            "322900": {
+                "name": "Scheer van der, V. (Valentijn)",
+                "url": "https://nosbo.netstand.nl/players/view/322900"
+            },
+            "313898": {
+                "name": "Snoeijer, A.J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/313898"
+            },
+            "325239": {
+                "name": "Tabak, W. (Wesley)",
+                "url": "https://nosbo.netstand.nl/players/view/325239"
+            },
+            "317969": {
+                "name": "Velde ten, J.J.J. (Jeffrey)",
+                "url": "https://nosbo.netstand.nl/players/view/317969"
+            },
+            "317029": {
+                "name": "Vinke, M.A. (Maarten)",
+                "url": "https://nosbo.netstand.nl/players/view/317029"
+            },
+            "312647": {
+                "name": "Wal ter, G. (Gerjan)",
+                "url": "https://nosbo.netstand.nl/players/view/312647"
+            }
+        },
+        "matches": [
+            {
+                "date": "08-11-2024",
+                "opponent": "Het Kasteel II",
+                "location": "Away",
+                "result": "2 -4"
+            },
+            {
+                "date": "22-11-2024",
+                "opponent": "Valthermond I",
+                "location": "Home",
+                "result": "3- 3"
+            },
+            {
+                "date": "12-12-2024",
+                "opponent": "Oostermoer I",
+                "location": "Away",
+                "result": "1½ -4½"
+            },
+            {
+                "date": "17-01-2025",
+                "opponent": "Hoogeveen II",
+                "location": "Home",
+                "result": "5½- ½"
+            },
+            {
+                "date": "27-01-2025",
+                "opponent": "Roden I",
+                "location": "Away",
+                "result": "2½ -3½"
+            },
+            {
+                "date": "14-03-2025",
+                "opponent": "SISSA IV",
+                "location": "Home",
+                "result": "2- 4"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1789,
+            1696,
+            1704,
+            1541,
+            1808,
+            1689
+        ],
+        "avg_opponent_rating": 1704.5
+    },
+    "Roden I": {
+        "name": "Roden I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
+        "match_points": 6.0,
+        "board_points": 20.0,
+        "players": {
+            "319341": {
+                "name": "Doorn van, F. (Frans)",
+                "url": "https://nosbo.netstand.nl/players/view/319341"
+            },
+            "316045": {
+                "name": "Duisterwinkel, J.A. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/316045"
+            },
+            "342809": {
+                "name": "Endema, H.J. (Harry)",
+                "url": "https://nosbo.netstand.nl/players/view/342809"
+            },
+            "317948": {
+                "name": "Hager, G. (Gijs)",
+                "url": "https://nosbo.netstand.nl/players/view/317948"
+            },
+            "310202": {
+                "name": "Kunnen, R. (Ruurd)",
+                "url": "https://nosbo.netstand.nl/players/view/310202"
+            },
+            "315982": {
+                "name": "Romeijnders, W. (Ward)",
+                "url": "https://nosbo.netstand.nl/players/view/315982"
+            },
+            "314434": {
+                "name": "Teensma, J. (Jeppe)",
+                "url": "https://nosbo.netstand.nl/players/view/314434"
+            },
+            "318199": {
+                "name": "Wolthekker, T. (Theo)",
+                "url": "https://nosbo.netstand.nl/players/view/318199"
+            },
+            "308816": {
+                "name": "Zwanepol, J. (Johan)",
+                "url": "https://nosbo.netstand.nl/players/view/308816"
+            }
+        },
+        "matches": [
+            {
+                "date": "04-11-2024",
+                "opponent": "Valthermond I",
+                "location": "Away",
+                "result": "1½ -4½"
+            },
+            {
+                "date": "18-11-2024",
+                "opponent": "Oostermoer I",
+                "location": "Home",
+                "result": "5- 1"
+            },
+            {
+                "date": "10-12-2024",
+                "opponent": "Hoogeveen II",
+                "location": "Away",
+                "result": "2½ -3½"
+            },
+            {
+                "date": "27-01-2025",
+                "opponent": "Het Kasteel I",
+                "location": "Home",
+                "result": "2½- 3½"
+            },
+            {
+                "date": "14-02-2025",
+                "opponent": "SISSA IV",
+                "location": "Away",
+                "result": "4 -2"
+            },
+            {
+                "date": "17-03-2025",
+                "opponent": "Het Kasteel II",
+                "location": "Home",
+                "result": "2½- 3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1684,
+            1717,
+            1541,
+            1802,
+            1740,
+            1738
+        ],
+        "avg_opponent_rating": 1703.6666666666667
+    },
+    "Valthermond I": {
+        "name": "Valthermond I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
+        "match_points": 6.0,
+        "board_points": 17.0,
+        "players": {
+            "315196": {
+                "name": "Joost, C. (Coert)",
+                "url": "https://nosbo.netstand.nl/players/view/315196"
+            },
+            "319548": {
+                "name": "Kolthof, P. (Peter)",
+                "url": "https://nosbo.netstand.nl/players/view/319548"
+            },
+            "317888": {
+                "name": "Krol, B. (Bart)",
+                "url": "https://nosbo.netstand.nl/players/view/317888"
+            },
+            "309001": {
+                "name": "Kruit, J.H. (Jan Hessel)",
+                "url": "https://nosbo.netstand.nl/players/view/309001"
+            },
+            "314617": {
+                "name": "Meijer, J.L. (Jan Lukas)",
+                "url": "https://nosbo.netstand.nl/players/view/314617"
+            },
+            "313325": {
+                "name": "Sliedrecht, L.R. (Rens)",
+                "url": "https://nosbo.netstand.nl/players/view/313325"
+            },
+            "310883": {
+                "name": "Spoel van der, K.G. (Klaas)",
+                "url": "https://nosbo.netstand.nl/players/view/310883"
+            },
+            "314542": {
+                "name": "Stolte, K.P. (Karel)",
+                "url": "https://nosbo.netstand.nl/players/view/314542"
+            }
+        },
+        "matches": [
+            {
+                "date": "04-11-2024",
+                "opponent": "Roden I",
+                "location": "Home",
+                "result": "1½- 4½"
+            },
+            {
+                "date": "22-11-2024",
+                "opponent": "Het Kasteel I",
+                "location": "Away",
+                "result": "3 -3"
+            },
+            {
+                "date": "09-12-2024",
+                "opponent": "SISSA IV",
+                "location": "Home",
+                "result": "4- 2"
+            },
+            {
+                "date": "17-01-2025",
+                "opponent": "Het Kasteel II",
+                "location": "Away",
+                "result": "4 -2"
+            },
+            {
+                "date": "10-02-2025",
+                "opponent": "Oostermoer I",
+                "location": "Home",
+                "result": "3- 3"
+            },
+            {
+                "date": "11-03-2025",
+                "opponent": "Hoogeveen II",
+                "location": "Away",
+                "result": "2½ -3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1808,
+            1803,
+            1695,
+            1755,
+            1686,
+            1595
+        ],
+        "avg_opponent_rating": 1723.6666666666667
+    },
+    "Oostermoer I": {
+        "name": "Oostermoer I",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
+        "match_points": 5.0,
+        "board_points": 15.5,
+        "players": {
+            "320360": {
+                "name": "Boekel van, H.J. (Henk)",
+                "url": "https://nosbo.netstand.nl/players/view/320360"
+            },
+            "319185": {
+                "name": "Dijkstra, A. (Atze)",
+                "url": "https://nosbo.netstand.nl/players/view/319185"
+            },
+            "315938": {
+                "name": "Dröge, B.E. (Bob)",
+                "url": "https://nosbo.netstand.nl/players/view/315938"
+            },
+            "322554": {
+                "name": "Groot de, H. (Harry)",
+                "url": "https://nosbo.netstand.nl/players/view/322554"
+            },
+            "339603": {
+                "name": "Noorman, E. (Erwin)",
+                "url": "https://nosbo.netstand.nl/players/view/339603"
+            },
+            "316741": {
+                "name": "Oosting, S. (Stefan)",
+                "url": "https://nosbo.netstand.nl/players/view/316741"
+            },
+            "312777": {
+                "name": "Ringenaldus, N. (Nico)",
+                "url": "https://nosbo.netstand.nl/players/view/312777"
+            },
+            "314222": {
+                "name": "Timmeren van, M.S. (Martin)",
+                "url": "https://nosbo.netstand.nl/players/view/314222"
+            },
+            "311045": {
+                "name": "Vegter, D.J. (Derk)",
+                "url": "https://nosbo.netstand.nl/players/view/311045"
+            },
+            "382825": {
+                "name": "Vos, J.E. (Jasper)",
+                "url": "https://nosbo.netstand.nl/players/view/382825"
+            },
+            "316878": {
+                "name": "Weites, P. (Peter)",
+                "url": "https://nosbo.netstand.nl/players/view/316878"
+            }
+        },
+        "matches": [
+            {
+                "date": "07-11-2024",
+                "opponent": "Hoogeveen II",
+                "location": "Home",
+                "result": "3½- 2½"
+            },
+            {
+                "date": "18-11-2024",
+                "opponent": "Roden I",
+                "location": "Away",
+                "result": "5 -1"
+            },
+            {
+                "date": "12-12-2024",
+                "opponent": "Het Kasteel I",
+                "location": "Home",
+                "result": "1½- 4½"
+            },
+            {
+                "date": "17-01-2025",
+                "opponent": "SISSA IV",
+                "location": "Away",
+                "result": "1½ -4½"
+            },
+            {
+                "date": "30-01-2025",
+                "opponent": "Het Kasteel II",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "10-02-2025",
+                "opponent": "Valthermond I",
+                "location": "Away",
+                "result": "3 -3"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1533,
+            1801,
+            1778,
+            1685,
+            1761,
+            1674
+        ],
+        "avg_opponent_rating": 1705.3333333333333
+    },
+    "Hoogeveen II": {
+        "name": "Hoogeveen II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/64",
+        "match_points": 0.0,
+        "board_points": 12.0,
+        "players": {
+            "314958": {
+                "name": "Amerongen van, F. (Frans)",
+                "url": "https://nosbo.netstand.nl/players/view/314958"
+            },
+            "330294": {
+                "name": "Benjamins, S.J.P. (Sander)",
+                "url": "https://nosbo.netstand.nl/players/view/330294"
+            },
+            "323237": {
+                "name": "Bottema, M. (Mila)",
+                "url": "https://nosbo.netstand.nl/players/view/323237"
+            },
+            "319498": {
+                "name": "Fieten, J. (Jeroen)",
+                "url": "https://nosbo.netstand.nl/players/view/319498"
+            },
+            "340396": {
+                "name": "Hanouwer, I. (Iroy)",
+                "url": "https://nosbo.netstand.nl/players/view/340396"
+            },
+            "324683": {
+                "name": "Kamperman, D.S. (Dirk)",
+                "url": "https://nosbo.netstand.nl/players/view/324683"
+            },
+            "314697": {
+                "name": "Peek, J.C. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/314697"
+            },
+            "340792": {
+                "name": "Vegt van der, E. (Els)",
+                "url": "https://nosbo.netstand.nl/players/view/340792"
+            },
+            "322985": {
+                "name": "Weerd de, J. (Josha)",
+                "url": "https://nosbo.netstand.nl/players/view/322985"
+            },
+            "319760": {
+                "name": "Woltinge, A.J. (Arjan)",
+                "url": "https://nosbo.netstand.nl/players/view/319760"
+            }
+        },
+        "matches": [
+            {
+                "date": "07-11-2024",
+                "opponent": "Oostermoer I",
+                "location": "Away",
+                "result": "3½ -2½"
+            },
+            {
+                "date": "10-12-2024",
+                "opponent": "Roden I",
+                "location": "Home",
+                "result": "2½- 3½"
+            },
+            {
+                "date": "17-01-2025",
+                "opponent": "Het Kasteel I",
+                "location": "Away",
+                "result": "5½ -½"
+            },
+            {
+                "date": "28-01-2025",
+                "opponent": "SISSA IV",
+                "location": "Home",
+                "result": "2- 4"
+            },
+            {
+                "date": "14-02-2025",
+                "opponent": "Het Kasteel II",
+                "location": "Away",
+                "result": "4 -2"
+            },
+            {
+                "date": "11-03-2025",
+                "opponent": "Valthermond I",
+                "location": "Home",
+                "result": "2½- 3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1718,
+            1808,
+            1867,
+            1718,
+            1686,
+            1685
+        ],
+        "avg_opponent_rating": 1747.0
+    },
+    "Leek II": {
+        "name": "Leek II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/65",
+        "match_points": 9.0,
+        "board_points": 17.0,
+        "players": {
+            "321586": {
+                "name": "Essen van, T.D. (Tobias)",
+                "url": "https://nosbo.netstand.nl/players/view/321586"
+            },
+            "338995": {
+                "name": "Fokkema, G.A. (Gerwin)",
+                "url": "https://nosbo.netstand.nl/players/view/338995"
+            },
+            "344732": {
+                "name": "Hannessen, J. (Jonathan)",
+                "url": "https://nosbo.netstand.nl/players/view/344732"
+            },
+            "338998": {
+                "name": "Jong de, S.P. (Sebastiaan)",
+                "url": "https://nosbo.netstand.nl/players/view/338998"
+            },
+            "319222": {
+                "name": "Stokhorst, J.A. (Jan Arie)",
+                "url": "https://nosbo.netstand.nl/players/view/319222"
+            }
+        },
+        "matches": [
+            {
+                "date": "08-11-2024",
+                "opponent": "HSP/Veendam II",
+                "location": "Home",
+                "result": "2- 2"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "Groninger Combinatie VI",
+                "location": "Home",
+                "result": "3½- ½"
+            },
+            {
+                "date": "21-01-2025",
+                "opponent": "Lewenborg III",
+                "location": "Away",
+                "result": "0 -4"
+            },
+            {
+                "date": "07-02-2025",
+                "opponent": "Middelstum II",
+                "location": "Home",
+                "result": "4- 0"
+            },
+            {
+                "date": "07-03-2025",
+                "opponent": "SISSA V",
+                "location": "Away",
+                "result": "½ -3½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1678,
+            1664,
+            1551,
+            1605,
+            1696
+        ],
+        "avg_opponent_rating": 1638.8
+    },
+    "HSP/Veendam II": {
+        "name": "HSP/Veendam II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/65",
+        "match_points": 7.0,
+        "board_points": 11.5,
+        "players": {
+            "345054": {
+                "name": "Burger, G.J. (Gerard)",
+                "url": "https://nosbo.netstand.nl/players/view/345054"
+            },
+            "335020": {
+                "name": "Hartman, M. (Martin)",
+                "url": "https://nosbo.netstand.nl/players/view/335020"
+            },
+            "317974": {
+                "name": "Jongejan, P.J. (Piet)",
+                "url": "https://nosbo.netstand.nl/players/view/317974"
+            },
+            "345049": {
+                "name": "Luijkx, D.M. (Dagmar)",
+                "url": "https://nosbo.netstand.nl/players/view/345049"
+            },
+            "310130": {
+                "name": "Nieuwenweg, R.H. (Rob)",
+                "url": "https://nosbo.netstand.nl/players/view/310130"
+            },
+            "345352": {
+                "name": "Soest van, S. (Sjoerd)",
+                "url": "https://nosbo.netstand.nl/players/view/345352"
+            }
+        },
+        "matches": [
+            {
+                "date": "08-11-2024",
+                "opponent": "Leek II",
+                "location": "Away",
+                "result": "2 -2"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "Middelstum II",
+                "location": "Home",
+                "result": "3- 1"
+            },
+            {
+                "date": "23-01-2025",
+                "opponent": "Groninger Combinatie VI",
+                "location": "Away",
+                "result": "1½ -2½"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "SISSA V",
+                "location": "Home",
+                "result": "1- 3"
+            },
+            {
+                "date": "04-03-2025",
+                "opponent": "Lewenborg III",
+                "location": "Away",
+                "result": "1 -3"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1825,
+            1592,
+            1664,
+            1767,
+            1500
+        ],
+        "avg_opponent_rating": 1669.6
+    },
+    "Lewenborg III": {
+        "name": "Lewenborg III",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/65",
+        "match_points": 3.0,
+        "board_points": 6.5,
+        "players": {
+            "316027": {
+                "name": "Bosgra, J. (Jacob)",
+                "url": "https://nosbo.netstand.nl/players/view/316027"
+            },
+            "343996": {
+                "name": "Riet van 't, P.H. (Flip)",
+                "url": "https://nosbo.netstand.nl/players/view/343996"
+            },
+            "316057": {
+                "name": "Rijploeg, J. (Sjak)",
+                "url": "https://nosbo.netstand.nl/players/view/316057"
+            },
+            "316269": {
+                "name": "Souhoka, J. (John)",
+                "url": "https://nosbo.netstand.nl/players/view/316269"
+            },
+            "314223": {
+                "name": "Uyleman, A. (Arthur)",
+                "url": "https://nosbo.netstand.nl/players/view/314223"
+            },
+            "337044": {
+                "name": "Werkman, A.H. (Albert)",
+                "url": "https://nosbo.netstand.nl/players/view/337044"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-11-2024",
+                "opponent": "Middelstum II",
+                "location": "Home",
+                "result": "3- 1"
+            },
+            {
+                "date": "29-11-2024",
+                "opponent": "SISSA V",
+                "location": "Away",
+                "result": "2 -2"
+            },
+            {
+                "date": "21-01-2025",
+                "opponent": "Leek II",
+                "location": "Home",
+                "result": "0- 4"
+            },
+            {
+                "date": "06-02-2025",
+                "opponent": "Groninger Combinatie VI",
+                "location": "Away",
+                "result": "3½ -½"
+            },
+            {
+                "date": "04-03-2025",
+                "opponent": "HSP/Veendam II",
+                "location": "Home",
+                "result": "1- 3"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1620,
+            1685,
+            1726,
+            1664,
+            1609
+        ],
+        "avg_opponent_rating": 1660.8
+    },
+    "Middelstum II": {
+        "name": "Middelstum II",
+        "federation": "NOSBO",
+        "division_url": "https://nosbo.netstand.nl/divisions/view/65",
+        "match_points": 0.0,
+        "board_points": 4.5,
+        "players": {
+            "311788": {
+                "name": "Berg van den, J. (Jan)",
+                "url": "https://nosbo.netstand.nl/players/view/311788"
+            },
+            "322344": {
+                "name": "Bos, W. (Wim)",
+                "url": "https://nosbo.netstand.nl/players/view/322344"
+            },
+            "323597": {
+                "name": "Harmanny, W. (Wim)",
+                "url": "https://nosbo.netstand.nl/players/view/323597"
+            },
+            "318339": {
+                "name": "Melle van, J.P. (Joost)",
+                "url": "https://nosbo.netstand.nl/players/view/318339"
+            },
+            "311780": {
+                "name": "Rellum, T.J. (Theo)",
+                "url": "https://nosbo.netstand.nl/players/view/311780"
+            }
+        },
+        "matches": [
+            {
+                "date": "12-11-2024",
+                "opponent": "Lewenborg III",
+                "location": "Away",
+                "result": "3 -1"
+            },
+            {
+                "date": "28-11-2024",
+                "opponent": "HSP/Veendam II",
+                "location": "Away",
+                "result": "3 -1"
+            },
+            {
+                "date": "21-01-2025",
+                "opponent": "SISSA V",
+                "location": "Home",
+                "result": "1- 3"
+            },
+            {
+                "date": "07-02-2025",
+                "opponent": "Leek II",
+                "location": "Away",
+                "result": "4 -0"
+            },
+            {
+                "date": "04-03-2025",
+                "opponent": "Groninger Combinatie VI",
+                "location": "Home",
+                "result": "1½- 2½"
+            }
+        ],
+        "opponent_ratings_raw": [
+            1598,
+            1678,
+            1807,
+            1825,
+            1660
+        ],
+        "avg_opponent_rating": 1713.6
     }
 }

@@ -1,0 +1,615 @@
+{
+    "Klasse 4A": {
+        "name": "Klasse 4A",
+        "federation": "KNSB",
+        "teams": {
+            "5414": {
+                "name": "Philidor 1847 2"
+            },
+            "5408": {
+                "name": "HSP/Veendam 1"
+            },
+            "5413": {
+                "name": "Tjonger Aa Linde 1"
+            },
+            "5415": {
+                "name": "SISSA 1"
+            },
+            "5407": {
+                "name": "SISSA 2"
+            },
+            "5406": {
+                "name": "O&O Kampen 1"
+            },
+            "5410": {
+                "name": "Groninger Combinatie 4"
+            },
+            "5409": {
+                "name": "ESG Emmen 1"
+            },
+            "5411": {
+                "name": "Groninger Combinatie 5"
+            },
+            "5412": {
+                "name": "Schaakwoude 2"
+            }
+        },
+        "players": {
+            "1912563": {
+                "name": "Abma, K. (Klaas)"
+            },
+            "1980289": {
+                "name": "Alsari, M. (Mohamed)"
+            },
+            "1931858": {
+                "name": "Andrieu, J. (Justin)"
+            },
+            "1908156": {
+                "name": "Banning, C. (Cees)"
+            },
+            "1913342": {
+                "name": "Bavel van, F. (Ferdi)"
+            },
+            "1908227": {
+                "name": "Beersum van, W. (Wim)"
+            },
+            "1925434": {
+                "name": "Bloemhof, R.B.P. (Ruben)"
+            },
+            "1930482": {
+                "name": "Blok, X. (Xaveer)"
+            },
+            "1909179": {
+                "name": "Bodewes, P.M. (Peter)"
+            },
+            "1914776": {
+                "name": "Boer de, R. (Rein)"
+            }
+        }
+    },
+    "Klasse 6A": {
+        "name": "Klasse 6A",
+        "federation": "KNSB",
+        "teams": {
+            "5616": {
+                "name": "Philidor 1847 3"
+            },
+            "5614": {
+                "name": "Hoogeveen 2"
+            },
+            "5610": {
+                "name": "SISSA 3"
+            },
+            "5617": {
+                "name": "SISSA 4"
+            },
+            "5613": {
+                "name": "Groninger Combinatie 7"
+            },
+            "5612": {
+                "name": "ESG Emmen 2"
+            },
+            "5615": {
+                "name": "Tjonger Aa Linde 3"
+            },
+            "5611": {
+                "name": "Assen 3"
+            }
+        },
+        "players": {
+            "1923705": {
+                "name": "Akkerman, J. (Jan)"
+            },
+            "1938388": {
+                "name": "Almefalani, A. (Abdulhay)"
+            },
+            "1913007": {
+                "name": "Amerongen van, F. (Frans)"
+            },
+            "1931858": {
+                "name": "Andrieu, J. (Justin)"
+            },
+            "1935142": {
+                "name": "Baars, T. (Tije)"
+            },
+            "1928343": {
+                "name": "Benjamins, S.J.P. (Sander)"
+            },
+            "1910257": {
+                "name": "Boer, J. (Jan)"
+            },
+            "1942477": {
+                "name": "Boer, J. (Joël)"
+            },
+            "1985773": {
+                "name": "Boertien, P. (Preston)"
+            },
+            "1915270": {
+                "name": "Bottema, J. (Jeroen)"
+            }
+        }
+    },
+    "Achttallen 2e fase A": {
+        "name": "Achttallen 2e fase A",
+        "federation": "NOSBO",
+        "teams": {
+            "568": {
+                "name": "SISSA I"
+            },
+            "565": {
+                "name": "Groninger Combinatie I"
+            },
+            "566": {
+                "name": "Groninger Combinatie II"
+            },
+            "567": {
+                "name": "Assen I"
+            }
+        },
+        "players": {
+            "340339": {
+                "name": "Almefalani, A. (Abdulhay)"
+            },
+            "336502": {
+                "name": "Bosveld, M. (Mattias)"
+            },
+            "325983": {
+                "name": "Brand, N.W. (Niels)"
+            },
+            "311564": {
+                "name": "Clemens, A.H.P. (Adrian)"
+            },
+            "315760": {
+                "name": "Dijkstra, M. (Maarten)"
+            },
+            "320671": {
+                "name": "Elsinga, B. (Brian)"
+            },
+            "319454": {
+                "name": "Faber, A. (Ab)"
+            },
+            "320367": {
+                "name": "Foreest van, M. (Machteld)"
+            },
+            "320639": {
+                "name": "Foreest van, N. (Nanne)"
+            },
+            "334026": {
+                "name": "Groeneveld, J. (Henry)"
+            }
+        }
+    },
+    "Achttallen 2e fase C": {
+        "name": "Achttallen 2e fase C",
+        "federation": "NOSBO",
+        "teams": {
+            "574": {
+                "name": "Leek I"
+            },
+            "576": {
+                "name": "Groninger Combinatie III"
+            },
+            "575": {
+                "name": "SISSA II"
+            },
+            "573": {
+                "name": "Van der Linde I"
+            }
+        },
+        "players": {
+            "337093": {
+                "name": "Baars, T. (Tije)"
+            },
+            "327385": {
+                "name": "Bloemhof, R.B.P. (Ruben)"
+            },
+            "384089": {
+                "name": "Bodewits, M.W. (Maxim)"
+            },
+            "316678": {
+                "name": "Dijkstra, A.H.E. (Johan)"
+            },
+            "312526": {
+                "name": "Doller, P. (Pieter)"
+            },
+            "321586": {
+                "name": "Essen van, T.D. (Tobias)"
+            },
+            "326024": {
+                "name": "Heijmans, M. (Merlijn)"
+            },
+            "314405": {
+                "name": "Heuvel van den, A. (Annelies)"
+            },
+            "312034": {
+                "name": "Hoekstra, C.A.H. (Carl)"
+            },
+            "311074": {
+                "name": "Holtz, R.G. (Job)"
+            }
+        }
+    },
+    "Zestallen 2e fase C": {
+        "name": "Zestallen 2e fase C",
+        "federation": "NOSBO",
+        "teams": {
+            "598": {
+                "name": "Lewenborg II"
+            },
+            "592": {
+                "name": "Middelstum I"
+            },
+            "600": {
+                "name": "SISSA IV"
+            }
+        },
+        "players": {
+            "317837": {
+                "name": "Altena van, L. (Lydia)"
+            },
+            "322344": {
+                "name": "Bos, W. (Wim)"
+            },
+            "338683": {
+                "name": "Frieswijk, R. (René)"
+            },
+            "315254": {
+                "name": "Frieswijk, R.A. (Rudy)"
+            },
+            "331081": {
+                "name": "Gay, A. (Aurore)"
+            },
+            "319073": {
+                "name": "Hoogeboom, B. (Boudewijn)"
+            },
+            "318165": {
+                "name": "Kamminga, W.R. (Rob)"
+            },
+            "341123": {
+                "name": "Koning, F.M. (Femke)"
+            },
+            "317159": {
+                "name": "Luining, A. (Fred)"
+            },
+            "343802": {
+                "name": "Meij van der, N. (Nouschka)"
+            }
+        }
+    },
+    "Viertallen 2e fase B": {
+        "name": "Viertallen 2e fase B",
+        "federation": "NOSBO",
+        "teams": {
+            "583": {
+                "name": "Roden II"
+            },
+            "582": {
+                "name": "SISSA V"
+            },
+            "584": {
+                "name": "Groninger Combinatie V"
+            },
+            "581": {
+                "name": "Groninger Combinatie VI"
+            }
+        },
+        "players": {
+            "318783": {
+                "name": "Burgh van der, A.J. (Arend)"
+            },
+            "319341": {
+                "name": "Doorn van, F. (Frans)"
+            },
+            "316045": {
+                "name": "Duisterwinkel, J.A. (Jan)"
+            },
+            "345424": {
+                "name": "Helder, D. (David)"
+            },
+            "316323": {
+                "name": "Jansen, E. (Eric)"
+            },
+            "308729": {
+                "name": "Janssen, E.J. (Eddie)"
+            },
+            "328597": {
+                "name": "Kaaij, D. (Diederick)"
+            },
+            "324304": {
+                "name": "Kempenaar, J. (Jane)"
+            },
+            "315253": {
+                "name": "Krijnen, W. (Wim)"
+            },
+            "308712": {
+                "name": "Kroezen, R.P. (Roland)"
+            }
+        }
+    },
+    "Achttallen 1e fase A": {
+        "name": "Achttallen 1e fase A",
+        "federation": "NOSBO",
+        "teams": {
+            "481": {
+                "name": "SISSA I"
+            },
+            "480": {
+                "name": "Groninger Combinatie II"
+            },
+            "482": {
+                "name": "Lewenborg I"
+            },
+            "483": {
+                "name": "HSP/Veendam I"
+            },
+            "484": {
+                "name": "Leek I"
+            },
+            "485": {
+                "name": "Van der Linde I"
+            }
+        },
+        "players": {
+            "340339": {
+                "name": "Almefalani, A. (Abdulhay)"
+            },
+            "333809": {
+                "name": "Andrieu, J. (Justin)"
+            },
+            "341875": {
+                "name": "Bajrami, V. (Valentin)"
+            },
+            "324608": {
+                "name": "Beekman, B.J.H. (Bastiaan)"
+            },
+            "384089": {
+                "name": "Bodewits, M.W. (Maxim)"
+            },
+            "313578": {
+                "name": "Bontjer, B. (Bernard)"
+            },
+            "325983": {
+                "name": "Brand, N.W. (Niels)"
+            },
+            "311564": {
+                "name": "Clemens, A.H.P. (Adrian)"
+            },
+            "311972": {
+                "name": "Cliteur, O.P. (Olaf)"
+            },
+            "310025": {
+                "name": "Dijkhuizen, K.G. (Klaas)"
+            }
+        }
+    },
+    "Achttallen 1e fase B": {
+        "name": "Achttallen 1e fase B",
+        "federation": "NOSBO",
+        "teams": {
+            "486": {
+                "name": "Groninger Combinatie I"
+            },
+            "490": {
+                "name": "Assen I"
+            },
+            "489": {
+                "name": "Hoogeveen I"
+            },
+            "491": {
+                "name": "ESG I"
+            },
+            "487": {
+                "name": "Groninger Combinatie III"
+            },
+            "488": {
+                "name": "SISSA II"
+            }
+        },
+        "players": {
+            "336517": {
+                "name": "Aandewiel, P. (Pascal)"
+            },
+            "337093": {
+                "name": "Baars, T. (Tije)"
+            },
+            "327385": {
+                "name": "Bloemhof, R.B.P. (Ruben)"
+            },
+            "314747": {
+                "name": "Boer, A. (Alef)"
+            },
+            "319493": {
+                "name": "Boontje, W. (Willem)"
+            },
+            "336502": {
+                "name": "Bosveld, M. (Mattias)"
+            },
+            "315537": {
+                "name": "Brinks, J.W. (Jan Willem)"
+            },
+            "339205": {
+                "name": "Broertjes, S.G. (Stephan)"
+            },
+            "334746": {
+                "name": "Brouwers, C. (Carmen)"
+            },
+            "335762": {
+                "name": "Bruggink, T. (Tycho)"
+            }
+        }
+    },
+    "Zestallen 1e fase A": {
+        "name": "Zestallen 1e fase A",
+        "federation": "NOSBO",
+        "teams": {
+            "492": {
+                "name": "Groninger Combinatie IV"
+            },
+            "494": {
+                "name": "Bedum I"
+            },
+            "493": {
+                "name": "SISSA III"
+            },
+            "497": {
+                "name": "Staunton I"
+            },
+            "496": {
+                "name": "Middelstum I"
+            },
+            "495": {
+                "name": "Lewenborg II"
+            },
+            "498": {
+                "name": "DAC I"
+            }
+        },
+        "players": {
+            "334985": {
+                "name": "Aleman, J.A.A. (Johan)"
+            },
+            "340339": {
+                "name": "Almefalani, A. (Abdulhay)"
+            },
+            "333809": {
+                "name": "Andrieu, J. (Justin)"
+            },
+            "341875": {
+                "name": "Bajrami, V. (Valentin)"
+            },
+            "315195": {
+                "name": "Bekker, F. (Free)"
+            },
+            "345024": {
+                "name": "Berg van den, H.T. (Thijmen)"
+            },
+            "322222": {
+                "name": "Blokzijl, R. (Ruben)"
+            },
+            "343803": {
+                "name": "Boer, J. (Joël)"
+            },
+            "313013": {
+                "name": "Bol, J. (Jan)"
+            },
+            "319069": {
+                "name": "Brandsma, F. (Frits)"
+            }
+        }
+    },
+    "Zestallen 1e fase B": {
+        "name": "Zestallen 1e fase B",
+        "federation": "NOSBO",
+        "teams": {
+            "500": {
+                "name": "Het Kasteel II"
+            },
+            "499": {
+                "name": "Het Kasteel I"
+            },
+            "503": {
+                "name": "Roden I"
+            },
+            "505": {
+                "name": "Valthermond I"
+            },
+            "501": {
+                "name": "SISSA IV"
+            },
+            "504": {
+                "name": "Oostermoer I"
+            },
+            "502": {
+                "name": "Hoogeveen II"
+            }
+        },
+        "players": {
+            "317837": {
+                "name": "Altena van, L. (Lydia)"
+            },
+            "314958": {
+                "name": "Amerongen van, F. (Frans)"
+            },
+            "312138": {
+                "name": "Assen, P.J.H. (Paul)"
+            },
+            "330294": {
+                "name": "Benjamins, S.J.P. (Sander)"
+            },
+            "382847": {
+                "name": "Biancotti, C. (Carolina)"
+            },
+            "320360": {
+                "name": "Boekel van, H.J. (Henk)"
+            },
+            "331825": {
+                "name": "Boer de, B. (Bernard)"
+            },
+            "323237": {
+                "name": "Bottema, M. (Mila)"
+            },
+            "312053": {
+                "name": "Breimer, I. (Ids)"
+            },
+            "311609": {
+                "name": "Deuling, L.J. (Luc)"
+            }
+        }
+    },
+    "Viertallen 1e fase A": {
+        "name": "Viertallen 1e fase A",
+        "federation": "NOSBO",
+        "teams": {
+            "510": {
+                "name": "Leek II"
+            },
+            "509": {
+                "name": "HSP/Veendam II"
+            },
+            "507": {
+                "name": "SISSA V"
+            },
+            "506": {
+                "name": "Groninger Combinatie VI"
+            },
+            "508": {
+                "name": "Lewenborg III"
+            },
+            "511": {
+                "name": "Middelstum II"
+            }
+        },
+        "players": {
+            "311788": {
+                "name": "Berg van den, J. (Jan)"
+            },
+            "322344": {
+                "name": "Bos, W. (Wim)"
+            },
+            "316027": {
+                "name": "Bosgra, J. (Jacob)"
+            },
+            "345054": {
+                "name": "Burger, G.J. (Gerard)"
+            },
+            "321586": {
+                "name": "Essen van, T.D. (Tobias)"
+            },
+            "338995": {
+                "name": "Fokkema, G.A. (Gerwin)"
+            },
+            "344732": {
+                "name": "Hannessen, J. (Jonathan)"
+            },
+            "323597": {
+                "name": "Harmanny, W. (Wim)"
+            },
+            "335020": {
+                "name": "Hartman, M. (Martin)"
+            },
+            "345424": {
+                "name": "Helder, D. (David)"
+            }
+        }
+    }
+}
