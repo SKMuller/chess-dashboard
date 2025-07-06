@@ -4,6 +4,7 @@ import time
 import re
 import json
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta
 
 # --- Selenium and WebDriver Imports ---
 from selenium import webdriver
@@ -31,6 +32,22 @@ all_players_data = {}
 all_divisions_data = {}
 
 # --- Helper Functions ---
+def scrape_round_date(round_url, domain_key):
+    """
+    Visits a round page and scrapes the start date.
+    """
+    html_content = fetch_page(round_url)
+    if not html_content:
+        return None
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    date_label = soup.find('b', string=re.compile(r'Startdatum:'))
+    if date_label:
+        date_element = date_label.find_next_sibling('i')
+        if date_element:
+            return date_element.get_text(strip=True)
+    return None
+
 def fetch_page(url, retries=5, delay=30):
     print(f"Fetching with Selenium: {url}")
     options = webdriver.ChromeOptions()
@@ -90,6 +107,56 @@ def _scrape_opponent_rating_from_pairings(pairing_page_html, opponent_team_name,
             return int(rating_cell.get_text(strip=True))
     except (AttributeError, ValueError, IndexError): return None
     return None
+
+# --- NEW: Function to fetch historical ratings from the JSON API ---
+def fetch_historical_ratings(universal_id):
+    """
+    Fetches historical ELO data and returns it as a chronologically sorted dictionary.
+    """
+    url = f"https://ratingviewer.nl/metrics/forRelatienr/{universal_id}.json"
+    historical_data = {}
+    print(f"  Fetching historical data from: {url}")
+    
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        rating_list = response.json()
+        print(f"  Found {len(rating_list)} total historical rating entries for player {universal_id}.")
+
+        today = datetime.now()
+        start_date = today - timedelta(days=365)
+        end_date = today
+
+        for rating_entry in rating_list:
+            if not isinstance(rating_entry, dict):
+                continue
+            try:
+                moment_str = rating_entry.get('moment')
+                if not moment_str: continue
+                
+                list_date = datetime.strptime(moment_str.split('T')[0], '%Y-%m-%d')
+                
+                if start_date <= list_date <= end_date:
+                    period_key = list_date.strftime('%Y-%m')
+                    rating_value = rating_entry.get('rating')
+                    if rating_value is not None and period_key not in historical_data:
+                        historical_data[period_key] = rating_value
+                            
+            except (ValueError, TypeError):
+                continue
+                    
+    except requests.exceptions.RequestException as e:
+        print(f"  Could not fetch historical rating data for player {universal_id}: {e}")
+    
+    if not historical_data:
+        print("  --> No ratings found within the specified date range.")
+        return {} # Return an empty dict if nothing was found
+        
+    # --- NEW: Sort the dictionary by period (YYYY-MM) before returning ---
+    sorted_items = sorted(historical_data.items())
+    sorted_historical_data = dict(sorted_items)
+    
+    return sorted_historical_data
 
 # --- Scraping Logic ---
 def scrape_competition_pages(target_prefix):
@@ -213,22 +280,33 @@ def scrape_division_page(division_url, domain_key):
                     except (ValueError, TypeError): pass
     return division_data
 
+# --- UPDATED: scrape_player_page now calls the new helper function ---
 def scrape_player_page(player_id, player_url, domain_key):
+    """
+    Scrapes a player page, including visiting each round page to get the game date.
+    """
     print(f"\nScraping player page for federation ID: {player_id} ({player_url})")
     html_content = fetch_page(player_url)
+
     player_data = {
         'federation_id': player_id, 'universal_id': None, 'name': '', 'elo': None,
-        'total_score': 0.0, 'opponent_ratings_raw': [], 'avg_opponent_rating': 0.0,
         'tpr': None, 'w_we': None, 'games_played': 0, 'wins': 0, 'draws': 0, 'losses': 0,
         'color_balance': None, 'color_distribution': '', 'games': [],
+        'total_score': 0.0, 'opponent_ratings_raw': [], 'avg_opponent_rating': 0.0,
+        'historical_ratings': {}
     }
+
     if not html_content: return player_data
     soup = BeautifulSoup(html_content, 'html.parser')
+
     try:
         player_data['name'] = soup.find('div', class_='col-lg-4 offset-lg-4 text-center').get_text(strip=True)
         rating_viewer_link = soup.find('a', href=re.compile(r'ratingviewer\.nl/list/latest/players/'))
-        if rating_viewer_link: player_data['universal_id'] = re.search(r'/players/(\d+)/', rating_viewer_link['href']).group(1)
-        rating_label = soup.find('b', string='Rating')
+        if rating_viewer_link:
+            universal_id = re.search(r'/players/(\d+)/', rating_viewer_link['href']).group(1)
+            player_data['universal_id'] = universal_id
+            player_data['historical_ratings'] = fetch_historical_ratings(universal_id)
+        rating_label = soup.find('b', string=lambda text: text and 'Rating' in text)
         if rating_label: player_data['elo'] = int(rating_label.parent.get_text(strip=True).replace('Rating', '').strip())
     except Exception: pass
     try:
@@ -256,20 +334,32 @@ def scrape_player_page(player_id, player_url, domain_key):
             for row in results_table.find('tbody').find_all('tr'):
                 cells = row.find_all('td')
                 if not cells or len(cells) < 3: continue
+
+                round_link_tag = cells[0].find('a')
+                game_date = None
+                if round_link_tag:
+                    round_url = BASE_URLS[domain_key] + round_link_tag['href']
+                    game_date = scrape_round_date(round_url, domain_key) # Fetch the date
+
                 opponent_text = cells[1].get_text(strip=True)
                 rating_match = re.search(r'\((\d{3,4})\)', opponent_text)
+                
                 game_data = {
                     "round": cells[0].get_text(strip=True),
+                    "date": game_date, # Add the scraped date
                     "opponent_name": opponent_text.split('(')[0].strip(),
                     "opponent_rating": int(rating_match.group(1)) if rating_match else None,
                     "result": cells[2].get_text(strip=True),
                     "color": cells[3].get_text(strip=True) if len(cells) > 3 else 'N/A'
                 }
                 player_data['games'].append(game_data)
+                
                 if game_data['opponent_rating']: player_data['opponent_ratings_raw'].append(game_data['opponent_rating'])
-                if game_data['result'] == '1': player_data['total_score'] += 1.0
-                elif game_data['result'] == '½': player_data['total_score'] += 0.5
-    except Exception as e: print(f"  Could not parse games table for player {player_id}: {e}")
+                score_text = game_data['result']
+                if score_text == '1': player_data['total_score'] += 1.0
+                elif score_text == '½': player_data['total_score'] += 0.5
+    except Exception as e:
+        print(f"  Could not parse games table for player {player_id}: {e}")
     if player_data['opponent_ratings_raw']: player_data['avg_opponent_rating'] = sum(player_data['opponent_ratings_raw']) / len(player_data['opponent_ratings_raw'])
     return player_data
 
@@ -393,11 +483,11 @@ def debug_players(limit=5):
         print(json.dumps(result, indent=4))
 
 if __name__ == "__main__":
-    # --- The debug functions are now commented out ---
+    # --- Debug functions---
     # debug_multiple_teams()
     # debug_players()
 
-    # --- The full scraper is now active ---
+    # --- Full scraper ---
     CLUB_TEAM_PREFIX = "SISSA"
     start_time = time.monotonic()
     run_scraper(CLUB_TEAM_PREFIX)

@@ -4,6 +4,7 @@ import json
 import plotly.express as px
 import plotly.graph_objects as go
 import re
+from datetime import datetime, timedelta
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -49,9 +50,12 @@ def process_match_history(match_history_list):
         board_points_list.append(my_score_str.strip())
         try:
             bp_value = float(my_score_str.strip().replace('½', '.5'))
-            if bp_value < 4: mp_value = 0
-            elif bp_value == 4: mp_value = 1
-            else: mp_value = 2
+            if bp_value < 4:
+                mp_value = 0
+            elif bp_value == 4:
+                mp_value = 1
+            else:
+                mp_value = 2
             match_points_list.append(mp_value)
         except (ValueError, AttributeError):
             match_points_list.append('N/A')
@@ -66,22 +70,40 @@ def process_match_history(match_history_list):
 def load_data():
     """Loads and links data from all three JSON files."""
     try:
-        with open('chess_team_data.json', 'r', encoding='utf-8') as f: team_data = json.load(f)
-        with open('chess_player_data.json', 'r', encoding='utf-8') as f: player_data = json.load(f)
-        with open('chess_division_data.json', 'r', encoding='utf-8') as f: division_data = json.load(f)
+        with open('chess_team_data.json', 'r', encoding='utf-8') as f:
+            team_data = json.load(f)
+        with open('chess_player_data.json', 'r', encoding='utf-8') as f:
+            player_data = json.load(f)
+        with open('chess_division_data.json', 'r', encoding='utf-8') as f:
+            division_data = json.load(f)
+
         team_df = pd.DataFrame(team_data.values())
         player_df = pd.DataFrame(player_data.values())
         division_df = pd.DataFrame(division_data.values())
+
         if not team_df.empty:
-            fed_id_to_team = {fed_id: team_row['name'] for _, team_row in team_df.iterrows() for fed_id in team_row.get('players', {}).keys()}
+            fed_id_to_team = {
+                fed_id: team_row['name']
+                for _, team_row in team_df.iterrows()
+                for fed_id in team_row.get('players', {}).keys()
+            }
             def get_teams_for_player(player_row):
-                teams = {fed_id_to_team[fed_id] for fed_id in player_row.get('federation_ids', []) if fed_id in fed_id_to_team}
+                teams = {
+                    fed_id_to_team[fed_id]
+                    for fed_id in player_row.get('federation_ids', [])
+                    if fed_id in fed_id_to_team
+                }
                 return list(teams) if teams else ["Unknown"]
             if not player_df.empty:
                 player_df['teams_played_for'] = player_df.apply(get_teams_for_player, axis=1)
+        
         return team_df, player_df, division_df
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        st.error(f"Error loading JSON files: {e}")
+        
+    except FileNotFoundError:
+        st.error("One or more JSON files were not found. Please run the scraper.")
+        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+    except Exception as e:
+        st.error(f"An error occurred loading the data: {e}")
         return pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
 # --- Main App ---
@@ -95,7 +117,12 @@ else:
     st.sidebar.header("Filters")
     all_team_names = sorted(team_df['name'].unique(), key=custom_sort_key)
     default_teams = [name for name in all_team_names if name.startswith("SISSA")]
-    selected_teams = st.sidebar.multiselect("Select Teams to Display:", options=all_team_names, default=default_teams)
+    
+    selected_teams = st.sidebar.multiselect(
+        "Select Teams to Display:",
+        options=all_team_names,
+        default=default_teams
+    )
     
     filtered_team_df = team_df[team_df['name'].isin(selected_teams)].copy()
     if not filtered_team_df.empty:
@@ -104,39 +131,46 @@ else:
     # --- Main layout with three tabs ---
     tab1, tab2, tab3 = st.tabs(["🏆 Club & Team Overview", "👤 Player Deep Dive", "⚔️ Division Analytics"])
 
-
     with tab1:
-        # Code for Tab 1
         filtered_team_names_tab1 = filtered_team_df['name'].unique()
         filtered_player_df_tab1 = player_df[player_df['teams_played_for'].apply(lambda p_teams: any(t in filtered_team_names_tab1 for t in p_teams))]
+        
         st.header("Club Overview")
         col1, col2, col3 = st.columns(3)
         col1.metric("Total Teams Shown", len(filtered_team_df))
         col2.metric("Total Players Shown", len(filtered_player_df_tab1))
         col3.metric("Total Scraped Matches", sum(len(matches) for matches in filtered_team_df['matches'] if isinstance(matches, list)))
+        
         st.header("Team Performance")
         team_display_df = filtered_team_df.rename(columns={'name': 'Team', 'federation': 'Competition', 'match_points': 'Match Points (MP)', 'board_points': 'Board Points (BP)', 'avg_opponent_rating': 'Avg. Opponent Rating'})
         st.dataframe(team_display_df[['Team', 'Competition', 'Match Points (MP)', 'Board Points (BP)', 'Avg. Opponent Rating']].sort_values('Team', key=lambda s: s.map(custom_sort_key)))
+
         st.markdown("### Team Strength vs. Opposition Strength")
-        sorted_legend_names_tab1 = sorted(filtered_team_df['name'].unique(), key=custom_sort_key)
-        fig_teams = px.scatter(filtered_team_df, x='match_points', y='avg_opponent_rating', color='name', size='board_points', hover_name='name', title='Team Performance: Match Points vs. Average Opponent Rating', category_orders={"name": sorted_legend_names_tab1})
+        sorted_legend_names = sorted(filtered_team_df['name'].unique(), key=custom_sort_key)
+        fig_teams = px.scatter(
+            filtered_team_df, x='match_points', y='avg_opponent_rating', color='name',
+            size='board_points', hover_name='name', title='Team Performance: Match Points vs. Average Opponent Rating',
+            category_orders={"name": sorted_legend_names}
+        )
         st.plotly_chart(fig_teams, use_container_width=True)
+
         st.header("Detailed Match History")
         if not filtered_team_df.empty:
-            selected_team_tab1 = st.selectbox("Select a team to view its match history:", options=sorted_legend_names_tab1, key="team_selector_tab1")
+            selected_team_tab1 = st.selectbox("Select a team to view its match history:", options=sorted_legend_names, key="team_selector_tab1")
             if selected_team_tab1:
                 team_with_named_index = filtered_team_df.set_index('name')
                 match_history = team_with_named_index.loc[selected_team_tab1, 'matches']
                 display_df = process_match_history(match_history)
-                if not display_df.empty: st.dataframe(display_df, use_container_width=True, hide_index=True)
-                else: st.warning(f"No match history found for {selected_team_tab1}.")
+                if not display_df.empty:
+                    st.dataframe(display_df, use_container_width=True, hide_index=True)
+                else:
+                    st.warning(f"No match history found for {selected_team_tab1}.")
 
     with tab2:
         st.header("Player Deep Dive")
-
-        filtered_team_names = filtered_team_df['name'].unique()
+        filtered_team_names_tab2 = filtered_team_df['name'].unique()
         available_players_df = player_df[
-            player_df['teams_played_for'].apply(lambda p_teams: any(t in filtered_team_names for t in p_teams))
+            player_df['teams_played_for'].apply(lambda p_teams: any(t in filtered_team_names_tab2 for t in p_teams))
         ].copy()
 
         if not available_players_df.empty:
@@ -148,68 +182,63 @@ else:
 
             if selected_player_name:
                 player_info = available_players_df[available_players_df['name'] == selected_player_name].iloc[0]
-                games_list = player_info.get('games', [])
+                
+                st.markdown(f"### Historical Rating for {selected_player_name}")
+                historical_ratings = player_info.get('historical_ratings')
+                if historical_ratings and isinstance(historical_ratings, dict):
+                    historical_df = pd.DataFrame(list(historical_ratings.items()), columns=['Period', 'Rating']).sort_values(by='Period')
+                    fig_hist = px.line(historical_df, x='Period', y='Rating', title=f"Monthly Rating Trend for {selected_player_name}", markers=True)
+                    st.plotly_chart(fig_hist, use_container_width=True)
+                else:
+                    st.info("No historical rating data available for this player.")
 
+                st.markdown(f"### Game-by-Game Analysis for {selected_player_name}")
+                games_list = player_info.get('games', [])
                 if games_list:
                     game_df = pd.DataFrame(games_list)
                     game_df['game_number'] = range(1, len(game_df) + 1)
                     
-                    rating_col = 'elo' if 'elo' in player_info and pd.notna(player_info['elo']) else 'avg_opponent_rating'
-                    rating_label = "Player ELO" if rating_col == 'elo' else "Avg. Opponent Rating (Placeholder)"
-                    game_df['player_rating'] = player_info[rating_col]
+                    # --- THIS IS THE FIX ---
+                    def get_rating_for_game(row):
+                        fallback_rating = player_info.get('elo')
+                        # Safely get the date from the row using .get()
+                        game_date_str = row.get('date')
+                        
+                        if not game_date_str or not isinstance(historical_ratings, dict):
+                            return fallback_rating
+                        try:
+                            game_date = datetime.strptime(game_date_str, '%d-%m-%Y')
+                            game_period_key = game_date.strftime('%Y-%m')
+                            return historical_ratings.get(game_period_key, fallback_rating)
+                        except (ValueError, TypeError):
+                            return fallback_rating
+
+                    game_df['player_rating_for_game'] = game_df.apply(get_rating_for_game, axis=1)
                     
-                    # Define a function to map results to marker symbols
                     def get_marker(result, for_player):
                         if result == '1': return 'circle-open' if for_player else 'x'
                         if result == '0': return 'x' if for_player else 'circle-open'
-                        return 'diamond' # For draws
+                        return 'diamond'
 
                     game_df['player_marker'] = game_df['result'].apply(lambda r: get_marker(r, for_player=True))
                     game_df['opponent_marker'] = game_df['result'].apply(lambda r: get_marker(r, for_player=False))
-
-                    st.markdown(f"### Game-by-Game Chart for {selected_player_name}")
-                    if rating_col != 'elo':
-                        st.info("ℹ️ **Note:** The 'Player' line on this chart uses the *Average Opponent Rating* as a temporary placeholder.")
                     
-                    # --- Create the plot using Plotly Graph Objects for more control ---
                     fig = go.Figure()
-
-                    # Add the Opponent's rating line and markers
-                    fig.add_trace(go.Scatter(
-                        x=game_df['game_number'], y=game_df['opponent_rating'],
-                        mode='lines+markers', name='Opponent Rating',
-                        marker_symbol=game_df['opponent_marker'],
-                        marker_size=10, marker_color='#EF553B' # Red
-                    ))
-
-                    # Add the Player's rating line and markers
-                    fig.add_trace(go.Scatter(
-                        x=game_df['game_number'], y=game_df['player_rating'],
-                        mode='lines+markers', name=f'Player Rating ({rating_label})',
-                        marker_symbol=game_df['player_marker'],
-                        marker_size=10, marker_color='#636EFA' # Blue
-                    ))
-
-                    fig.update_layout(
-                        xaxis_title="Game Number",
-                        yaxis_title="Rating",
-                        legend_title="Entity"
-                    )
+                    fig.add_trace(go.Scatter(x=game_df['game_number'], y=game_df['opponent_rating'], mode='lines+markers', name='Opponent Rating', marker_symbol=game_df['opponent_marker'], marker_size=10, marker_color='#EF553B'))
+                    fig.add_trace(go.Scatter(x=game_df['game_number'], y=game_df['player_rating_for_game'], mode='lines+markers', name='Player Rating', marker_symbol=game_df['player_marker'], marker_size=10, marker_color='#636EFA'))
+                    fig.update_layout(title=f"Game-by-Game Rating Chart for {selected_player_name}", xaxis_title="Game Number", yaxis_title="Rating", legend_title="Entity")
                     st.plotly_chart(fig, use_container_width=True)
-
-                    # --- Game Results Summary Table ---
+                    
                     st.markdown("### Game Results Summary")
                     summary_df = game_df.copy()
                     result_map = {'1': 'Win', '0': 'Loss', '½': 'Draw'}
                     summary_df['Outcome'] = summary_df['result'].map(result_map).fillna('N/A')
-                    display_df = summary_df.rename(columns={'round': 'Round', 'player_rating': 'Player ELO', 'opponent_rating': 'Opponent ELO'})
+                    display_df = summary_df.rename(columns={'round': 'Round', 'player_rating_for_game': 'Player ELO', 'opponent_rating': 'Opponent ELO'})
                     st.dataframe(display_df[['Round', 'Player ELO', 'Opponent ELO', 'Outcome']], use_container_width=True, hide_index=True)
-
                 else:
                     st.warning(f"No game-by-game data available for {selected_player_name}.")
         else:
             st.info("No players to display based on current filters.")
-
 
     with tab3:
         st.header("Division Analytics")
@@ -225,15 +254,13 @@ else:
                 plot_df = plot_df_exploded[plot_df_exploded['teams_played_for'].isin(division_teams)]
 
                 if not plot_df.empty:
-                    st.markdown("### Player Rating Distribution (Box Plot)")
-                    sorted_division_teams = sorted(plot_df['teams_played_for'].unique(), key=custom_sort_key)
-                    
-                    # Determine which rating to use (elo or placeholder)
                     rating_col = 'elo' if 'elo' in plot_df.columns and not plot_df['elo'].isnull().all() else 'avg_opponent_rating'
                     rating_label = "Player ELO Rating" if rating_col == 'elo' else "Avg. Opponent Rating (Placeholder)"
                     if rating_col != 'elo':
                         st.info("ℹ️ **Note:** Using *Average Opponent Rating* as a substitute for player ELO. Re-run the scraper to get actual ELO data.")
-
+                    
+                    st.markdown("### Player Rating Distribution (Box Plot)")
+                    sorted_division_teams = sorted(plot_df['teams_played_for'].unique(), key=custom_sort_key)
                     fig_box = px.box(
                         plot_df, x="teams_played_for", y=rating_col, color="teams_played_for",
                         title=f"Rating Distribution in {selected_division_name}",
@@ -242,36 +269,22 @@ else:
                     )
                     st.plotly_chart(fig_box, use_container_width=True)
 
-                    # --- NEW: Line plot for comparing team strength depth ---
                     st.markdown("### Team Strength Comparison (Line Plot)")
-
                     line_plot_teams = st.multiselect(
                         "Select teams to compare in the line plot:",
                         options=sorted_division_teams,
                         default=sorted_division_teams
                     )
-
                     if line_plot_teams:
                         line_plot_df = plot_df[plot_df['teams_played_for'].isin(line_plot_teams)].copy()
-                        
-                        # Sort players by rating within each team and assign a rank
                         line_plot_df.sort_values(by=rating_col, ascending=False, inplace=True)
                         line_plot_df['player_rank'] = line_plot_df.groupby('teams_played_for').cumcount() + 1
                         
                         fig_line = px.line(
-                            line_plot_df,
-                            x='player_rank',
-                            y=rating_col,
-                            color='teams_played_for',
-                            markers=True,
-                            hover_name='name',
-                            title='Team Rating Depth Comparison',
-                            labels={
-                                "player_rank": "Player Strength Rank (Highest to Lowest)",
-                                rating_col: rating_label
-                            }
+                            line_plot_df, x='player_rank', y=rating_col, color='teams_played_for',
+                            markers=True, hover_name='name', title='Team Rating Depth Comparison',
+                            labels={"player_rank": "Player Strength Rank (Highest to Lowest)", rating_col: rating_label}
                         )
                         st.plotly_chart(fig_line, use_container_width=True)
-
                 else:
                     st.warning("No player rating data found for the teams in this division.")
