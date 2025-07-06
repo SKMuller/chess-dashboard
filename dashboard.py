@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import plotly.express as px
+import plotly.graph_objects as go
 import re
 
 # --- Page Configuration ---
@@ -133,14 +134,12 @@ else:
     with tab2:
         st.header("Player Deep Dive")
 
-        # Filter players based on the teams selected in the sidebar
         filtered_team_names = filtered_team_df['name'].unique()
         available_players_df = player_df[
             player_df['teams_played_for'].apply(lambda p_teams: any(t in filtered_team_names for t in p_teams))
         ].copy()
 
         if not available_players_df.empty:
-            # Dropdown to select a single player
             player_names = sorted(available_players_df['name'].unique())
             selected_player_name = st.selectbox(
                 "Select a player to analyze their game history:",
@@ -148,54 +147,64 @@ else:
             )
 
             if selected_player_name:
-                # Get the selected player's data
                 player_info = available_players_df[available_players_df['name'] == selected_player_name].iloc[0]
                 games_list = player_info.get('games', [])
 
                 if games_list:
-                    # --- Prepare data for the plot ---
                     game_df = pd.DataFrame(games_list)
                     game_df['game_number'] = range(1, len(game_df) + 1)
                     
-                    # Use placeholder rating for the player
-                    player_rating_placeholder = player_info['avg_opponent_rating']
-                    game_df['player_rating_temp'] = player_rating_placeholder
+                    rating_col = 'elo' if 'elo' in player_info and pd.notna(player_info['elo']) else 'avg_opponent_rating'
+                    rating_label = "Player ELO" if rating_col == 'elo' else "Avg. Opponent Rating (Placeholder)"
+                    game_df['player_rating'] = player_info[rating_col]
                     
-                    # Create a "long format" DataFrame suitable for Plotly Express
-                    plot_data = []
-                    for _, game in game_df.iterrows():
-                        # Determine markers: 'O' for win, 'X' for loss
-                        player_marker = 'circle' # Default for draw
-                        opponent_marker = 'circle'
-                        if game['result'] == '1':
-                            player_marker = 'circle-open'
-                            opponent_marker = 'x'
-                        elif game['result'] == '0':
-                            player_marker = 'x'
-                            opponent_marker = 'circle-open'
-                        
-                        # Add a row for the player's rating point
-                        plot_data.append([game['game_number'], game['player_rating_temp'], 'Player', player_marker])
-                        # Add a row for the opponent's rating point
-                        plot_data.append([game['game_number'], game['opponent_rating'], 'Opponent', opponent_marker])
-                    
-                    plot_df = pd.DataFrame(plot_data, columns=['Game Number', 'Rating', 'Entity', 'Marker'])
+                    # Define a function to map results to marker symbols
+                    def get_marker(result, for_player):
+                        if result == '1': return 'circle-open' if for_player else 'x'
+                        if result == '0': return 'x' if for_player else 'circle-open'
+                        return 'diamond' # For draws
 
-                    # --- Add the disclaimer and create the plot ---
-                    st.info("ℹ️ **Note:** The 'Player' line on this chart uses the *Average Opponent Rating* as a temporary placeholder for the player's actual rating.")
+                    game_df['player_marker'] = game_df['result'].apply(lambda r: get_marker(r, for_player=True))
+                    game_df['opponent_marker'] = game_df['result'].apply(lambda r: get_marker(r, for_player=False))
+
+                    st.markdown(f"### Game-by-Game Chart for {selected_player_name}")
+                    if rating_col != 'elo':
+                        st.info("ℹ️ **Note:** The 'Player' line on this chart uses the *Average Opponent Rating* as a temporary placeholder.")
                     
-                    fig = px.line(
-                        plot_df,
-                        x='Game Number',
-                        y='Rating',
-                        color='Entity', # Creates the two separate lines
-                        symbol='Marker', # Uses our 'O' and 'X' markers
-                        title=f"Game-by-Game Rating Chart for {selected_player_name}",
-                        markers=True # Ensures markers are visible
+                    # --- Create the plot using Plotly Graph Objects for more control ---
+                    fig = go.Figure()
+
+                    # Add the Opponent's rating line and markers
+                    fig.add_trace(go.Scatter(
+                        x=game_df['game_number'], y=game_df['opponent_rating'],
+                        mode='lines+markers', name='Opponent Rating',
+                        marker_symbol=game_df['opponent_marker'],
+                        marker_size=10, marker_color='#EF553B' # Red
+                    ))
+
+                    # Add the Player's rating line and markers
+                    fig.add_trace(go.Scatter(
+                        x=game_df['game_number'], y=game_df['player_rating'],
+                        mode='lines+markers', name=f'Player Rating ({rating_label})',
+                        marker_symbol=game_df['player_marker'],
+                        marker_size=10, marker_color='#636EFA' # Blue
+                    ))
+
+                    fig.update_layout(
+                        xaxis_title="Game Number",
+                        yaxis_title="Rating",
+                        legend_title="Entity"
                     )
-                    # Customize marker symbols
-                    fig.update_traces(marker_size=10, selector=dict(mode='markers'))
                     st.plotly_chart(fig, use_container_width=True)
+
+                    # --- Game Results Summary Table ---
+                    st.markdown("### Game Results Summary")
+                    summary_df = game_df.copy()
+                    result_map = {'1': 'Win', '0': 'Loss', '½': 'Draw'}
+                    summary_df['Outcome'] = summary_df['result'].map(result_map).fillna('N/A')
+                    display_df = summary_df.rename(columns={'round': 'Round', 'player_rating': 'Player ELO', 'opponent_rating': 'Opponent ELO'})
+                    st.dataframe(display_df[['Round', 'Player ELO', 'Opponent ELO', 'Outcome']], use_container_width=True, hide_index=True)
+
                 else:
                     st.warning(f"No game-by-game data available for {selected_player_name}.")
         else:

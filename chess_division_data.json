@@ -36,34 +36,44 @@
         },
         "players": {
             "1912563": {
-                "name": "Abma, K. (Klaas)"
+                "name": "Abma, K. (Klaas)",
+                "elo": 1908
             },
             "1980289": {
-                "name": "Alsari, M. (Mohamed)"
+                "name": "Alsari, M. (Mohamed)",
+                "elo": 2092
             },
             "1931858": {
-                "name": "Andrieu, J. (Justin)"
+                "name": "Andrieu, J. (Justin)",
+                "elo": 1642
             },
             "1908156": {
-                "name": "Banning, C. (Cees)"
+                "name": "Banning, C. (Cees)",
+                "elo": 2022
             },
             "1913342": {
-                "name": "Bavel van, F. (Ferdi)"
+                "name": "Bavel van, F. (Ferdi)",
+                "elo": 2046
             },
             "1908227": {
-                "name": "Beersum van, W. (Wim)"
+                "name": "Beersum van, W. (Wim)",
+                "elo": 1874
             },
             "1925434": {
-                "name": "Bloemhof, R.B.P. (Ruben)"
+                "name": "Bloemhof, R.B.P. (Ruben)",
+                "elo": 1854
             },
             "1930482": {
-                "name": "Blok, X. (Xaveer)"
+                "name": "Blok, X. (Xaveer)",
+                "elo": 2068
             },
             "1909179": {
-                "name": "Bodewes, P.M. (Peter)"
+                "name": "Bodewes, P.M. (Peter)",
+                "elo": 1920
             },
             "1914776": {
-                "name": "Boer de, R. (Rein)"
+                "name": "Boer de, R. (Rein)",
+                "elo": 2000
             }
         }
     },
@@ -98,34 +108,44 @@
         },
         "players": {
             "1923705": {
-                "name": "Akkerman, J. (Jan)"
+                "name": "Akkerman, J. (Jan)",
+                "elo": 1630
             },
             "1938388": {
-                "name": "Almefalani, A. (Abdulhay)"
+                "name": "Almefalani, A. (Abdulhay)",
+                "elo": 1950
             },
             "1913007": {
-                "name": "Amerongen van, F. (Frans)"
+                "name": "Amerongen van, F. (Frans)",
+                "elo": 1631
             },
             "1931858": {
-                "name": "Andrieu, J. (Justin)"
+                "name": "Andrieu, J. (Justin)",
+                "elo": 1642
             },
             "1935142": {
-                "name": "Baars, T. (Tije)"
+                "name": "Baars, T. (Tije)",
+                "elo": 1832
             },
             "1928343": {
-                "name": "Benjamins, S.J.P. (Sander)"
+                "name": "Benjamins, S.J.P. (Sander)",
+                "elo": 1706
             },
             "1910257": {
-                "name": "Boer, J. (Jan)"
+                "name": "Boer, J. (Jan)",
+                "elo": 1720
             },
             "1942477": {
-                "name": "Boer, J. (Joël)"
+                "name": "Boer, J. (Joël)",
+                "elo": 0
             },
             "1985773": {
-                "name": "Boertien, P. (Preston)"
+                "name": "Boertien, P. (Preston)",
+                "elo": 1607
             },
             "1915270": {
-                "name": "Bottema, J. (Jeroen)"
+                "name": "Bottema, J. (Jeroen)",
+                "elo": 1780
             }
         }
     },
@@ -148,34 +168,44 @@
         },
         "players": {
             "340339": {
-                "name": "Almefalani, A. (Abdulhay)"
+                "name": "Almefalani, A. (Abdulhay)",
+                "elo": 1942
             },
             "336502": {
-                "name": "Bosveld, M. (Mattias)"
+                "name": "Bosveld, M. (Mattias)",
+                "elo": 1802
             },
             "325983": {
-                "name": "Brand, N.W. (Niels)"
+                "name": "Brand, N.W. (Niels)",
+                "elo": 1981
             },
             "311564": {
-                "name": "Clemens, A.H.P. (Adrian)"
+                "name": "Clemens, A.H.P. (Adrian)",
+                "elo": 2088
             },
             "315760": {
-                "name": "Dijkstra, M. (Maarten)"
+                "name": "Dijkstra, M. (Maarten)",
+                "elo": 2004
             },
             "320671": {
-                "name": "Elsinga, B. (Brian)"
+                "name": "Elsinga, B. (Brian)",
+                "elo": 1887
             },
             "319454": {
-                "name": "Faber, A. (Ab)"
+                "name": "Faber, A. (Ab)",
+                "elo": 1988
             },
             "320367": {
-                "name": "Foreest van, M. (Machteld)"
+                "name": "Foreest van, M. (Machteld)",
+                "elo": 2329
             },
             "320639": {
-                "name": "Foreest van, N. (Nanne)"
+                "name": "Foreest van, N. (Nanne)",
+                "elo": 1922
             },
             "334026": {
-                "name": "Groeneveld, J. (Henry)"
+                "name": "Groeneveld, J. (Henry)",
+                "elo": 1812
             }
         }
     },
@@ -198,34 +228,104 @@
         },
         "players": {
             "337093": {
-                "name": "Baars, T. (Tije)"
+                "name": "Baars, T. (Tije)",
+                "elo": 1832
             },
             "327385": {
-                "name": "Bloemhof, R.B.P. (Ruben)"
+                "name": "Bloemhof, R.B.P. (Ruben)",
+                "elo": 1872
             },
             "384089": {
-                "name": "Bodewits, M.W. (Maxim)"
+                "name": "Bodewits, M.W. (Maxim)",
+                "elo": 0
             },
             "316678": {
-                "name": "Dijkstra, A.H.E. (Johan)"
+                "name": "Dijkstra, A.H.E. (Johan)",
+                "elo": 1670
             },
             "312526": {
-                "name": "Doller, P. (Pieter)"
+                "name": "Doller, P. (Pieter)",
+                "elo": 1845
             },
             "321586": {
-                "name": "Essen van, T.D. (Tobias)"
+                "name": "Essen van, T.D. (Tobias)",
+                "elo": 1805
             },
             "326024": {
-                "name": "Heijmans, M. (Merlijn)"
+                "name": "Heijmans, M. (Merlijn)",
+                "elo": 1757
             },
             "314405": {
-                "name": "Heuvel van den, A. (Annelies)"
+                "name": "Heuvel van den, A. (Annelies)",
+                "elo": 1702
             },
             "312034": {
-                "name": "Hoekstra, C.A.H. (Carl)"
+                "name": "Hoekstra, C.A.H. (Carl)",
+                "elo": 1809
             },
             "311074": {
-                "name": "Holtz, R.G. (Job)"
+                "name": "Holtz, R.G. (Job)",
+                "elo": 1822
+            }
+        }
+    },
+    "Zestallen 2e fase B": {
+        "name": "Zestallen 2e fase B",
+        "federation": "NOSBO",
+        "teams": {
+            "591": {
+                "name": "Staunton I"
+            },
+            "602": {
+                "name": "Roden I"
+            },
+            "597": {
+                "name": "SISSA III"
+            },
+            "599": {
+                "name": "Valthermond I"
+            }
+        },
+        "players": {
+            "336517": {
+                "name": "Aandewiel, P. (Pascal)",
+                "elo": 1750
+            },
+            "333809": {
+                "name": "Andrieu, J. (Justin)",
+                "elo": 1663
+            },
+            "316045": {
+                "name": "Duisterwinkel, J.A. (Jan)",
+                "elo": 1656
+            },
+            "342809": {
+                "name": "Endema, H.J. (Harry)",
+                "elo": 1700
+            },
+            "344468": {
+                "name": "Hamstra, B. (Bas)",
+                "elo": 1897
+            },
+            "313902": {
+                "name": "Homan-Free, B.E.H. (Bernier)",
+                "elo": 1529
+            },
+            "315196": {
+                "name": "Joost, C. (Coert)",
+                "elo": 1683
+            },
+            "321435": {
+                "name": "Kamphorst, J.C. (Jan)",
+                "elo": 1675
+            },
+            "331416": {
+                "name": "Kleine de, R. (Rick)",
+                "elo": 1609
+            },
+            "319548": {
+                "name": "Kolthof, P. (Peter)",
+                "elo": 1683
             }
         }
     },
@@ -245,34 +345,44 @@
         },
         "players": {
             "317837": {
-                "name": "Altena van, L. (Lydia)"
+                "name": "Altena van, L. (Lydia)",
+                "elo": 1543
             },
             "322344": {
-                "name": "Bos, W. (Wim)"
+                "name": "Bos, W. (Wim)",
+                "elo": 1600
             },
             "338683": {
-                "name": "Frieswijk, R. (René)"
+                "name": "Frieswijk, R. (René)",
+                "elo": 1658
             },
             "315254": {
-                "name": "Frieswijk, R.A. (Rudy)"
+                "name": "Frieswijk, R.A. (Rudy)",
+                "elo": 1709
             },
             "331081": {
-                "name": "Gay, A. (Aurore)"
+                "name": "Gay, A. (Aurore)",
+                "elo": 1705
             },
             "319073": {
-                "name": "Hoogeboom, B. (Boudewijn)"
+                "name": "Hoogeboom, B. (Boudewijn)",
+                "elo": 1807
             },
             "318165": {
-                "name": "Kamminga, W.R. (Rob)"
+                "name": "Kamminga, W.R. (Rob)",
+                "elo": 1944
             },
             "341123": {
-                "name": "Koning, F.M. (Femke)"
+                "name": "Koning, F.M. (Femke)",
+                "elo": 1832
             },
             "317159": {
-                "name": "Luining, A. (Fred)"
+                "name": "Luining, A. (Fred)",
+                "elo": 1670
             },
             "343802": {
-                "name": "Meij van der, N. (Nouschka)"
+                "name": "Meij van der, N. (Nouschka)",
+                "elo": 1422
             }
         }
     },
@@ -295,34 +405,44 @@
         },
         "players": {
             "318783": {
-                "name": "Burgh van der, A.J. (Arend)"
+                "name": "Burgh van der, A.J. (Arend)",
+                "elo": 1640
             },
             "319341": {
-                "name": "Doorn van, F. (Frans)"
+                "name": "Doorn van, F. (Frans)",
+                "elo": 1614
             },
             "316045": {
-                "name": "Duisterwinkel, J.A. (Jan)"
+                "name": "Duisterwinkel, J.A. (Jan)",
+                "elo": 1656
             },
             "345424": {
-                "name": "Helder, D. (David)"
+                "name": "Helder, D. (David)",
+                "elo": 1643
             },
             "316323": {
-                "name": "Jansen, E. (Eric)"
+                "name": "Jansen, E. (Eric)",
+                "elo": 1885
             },
             "308729": {
-                "name": "Janssen, E.J. (Eddie)"
+                "name": "Janssen, E.J. (Eddie)",
+                "elo": 1752
             },
             "328597": {
-                "name": "Kaaij, D. (Diederick)"
+                "name": "Kaaij, D. (Diederick)",
+                "elo": 1554
             },
             "324304": {
-                "name": "Kempenaar, J. (Jane)"
+                "name": "Kempenaar, J. (Jane)",
+                "elo": 1531
             },
             "315253": {
-                "name": "Krijnen, W. (Wim)"
+                "name": "Krijnen, W. (Wim)",
+                "elo": 1564
             },
             "308712": {
-                "name": "Kroezen, R.P. (Roland)"
+                "name": "Kroezen, R.P. (Roland)",
+                "elo": 1660
             }
         }
     },
@@ -351,34 +471,44 @@
         },
         "players": {
             "340339": {
-                "name": "Almefalani, A. (Abdulhay)"
+                "name": "Almefalani, A. (Abdulhay)",
+                "elo": 1942
             },
             "333809": {
-                "name": "Andrieu, J. (Justin)"
+                "name": "Andrieu, J. (Justin)",
+                "elo": 1663
             },
             "341875": {
-                "name": "Bajrami, V. (Valentin)"
+                "name": "Bajrami, V. (Valentin)",
+                "elo": 1756
             },
             "324608": {
-                "name": "Beekman, B.J.H. (Bastiaan)"
+                "name": "Beekman, B.J.H. (Bastiaan)",
+                "elo": 0
             },
             "384089": {
-                "name": "Bodewits, M.W. (Maxim)"
+                "name": "Bodewits, M.W. (Maxim)",
+                "elo": 0
             },
             "313578": {
-                "name": "Bontjer, B. (Bernard)"
+                "name": "Bontjer, B. (Bernard)",
+                "elo": 1883
             },
             "325983": {
-                "name": "Brand, N.W. (Niels)"
+                "name": "Brand, N.W. (Niels)",
+                "elo": 1981
             },
             "311564": {
-                "name": "Clemens, A.H.P. (Adrian)"
+                "name": "Clemens, A.H.P. (Adrian)",
+                "elo": 2088
             },
             "311972": {
-                "name": "Cliteur, O.P. (Olaf)"
+                "name": "Cliteur, O.P. (Olaf)",
+                "elo": 1922
             },
             "310025": {
-                "name": "Dijkhuizen, K.G. (Klaas)"
+                "name": "Dijkhuizen, K.G. (Klaas)",
+                "elo": 1924
             }
         }
     },
@@ -407,34 +537,44 @@
         },
         "players": {
             "336517": {
-                "name": "Aandewiel, P. (Pascal)"
+                "name": "Aandewiel, P. (Pascal)",
+                "elo": 1750
             },
             "337093": {
-                "name": "Baars, T. (Tije)"
+                "name": "Baars, T. (Tije)",
+                "elo": 1832
             },
             "327385": {
-                "name": "Bloemhof, R.B.P. (Ruben)"
+                "name": "Bloemhof, R.B.P. (Ruben)",
+                "elo": 1872
             },
             "314747": {
-                "name": "Boer, A. (Alef)"
+                "name": "Boer, A. (Alef)",
+                "elo": 2094
             },
             "319493": {
-                "name": "Boontje, W. (Willem)"
+                "name": "Boontje, W. (Willem)",
+                "elo": 1938
             },
             "336502": {
-                "name": "Bosveld, M. (Mattias)"
+                "name": "Bosveld, M. (Mattias)",
+                "elo": 1802
             },
             "315537": {
-                "name": "Brinks, J.W. (Jan Willem)"
+                "name": "Brinks, J.W. (Jan Willem)",
+                "elo": 1960
             },
             "339205": {
-                "name": "Broertjes, S.G. (Stephan)"
+                "name": "Broertjes, S.G. (Stephan)",
+                "elo": 1870
             },
             "334746": {
-                "name": "Brouwers, C. (Carmen)"
+                "name": "Brouwers, C. (Carmen)",
+                "elo": 1485
             },
             "335762": {
-                "name": "Bruggink, T. (Tycho)"
+                "name": "Bruggink, T. (Tycho)",
+                "elo": 2126
             }
         }
     },
@@ -466,34 +606,44 @@
         },
         "players": {
             "334985": {
-                "name": "Aleman, J.A.A. (Johan)"
+                "name": "Aleman, J.A.A. (Johan)",
+                "elo": 1626
             },
             "340339": {
-                "name": "Almefalani, A. (Abdulhay)"
+                "name": "Almefalani, A. (Abdulhay)",
+                "elo": 1942
             },
             "333809": {
-                "name": "Andrieu, J. (Justin)"
+                "name": "Andrieu, J. (Justin)",
+                "elo": 1663
             },
             "341875": {
-                "name": "Bajrami, V. (Valentin)"
+                "name": "Bajrami, V. (Valentin)",
+                "elo": 1756
             },
             "315195": {
-                "name": "Bekker, F. (Free)"
+                "name": "Bekker, F. (Free)",
+                "elo": 1619
             },
             "345024": {
-                "name": "Berg van den, H.T. (Thijmen)"
+                "name": "Berg van den, H.T. (Thijmen)",
+                "elo": 1683
             },
             "322222": {
-                "name": "Blokzijl, R. (Ruben)"
+                "name": "Blokzijl, R. (Ruben)",
+                "elo": 1938
             },
             "343803": {
-                "name": "Boer, J. (Joël)"
+                "name": "Boer, J. (Joël)",
+                "elo": 0
             },
             "313013": {
-                "name": "Bol, J. (Jan)"
+                "name": "Bol, J. (Jan)",
+                "elo": 1850
             },
             "319069": {
-                "name": "Brandsma, F. (Frits)"
+                "name": "Brandsma, F. (Frits)",
+                "elo": 1822
             }
         }
     },
@@ -525,34 +675,44 @@
         },
         "players": {
             "317837": {
-                "name": "Altena van, L. (Lydia)"
+                "name": "Altena van, L. (Lydia)",
+                "elo": 1543
             },
             "314958": {
-                "name": "Amerongen van, F. (Frans)"
+                "name": "Amerongen van, F. (Frans)",
+                "elo": 1631
             },
             "312138": {
-                "name": "Assen, P.J.H. (Paul)"
+                "name": "Assen, P.J.H. (Paul)",
+                "elo": 2018
             },
             "330294": {
-                "name": "Benjamins, S.J.P. (Sander)"
+                "name": "Benjamins, S.J.P. (Sander)",
+                "elo": 1726
             },
             "382847": {
-                "name": "Biancotti, C. (Carolina)"
+                "name": "Biancotti, C. (Carolina)",
+                "elo": 0
             },
             "320360": {
-                "name": "Boekel van, H.J. (Henk)"
+                "name": "Boekel van, H.J. (Henk)",
+                "elo": 1513
             },
             "331825": {
-                "name": "Boer de, B. (Bernard)"
+                "name": "Boer de, B. (Bernard)",
+                "elo": 1539
             },
             "323237": {
-                "name": "Bottema, M. (Mila)"
+                "name": "Bottema, M. (Mila)",
+                "elo": 1494
             },
             "312053": {
-                "name": "Breimer, I. (Ids)"
+                "name": "Breimer, I. (Ids)",
+                "elo": 1778
             },
             "311609": {
-                "name": "Deuling, L.J. (Luc)"
+                "name": "Deuling, L.J. (Luc)",
+                "elo": 1629
             }
         }
     },
@@ -581,34 +741,44 @@
         },
         "players": {
             "311788": {
-                "name": "Berg van den, J. (Jan)"
+                "name": "Berg van den, J. (Jan)",
+                "elo": 1489
             },
             "322344": {
-                "name": "Bos, W. (Wim)"
+                "name": "Bos, W. (Wim)",
+                "elo": 1600
             },
             "316027": {
-                "name": "Bosgra, J. (Jacob)"
+                "name": "Bosgra, J. (Jacob)",
+                "elo": 1503
             },
             "345054": {
-                "name": "Burger, G.J. (Gerard)"
+                "name": "Burger, G.J. (Gerard)",
+                "elo": 1372
             },
             "321586": {
-                "name": "Essen van, T.D. (Tobias)"
+                "name": "Essen van, T.D. (Tobias)",
+                "elo": 1805
             },
             "338995": {
-                "name": "Fokkema, G.A. (Gerwin)"
+                "name": "Fokkema, G.A. (Gerwin)",
+                "elo": 1714
             },
             "344732": {
-                "name": "Hannessen, J. (Jonathan)"
+                "name": "Hannessen, J. (Jonathan)",
+                "elo": 2081
             },
             "323597": {
-                "name": "Harmanny, W. (Wim)"
+                "name": "Harmanny, W. (Wim)",
+                "elo": 1680
             },
             "335020": {
-                "name": "Hartman, M. (Martin)"
+                "name": "Hartman, M. (Martin)",
+                "elo": 1703
             },
             "345424": {
-                "name": "Helder, D. (David)"
+                "name": "Helder, D. (David)",
+                "elo": 1638
             }
         }
     }

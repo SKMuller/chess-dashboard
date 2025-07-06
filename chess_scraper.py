@@ -43,42 +43,28 @@ def fetch_page(url, retries=5, delay=30):
 
     for i in range(retries):
         try:
-            # --- THIS IS THE DEFINITIVE FIX ---
-            # Changed DriverManager() to ChromeDriverManager() to match the import
             driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-            
             driver.get(url)
-            
-            WebDriverWait(driver, delay).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-            
+            WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
             try:
-                iframe = WebDriverWait(driver, 3).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "iframe"))
-                )
+                iframe = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.TAG_NAME, "iframe")))
                 print(f"  Iframe found, switching context...")
                 driver.switch_to.frame(iframe)
-                WebDriverWait(driver, delay).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "body"))
-                )
+                WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
             except TimeoutException:
                 pass
-            
             html_content = driver.page_source
             driver.quit()
-            
             if html_content:
                 return html_content
         except (WebDriverException, TimeoutException) as e:
             print(f"  Error fetching {url} (Attempt {i+1}/{retries}): {e}")
             if i < retries - 1:
-                wait_time = (i + 1) * 5 
+                wait_time = (i + 1) * 5
                 print(f"  Retrying in {wait_time} seconds...")
                 time.sleep(wait_time)
             else:
                 print(f"  Giving up on {url} after {retries} attempts.")
-
     print(f"Failed to fetch {url} after all retries.")
     return None
 
@@ -128,7 +114,9 @@ def scrape_team_page(team_instance):
     team_url = team_instance['url']
     domain_key_lower = team_instance['domain'].lower()
     federation = team_instance['domain']
+    is_debug_team = "SISSA 1" in team_name or "SISSA 2" in team_name
 
+    if is_debug_team: print(f"\n--- DEBUGGING ACTIVATED FOR {team_name.upper()} ---")
     print(f"\nScraping team page for: {team_name} ({federation})")
     html_content = fetch_page(team_url)
     
@@ -139,12 +127,15 @@ def scrape_team_page(team_instance):
     }
 
     if not html_content:
+        if is_debug_team: print(f"DEBUG [{team_name}]: Fetching page failed. No HTML content received.")
         return team_data
 
     soup = BeautifulSoup(html_content, 'html.parser')
+    if is_debug_team: print(f"DEBUG [{team_name}]: Page content fetched successfully.")
 
     division_link = soup.find('a', href=re.compile(r'/divisions/view/'))
     if division_link: team_data['division_url'] = BASE_URLS[domain_key_lower] + division_link['href']
+    elif is_debug_team: print(f"DEBUG [{team_name}]: Could not find division link.")
 
     try:
         point_labels = soup.find_all('b')
@@ -153,19 +144,23 @@ def scrape_team_page(team_instance):
             parent_div_text = label.parent.get_text(strip=True)
             if label_text == 'MP': team_data['match_points'] = float(parent_div_text.replace('MP', '', 1).strip().replace(',', '.'))
             elif label_text == 'BP': team_data['board_points'] = float(parent_div_text.replace('BP', '', 1).strip().replace(',', '.'))
-    except (AttributeError, ValueError): pass
-
+    except: pass
+    
     player_list_table = soup.find('table', id='DataTables_Table_0')
     if player_list_table:
+        if is_debug_team: print(f"DEBUG [{team_name}]: Found player list table (id='DataTables_Table_0').")
         for row in player_list_table.find('tbody').find_all('tr'):
             player_link_tag = row.find('a', href=re.compile(r'/players/view/\d+'))
             if player_link_tag:
                 player_id = player_link_tag['href'].split('/')[-1]
                 full_player_url = BASE_URLS[domain_key_lower] + player_link_tag['href']
                 team_data['players'][player_id] = {'name': player_link_tag.get_text(strip=True), 'url': full_player_url}
+        if is_debug_team and not team_data['players']: print(f"DEBUG [{team_name}]: Found player table, but no player links were extracted.")
+    elif is_debug_team: print(f"DEBUG [{team_name}]: FAILED to find player list table (id='DataTables_Table_0').")
 
     match_list_table = soup.find('table', class_='table table-striped table-bordered')
     if match_list_table:
+        if is_debug_team: print(f"DEBUG [{team_name}]: Found match list table.")
         for row in match_list_table.find('tbody').find_all('tr'):
             cells = row.find_all('td')
             if len(cells) != 5: continue
@@ -180,6 +175,11 @@ def scrape_team_page(team_instance):
                 if opponent_rating:
                     team_data['opponent_ratings_raw'].append(opponent_rating)
                     team_data['matches'].append({'date': cells[1].get_text(strip=True),'opponent': opponent_team_name,'location': "Home" if home_team == team_name else "Away",'result': cells[4].get_text(strip=True)})
+    elif is_debug_team: print(f"DEBUG [{team_name}]: FAILED to find match list table.")
+
+    if is_debug_team:
+        print(f"DEBUG [{team_name}]: Final extracted player count: {len(team_data['players'])}")
+        print(f"--- END DEBUGGING FOR {team_name.upper()} ---")
     return team_data
 
 def scrape_division_page(division_url, domain_key):
@@ -201,60 +201,36 @@ def scrape_division_page(division_url, domain_key):
     players_table = soup.find('table', class_='dataTable')
     if players_table:
         for row in players_table.find('tbody').find_all('tr'):
-            link = row.find('a', href=re.compile(r'/players/view/'))
-            if link:
-                division_data['players'][link['href'].split('/')[-1]] = {'name': link.get_text(strip=True)}
+            player_link = row.find('a', href=re.compile(r'/players/view/'))
+            if player_link:
+                player_id = player_link['href'].split('/')[-1]
+                player_name = player_link.get_text(strip=True)
+                elo_cell = player_link.find_parent('td').find_next_sibling('td')
+                if elo_cell:
+                    try:
+                        elo = int(elo_cell.get_text(strip=True))
+                        division_data['players'][player_id] = {'name': player_name, 'elo': elo}
+                    except (ValueError, TypeError): pass
     return division_data
 
 def scrape_player_page(player_id, player_url, domain_key):
-    """
-    Scrapes a player page for all available stats, including a detailed
-    list of individual games played.
-    """
     print(f"\nScraping player page for federation ID: {player_id} ({player_url})")
     html_content = fetch_page(player_url)
-
     player_data = {
-        'federation_id': player_id,
-        'universal_id': None,
-        'name': '',
-        'elo': None,
-        # Overall stats from 'Statistieken' table
-        'tpr': None,
-        'w_we': None,
-        'games_played': 0,
-        'wins': 0,
-        'draws': 0,
-        'losses': 0,
-        'color_balance': None,
-        'color_distribution': '',
-        # --- NEW: Key for detailed game-by-game results ---
-        'games': [],
-        # Aggregated stats from the 'Partijen' table (we'll still calculate these)
-        'total_score': 0.0,
-        'opponent_ratings_raw': [],
-        'avg_opponent_rating': 0.0,
+        'federation_id': player_id, 'universal_id': None, 'name': '', 'elo': None,
+        'total_score': 0.0, 'opponent_ratings_raw': [], 'avg_opponent_rating': 0.0,
+        'tpr': None, 'w_we': None, 'games_played': 0, 'wins': 0, 'draws': 0, 'losses': 0,
+        'color_balance': None, 'color_distribution': '', 'games': [],
     }
-
-    if not html_content:
-        return player_data
-
+    if not html_content: return player_data
     soup = BeautifulSoup(html_content, 'html.parser')
-
-    # Part 1: Scrape Name, Universal ID, and ELO Rating
     try:
         player_data['name'] = soup.find('div', class_='col-lg-4 offset-lg-4 text-center').get_text(strip=True)
         rating_viewer_link = soup.find('a', href=re.compile(r'ratingviewer\.nl/list/latest/players/'))
-        if rating_viewer_link:
-            player_data['universal_id'] = re.search(r'/players/(\d+)/', rating_viewer_link['href']).group(1)
+        if rating_viewer_link: player_data['universal_id'] = re.search(r'/players/(\d+)/', rating_viewer_link['href']).group(1)
         rating_label = soup.find('b', string='Rating')
-        if rating_label:
-            rating_str = rating_label.parent.get_text(strip=True).replace('Rating', '').strip()
-            player_data['elo'] = int(rating_str)
-    except Exception:
-        pass
-
-    # Part 2: Scrape the "Statistieken" table
+        if rating_label: player_data['elo'] = int(rating_label.parent.get_text(strip=True).replace('Rating', '').strip())
+    except Exception: pass
     try:
         stats_header = soup.find('span', class_='h3', string='Statistieken')
         if stats_header:
@@ -272,10 +248,7 @@ def scrape_player_page(player_id, player_url, domain_key):
             color_cell_row = stats_table.find('td', string='Kleurverdeling')
             if color_cell_row and (color_cell := color_cell_row.find_next_sibling('td')):
                 player_data['color_distribution'] = "".join(['b' if 'fas' in i['class'] else 'w' for i in color_cell.find_all('i')])
-    except Exception as e:
-        print(f"  Could not parse statistics table for player {player_id}: {e}")
-
-    # --- Part 3: Scrape the "Partijen" table for detailed game data ---
+    except Exception as e: print(f"  Could not parse statistics table for player {player_id}: {e}")
     try:
         games_header = soup.find('span', class_='h3', string='Partijen')
         if games_header:
@@ -283,111 +256,22 @@ def scrape_player_page(player_id, player_url, domain_key):
             for row in results_table.find('tbody').find_all('tr'):
                 cells = row.find_all('td')
                 if not cells or len(cells) < 3: continue
-
-                # Extract data from each cell in the row
-                round_info = cells[0].get_text(strip=True)
                 opponent_text = cells[1].get_text(strip=True)
-                result_text = cells[2].get_text(strip=True)
-                color = cells[3].get_text(strip=True) if len(cells) > 3 else 'N/A'
-                
-                opponent_name = opponent_text.split('(')[0].strip()
                 rating_match = re.search(r'\((\d{3,4})\)', opponent_text)
-                opponent_rating = int(rating_match.group(1)) if rating_match else None
-
-                # Create a dictionary for this single game
                 game_data = {
-                    "round": round_info,
-                    "opponent_name": opponent_name,
-                    "opponent_rating": opponent_rating,
-                    "result": result_text,
-                    "color": color
+                    "round": cells[0].get_text(strip=True),
+                    "opponent_name": opponent_text.split('(')[0].strip(),
+                    "opponent_rating": int(rating_match.group(1)) if rating_match else None,
+                    "result": cells[2].get_text(strip=True),
+                    "color": cells[3].get_text(strip=True) if len(cells) > 3 else 'N/A'
                 }
                 player_data['games'].append(game_data)
-
-                # Still update the aggregate stats for backward compatibility
-                if opponent_rating:
-                    player_data['opponent_ratings_raw'].append(opponent_rating)
-                if result_text == '1':
-                    player_data['total_score'] += 1.0
-                elif result_text == '½':
-                    player_data['total_score'] += 0.5
-    except Exception as e:
-        print(f"  Could not parse games table for player {player_id}: {e}")
-
-    # Calculate final average opponent rating
-    if player_data['opponent_ratings_raw']:
-        player_data['avg_opponent_rating'] = sum(player_data['opponent_ratings_raw']) / len(player_data['opponent_ratings_raw'])
-
+                if game_data['opponent_rating']: player_data['opponent_ratings_raw'].append(game_data['opponent_rating'])
+                if game_data['result'] == '1': player_data['total_score'] += 1.0
+                elif game_data['result'] == '½': player_data['total_score'] += 0.5
+    except Exception as e: print(f"  Could not parse games table for player {player_id}: {e}")
+    if player_data['opponent_ratings_raw']: player_data['avg_opponent_rating'] = sum(player_data['opponent_ratings_raw']) / len(player_data['opponent_ratings_raw'])
     return player_data
-
-def update_empty_teams(target_team_prefix):
-    """
-    Loads existing team data, finds teams with empty records,
-    and re-scrapes only those specific teams.
-    """
-    print("--- RUNNING IN UPDATE MODE ---")
-    
-    # --- Step 1: Load the existing data file ---
-    try:
-        with open('chess_team_data.json', 'r', encoding='utf-8') as f:
-            current_team_data = json.load(f)
-        print("Successfully loaded 'chess_team_data.json'.")
-    except (FileNotFoundError, json.JSONDecodeError):
-        print("Could not find or read 'chess_team_data.json'. Please run a full scrape first.")
-        return
-
-    # --- Step 2: Identify the names of teams that need updating ---
-    empty_team_names = set()
-    for team_name, data in current_team_data.items():
-        # A failed scrape is identified by having no players and no matches
-        if not data.get('players') and not data.get('matches'):
-            empty_team_names.add(team_name)
-
-    if not empty_team_names:
-        print("No empty teams found to update. All data is complete.")
-        return
-
-    print(f"Found {len(empty_team_names)} empty teams to update: {', '.join(empty_team_names)}")
-
-    # --- Step 3: Find the URLs for the empty teams ---
-    print("Finding current URLs for empty teams...")
-    all_teams_on_site = scrape_competition_pages(target_team_prefix)
-    
-    teams_to_update = [
-        team for team in all_teams_on_site 
-        if team['name'] in empty_team_names
-    ]
-
-    if not teams_to_update:
-        print("Could not find the empty teams on the competition pages. They may have been removed.")
-        return
-
-    # --- Step 4: Re-scrape only the necessary teams ---
-    print(f"--- Re-scraping {len(teams_to_update)} failed team pages... ---")
-    with ThreadPoolExecutor(max_workers=15) as executor:
-        updated_team_data_list = list(executor.map(scrape_team_page, teams_to_update))
-
-    # --- Step 5: Update the main data object and save the file ---
-    updates_made = 0
-    for new_data in updated_team_data_list:
-        team_name = new_data['name']
-        # Check if the new scrape was successful before updating
-        if new_data.get('players') or new_data.get('matches'):
-            current_team_data[team_name] = new_data
-            updates_made += 1
-            print(f"  Successfully updated data for {team_name}.")
-        else:
-            print(f"  Failed to update data for {team_name} on this attempt.")
-
-    if updates_made > 0:
-        try:
-            with open('chess_team_data.json', 'w', encoding='utf-8') as f:
-                json.dump(current_team_data, f, indent=4, ensure_ascii=False)
-            print(f"\nSuccessfully updated {updates_made} team(s) in 'chess_team_data.json'.")
-        except Exception as e:
-            print(f"Error saving updated data to JSON file: {e}")
-    else:
-        print("\nNo teams were successfully updated on this run.")
 
 def run_scraper(target_team_prefix):
     global all_teams_data, all_players_data, all_divisions_data
@@ -398,7 +282,7 @@ def run_scraper(target_team_prefix):
         print(f"No teams with prefix '{target_team_prefix}' found. Cannot proceed.")
         return
     unique_division_urls, cached_team_data = {}, {}
-    with ThreadPoolExecutor(max_workers=50) as executor:
+    with ThreadPoolExecutor(max_workers=15) as executor:
         sissa_team_data_list = list(executor.map(scrape_team_page, sissa_teams_to_find))
     for team_data in sissa_team_data_list:
         cached_team_data[team_data['name']] = team_data
@@ -409,7 +293,7 @@ def run_scraper(target_team_prefix):
         return
     print(f"\n--- Scraping {len(unique_division_urls)} unique division pages... ---")
     all_teams_to_scrape, all_players_in_divisions = {}, {}
-    with ThreadPoolExecutor(max_workers=50) as executor:
+    with ThreadPoolExecutor(max_workers=15) as executor:
         division_results = list(executor.map(lambda p: scrape_division_page(p[0], p[1]), unique_division_urls.items()))
     for res in division_results:
         if res.get('name'):
@@ -422,7 +306,7 @@ def run_scraper(target_team_prefix):
     teams_to_scrape_now = [t for t in all_teams_to_scrape.values() if t['name'] not in cached_team_data]
     team_instances = [{'name': t['name'], 'url': t['url'], 'domain': t['domain']} for t in teams_to_scrape_now]
     print(f"\n--- Scraping {len(team_instances)} remaining team pages in parallel... ---")
-    with ThreadPoolExecutor(max_workers=50) as executor:
+    with ThreadPoolExecutor(max_workers=15) as executor:
         newly_scraped_team_data = list(executor.map(scrape_team_page, team_instances))
     final_team_data_list = list(cached_team_data.values()) + newly_scraped_team_data
     print("\n--- Aggregating all team results... ---")
@@ -445,7 +329,7 @@ def run_scraper(target_team_prefix):
     if unique_players_to_scrape:
         print(f"\n--- Scraping {len(unique_players_to_scrape)} unique player pages in parallel... ---")
         player_scrape_args = [(pid, pinfo['url'], pinfo.get('domain', 'knsb').lower()) for pid, pinfo in unique_players_to_scrape.items()]
-        with ThreadPoolExecutor(max_workers=50) as executor:
+        with ThreadPoolExecutor(max_workers=15) as executor:
             player_data_list = list(executor.map(lambda p: scrape_player_page(*p), player_scrape_args))
         print("\n--- Aggregating player results... ---")
         aggregated_players_data = {}
@@ -486,18 +370,40 @@ def debug_multiple_teams():
         print(f"\n--- FINAL DATA FOR {team_instance['name']} ---")
         print(json.dumps(result, indent=4))
 
+def debug_players(limit=5):
+    """
+    Scrapes a limited number of player pages for fast debugging.
+    """
+    print(f"--- RUNNING IN PLAYER-DEBUG MODE (LIMIT: {limit}) ---")
+    
+    # We'll get a list of players from a known division page
+    division_url = "https://knsb.netstand.nl/divisions/view/511"
+    division_data = scrape_division_page(division_url, "knsb")
+    
+    if not division_data or not division_data['players']:
+        print("Could not fetch players from the debug division page.")
+        return
+        
+    players_to_debug = list(division_data['players'].keys())[:limit]
+    
+    for player_id in players_to_debug:
+        player_url = f"https://knsb.netstand.nl/players/view/{player_id}"
+        result = scrape_player_page(player_id, player_url, "knsb")
+        print(f"\n--- FINAL DATA FOR PLAYER {player_id} ---")
+        print(json.dumps(result, indent=4))
+
 if __name__ == "__main__":
+    # --- The debug functions are now commented out ---
+    # debug_multiple_teams()
+    # debug_players()
+
+    # --- The full scraper is now active ---
     CLUB_TEAM_PREFIX = "SISSA"
+    start_time = time.monotonic()
+    run_scraper(CLUB_TEAM_PREFIX)
+    end_time = time.monotonic()
+    duration = end_time - start_time
     
-    # --- To run the new UPDATE mode ---
-    update_empty_teams(CLUB_TEAM_PREFIX)
-    
-    # --- To run a FULL scrape (comment out the line above) ---
-    # print("--- STARTING FULL SCRAPE ---")
-    # start_time = time.monotonic()
-    # run_scraper(CLUB_TEAM_PREFIX)
-    # end_time = time.monotonic()
-    # duration = end_time - start_time
-    # print("-" * 40)
-    # print(f"Total script execution time: {duration:.2f} seconds")
-    # print("-" * 40)
+    print("-" * 40)
+    print(f"Total script execution time: {duration:.2f} seconds")
+    print("-" * 40)
