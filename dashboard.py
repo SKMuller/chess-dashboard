@@ -115,18 +115,37 @@ if team_df.empty:
 else:
     # --- Sidebar ---
     st.sidebar.header("Filters")
-    all_team_names = sorted(team_df['name'].unique(), key=custom_sort_key)
-    default_teams = [name for name in all_team_names if name.startswith("SISSA")]
+
+    # --- NEW: Higher-level filter for Federation using checkboxes ---
+    st.sidebar.subheader("1. Select Competitions")
+    show_knsb = st.sidebar.checkbox("KNSB", value=True)
+    show_nosbo = st.sidebar.checkbox("NOSBO", value=False)
     
-    selected_teams = st.sidebar.multiselect(
-        "Select Teams to Display:",
-        options=all_team_names,
-        default=default_teams
-    )
+    selected_federations = []
+    if show_knsb:
+        selected_federations.append("KNSB")
+    if show_nosbo:
+        selected_federations.append("NOSBO")
+
+    # Pre-filter the teams based on the selected federations
+    federation_filtered_teams = team_df[team_df['federation'].isin(selected_federations)]
     
-    filtered_team_df = team_df[team_df['name'].isin(selected_teams)].copy()
-    if not filtered_team_df.empty:
-        filtered_team_df['avg_opponent_rating'] = filtered_team_df['avg_opponent_rating'].fillna(0).round(0).astype(int)
+    # --- UPDATED: Team selector now depends on the federation filter ---
+    st.sidebar.subheader("2. Select Teams")
+    if not federation_filtered_teams.empty:
+        all_team_names = sorted(federation_filtered_teams['name'].unique(), key=custom_sort_key)
+        default_teams = [name for name in all_team_names if name.startswith("SISSA")]
+        
+        selected_teams = st.sidebar.multiselect(
+            "Select teams to display:",
+            options=all_team_names,
+            default=default_teams
+        )
+        filtered_team_df = federation_filtered_teams[federation_filtered_teams['name'].isin(selected_teams)].copy()
+    else:
+        # If no federation is selected, create an empty dataframe to prevent errors
+        filtered_team_df = pd.DataFrame(columns=team_df.columns)
+        st.sidebar.warning("Please select at least one competition.")
 
     # --- Main layout with three tabs ---
     tab1, tab2, tab3 = st.tabs(["🏆 Club & Team Overview", "👤 Player Deep Dive", "⚔️ Division Analytics"])
